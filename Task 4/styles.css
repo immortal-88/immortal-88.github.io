@@ -111,6 +111,14 @@ header {
     color: #128aa7;
     text-align: center;
 }
+.countries > ul li:last-child {
+    position: absolute;
+    left: 288px;
+}
+.countries > ul li:nth-child(5) {
+    position: absolute;
+    right: 50px;
+}
 .panel {
     box-shadow: 0 3px 10px -1px black;
 }
@@ -180,9 +188,4 @@ footer > p {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
-}
-.triangles {
-    position: absolute;
-    top: 427px;
-    left: 445px;
 }
