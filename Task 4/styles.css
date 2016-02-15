@@ -58,13 +58,13 @@ header {
 .menu li a {
     display: block;
     text-decoration: none;
-    padding: 7px 50px 6px 15px;
+    padding: 7px 50px 6px 10px;
     color: #ffffff;
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
 }
 .menu > li:first-child > a {
-    padding-left: 75px;
+    padding-left: 60px;
 }
 .sub-menu {
     position: absolute;
