@@ -11,15 +11,5 @@ td {
     height: 60px;
     width: 70px;
 }
-td:nth-child(6), td:nth-child(7) {
-    width: 90px;
-}
-.row2 {
-    height: 140px;
-}
-.row3 > td:last-child {
-    height: 140px;
-}
-.narrow {
-    height: 40px;
-}
+
+
