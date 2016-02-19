@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/** PANEL **/
+.panel {
+    width: 1215px;
+    height: 36px;
+    margin: 0 auto;
+    background: url(../img/Layer%2013.png) no-repeat;
+}
+.nav-menu {
+    margin-left: 440px;
+}
+.nav-menu li {
+    float: left;
+    list-style: none;
+}
+.nav-menu li a {
+    display: block;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: #60b5ed;
+}
+.nav-menu li a:hover {
+    background: #4eabda;
+    color: white;
+}
+.blue-stripe {
+    float: left;
+    width: 1px;
+    height: 34px;
+    margin: 2px 2px 2px 2px;
+    background: #56a2dc;
+}
+.flag {
+    float: left;
+    width: 30px;
+    height: 40px;
+    margin: 7px 8px;
+    background: url(../img/inventicons.png) no-repeat;
+}
+.ofertas {
+    float: left;
+    display: block;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 10px 25px 10px 0;
+    text-decoration: none;
+}
+.enter {
+    float: left;
+    width: 192px;
+    height: 36px;
+    background: url(../img/Layer%2016.png) no-repeat 0 -1px;
+    padding: 10px 10px 10px 15px ;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.enter a {
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+/** PAGE **/
+.page {
+    margin: 0 auto;
+    width: 1215px ;
+    height: 828px;
+    background: url(../img/Background%20copy.png) no-repeat;
+    padding-top: 200px;
+}
+/** FORM **/
+.form {
+    position: relative;
+    margin: 0 auto;
+    width: 560px;
+    height: 615px;
+    background: rgba(0, 0, 0, .5);
+}
+.form-top {
+    width: auto;
+    height: 62px;
+}
+.form-top p {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 24px;
+}
+.stripe {
+    width: auto;
+    height: 2px;
+    background: #b7bfa8;
+}
+.black-stripes {
+    margin: 35px 141px 0 143px;
+}
+.OU {
+    position: absolute;
+    top: 170px;
+    left: 271px;
+}
+/** FACEBOOK BUTTON **/
+.facebook-button {
+    margin: 38px 141px 0 143px;
+    width: 275px;
+    height: 35px;
+    background: url(../img/facebook.png) no-repeat;
+    border: none;
+}
+/** INPUTS **/
+.cell {
+    width: 251px;
+    height: 35px;
+    margin: 38px 141px 0 143px;
+    background: url(../img/cell.png) no-repeat;
+    border: none;
+
+}
+.cell2 {
+    margin: 17px 141px 0 143px;
+}
+input[type="text"],
+input[type="password"],
+input[placeholder] {
+    padding: 0 10px 0 15px;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background: url(../img/cell-blue.png) no-repeat -8px -8px;
+    outline: none;
+    box-shadow: 0px 0px 13px 4px rgba(70,129,171,1);
+}
+.checkbox-box {
+    display: block;
+    width: 282px;
+    margin: 16px auto 20px auto;
+    line-height: 13px;
+}
+
+.checkbox-box label {
+    display: block;
+    margin-left: 3px;
+    padding-left: 20px;
+    background: url(../img/check.png) no-repeat;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.checkbox-box input {
+    display: none;
+}
+
+.checkbox-box input:checked + label {
+    background: url(../img/checkbox-checked.png) no-repeat;
+}
+.submit-button {
+    margin: 0px 204px 0 206px;
+    width: 151px;
+    height: 36px;
+    background: url(../img/button.png) no-repeat;
+    border: none;
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+}
+.undertext p {
+    font-family: "Helvetica Neue Regular", sans-serif;
+    font-size: 11px;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
