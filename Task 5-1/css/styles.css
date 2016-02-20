@@ -53,8 +53,8 @@
 }
 .enter {
     float: left;
-    width: 192px;
-    height: 36px;
+    width: 177px;
+    height: 16px;
     background: url(../img/Layer%2016.png) no-repeat 0 -1px;
     padding: 10px 10px 10px 15px ;
     font-family: "Helvetica Neue Regular", sans-serif;
@@ -70,7 +70,7 @@
 .page {
     margin: 0 auto;
     width: 1215px ;
-    height: 828px;
+    height: 100%;
     background: url(../img/Background%20copy.png) no-repeat;
     padding-top: 200px;
 }
@@ -183,6 +183,7 @@ input[type="password"]:focus {
     text-align: center;
     padding-top: 20px;
 }
+/** END **/
 
 
 
