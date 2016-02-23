@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background: #ffffff;
+}
+.page {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+/** HEADER **/
+header {
+    width: 894px;
+    height: 10px;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 18px;
+    color: #5e696d;
+    background: red;
+    padding: 22px 53px;
+}
+.cell-phone {
+    float: left;
+    width: 290px;
+    height: 21px;
+    background: url(../img/telephone.png), no-repeat;
+}
+.login-form {
+    float: left;
+    width: 495px;
+    height: 26px;
+    background: -webkit-linear-gradient(top, rgba(31,102,133,1) 17%, rgba(13,54,90,1) 83%, rgba(13,54,90,1) 100%);
+    border-radius: 3px;
+    box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.19);
+    margin: -4px 0 0 16px;
+}
+.login-form img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.login-form input {
+    height: 14px;
+    width: 105px;
+    border-radius: 5px;
+    outline: none;
+    vertical-align: middle;
+}
+.login-form input[placeholder] {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    color: #97a2a6;
+    padding-left: 5px;
+}
+.login-form a,
+.login-form span{
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.login-form button {
+    background: none;
+    border: none;
+    width: auto;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.login-form a:last-child {
+    color: #bfbfbf;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+.home-buttons {
+    float: left;
+    width: 74px;
+    height: 18px;
+    background: #ffffff;
+    border: 1px solid #c1c8cb;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.19);
+    margin: -3px 0 0 17px;
+}
+.home-buttons img {
+    float: left;
+    vertical-align: middle;
+    margin: 2px 0 5px 10px;
+}
+/*.home-buttons img:last-child {*/
+    /*margin-left: 8px;*/
+    /*margin-top: 3px;*/
+/*}*/
+.button-home {
+    background: none;
+    border: none;
+    width: 17px;
+    outline: none;
+    cursor: pointer;
+}
+/** IMAGE **/
+.image {
+    width: 908px;
+    height: 236px;
+    margin: 0 auto;
+    background: url(../img/zazor_image.png), no-repeat;
+}
+/** NAV MENU **/
+nav {
+    width: 913px;
+    height: 36px;
+    margin: 5px auto;
+    background: -webkit-linear-gradient(top, rgba(77,86,99,1) 9%, rgba(40,44,48,1) 20%, rgba(16,18,19,1) 52%, rgba(3,3,3,1) 86%, rgba(3,3,3,1) 100%);
+    rgba(3,3,3,1) 86%, rgba(3,3,3,1) 100%);
+    border-radius: 7px;
+    box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.19);
+}
+.nav-menu {
+    float: left;
+    margin-left: 130px;
+    width: 500px;
+    height: 36px;
+}
+.nav-menu > li {
+    margin-top: 5px;
+    display: inline-block;
+    list-style: none;
+}
+.nav-menu > li a {
+    display: block;
+    padding: 3px 12px 3px 14px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+.nav-menu > li a:hover {
+    background: -webkit-linear-gradient(top, rgba(31,101,133,1) 24%, rgba(13,54,90,1) 84%, rgba(13,54,90,1) 100%);
+    border-radius: 20px;
+}
+/** CART **/
+.cart {
+    float: right;
+    width: 250px;
+    height: 36px;
+}
+.cart img {
+    float: left;
+    margin: 10px 0 5px 20px;
+}
+.cart p {
+    display: inline-block;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 11px;
+    color: #929b9f;
+    padding: 12px 4px 10px 6px;
+}
+.cart a {
+    display: inline-block;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 12px;
+    color: #0d5a8f;
+    padding: 12px 5px 10px 0;
+    text-decoration: none;
+}
+/** FINDERS **/
+.finders {
+    width: 908px;
+    height: 160px;
+    margin: 0 auto;
+    background: yellow;
+}
+/** GOODS **/
+.goods {
+    width: 930px;
+    height: 637px;
+    background: green;
+    margin: 0 auto;
+    clear: both;
+}
+.sidebar {
+    width: 206px;
+    height: 500px;
+    background: blue;
+}
+.sidebar-menu {
+    float: left;
+}
+.sidebar-menu > li{
+    list-style: none;
+}
+.sidebar-menu > li > a {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #114165;
+    text-transform: uppercase;
+    border: 1px solid #79878d;
+    border-radius: 10px;
+    padding: 0 5px 0 5px;
+    vertical-align: middle;
+}
+.sidebar-menu li ul li > a {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #465961;
+}
+.sidebar-menu li ul li {
+    list-style: none;
+}
+.sidebar-menu li li a:hover {
+    text-decoration: underline;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #465961;
+}
+.sidebar-menu li img {
+    margin-top: 0;
+    padding-top: 0;
+}

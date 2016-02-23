@@ -42,6 +42,7 @@ body {
 .nav_li a:hover {
     border-left: 1px solid rgb(131, 131, 131);
     border-right: 1px solid rgb(131, 131, 131);
+    padding: 10px 29px 10px 29px;
     background: rgba(102,102,102,1);
     background: -webkit-linear-gradient(top, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 0%,
     rgba(44,44,44,1) 0%, rgba(76,76,76,1) 0%, rgba(28,28,28,1) 26%, rgba(28,28,28,1) 27%, rgba(21,21,21,1) 47%,
