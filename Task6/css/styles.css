@@ -86,18 +86,15 @@ header {
 .home-buttons img {
     float: left;
     vertical-align: middle;
-    margin: 2px 0 5px 10px;
+    margin: 2px 8px 5px 5px;
 }
-/*.home-buttons img:last-child {*/
-    /*margin-left: 8px;*/
-    /*margin-top: 3px;*/
-/*}*/
 .button-home {
     background: none;
     border: none;
     width: 17px;
     outline: none;
     cursor: pointer;
+    margin-left: 2px;
 }
 /** IMAGE **/
 .image {
