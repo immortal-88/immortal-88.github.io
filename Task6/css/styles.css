@@ -338,6 +338,9 @@ nav {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.19);
     outline: none;
 }
+.checks button img {
+    transform: translateX(2px) translateY(3px);
+}
 .aside-menu li img {
     transform: translateX(-1px) translateY(7px);
 }
