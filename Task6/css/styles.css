@@ -18,7 +18,6 @@ header {
     font-family: "Arial Regular", sans-serif;
     font-size: 18px;
     color: #5e696d;
-    background: red;
     padding: 22px 53px;
 }
 .cell-phone {
@@ -170,22 +169,36 @@ nav {
 /** FINDERS **/
 .finders {
     width: 908px;
-    height: 160px;
+    height: 157px;
     margin: 0 auto;
-    background: yellow;
 }
 /** GOODS **/
 .goods {
     width: 930px;
     height: 637px;
-    background: green;
     margin: 0 auto;
     clear: both;
 }
+/** SIDEBAR **/
 .sidebar {
-    width: 206px;
+    float: left;
+    width: 200px;
     height: 500px;
-    background: blue;
+}
+.sidebar button {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #114165;
+    text-transform: uppercase;
+    border: 1px solid #79878d;
+    border-radius: 14px;
+    background: none;
+    padding: 0 4px 0 0;
+    margin: 1px 0 7px 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.sidebar button img {
+    transform: translateX(2px) translateY(3px);
 }
 .sidebar-menu {
     float: left;
@@ -200,9 +213,13 @@ nav {
     color: #114165;
     text-transform: uppercase;
     border: 1px solid #79878d;
-    border-radius: 10px;
-    padding: 0 5px 0 5px;
+    border-radius: 12px;
+    padding: 3px 75px 3px 5px;
     vertical-align: middle;
+    margin-left: 10px;
+}
+.sidebar-menu li ul {
+    padding: 3px 0 0 0;
 }
 .sidebar-menu li ul li > a {
     text-decoration: none;
@@ -211,16 +228,194 @@ nav {
     color: #465961;
 }
 .sidebar-menu li ul li {
-    list-style: none;
+    list-style: circle;
+    line-height: 1.5;
+    margin-left: 65px;
 }
 .sidebar-menu li li a:hover {
     text-decoration: underline;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     font-style: italic;
+    font-weight: bold;
     color: #465961;
 }
 .sidebar-menu li img {
-    margin-top: 0;
-    padding-top: 0;
+    transform: translateX(-1px) translateY(7px);
+}
+/** TYRES **/
+.tyres {
+    float: left;
+    width: 527px;
+    height: 628px;
+    background: -moz-linear-gradient(top, rgba(227,230,231,1) 14%, rgba(197,206,210,1) 39%, rgba(170,184,191,1) 71%, rgba(148,167,176,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(227,230,231,1) 14%, rgba(197,206,210,1) 39%, rgba(170,184,191,1) 71%, rgba(148,167,176,1) 100%);
+}
+.tyre {
+    width: 136px;
+    margin: 12px 0 0 23px;
+}
+.image-box {
+    width: 136px;
+    height: 130px;
+    background: white;
+    border: 1px solid rgb(164, 174, 177);
+    border-radius: 7px;
+}
+.image-box p {
+    text-align: center;
+    padding-top: 5px
+}
+.tyre .up-text{
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color: #206988;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+}
+.tyre .under-text {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #1f2528;
+    text-align: center;
+    line-height: 1;
+}
+.tyre figcaption{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #114165;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.tyre1{
+    float: left;
+}
+.tyre2 {
+    float: left;
+    padding-left: 10px;
+}
+.tyre3 {
+    float: left;
+    padding-left: 10px;
+}
+.row2 {
+    padding-top: 12px;
+}
+/** CHECKS **/
+.checks {
+    float: left;
+    width: 200px;
+    height: 400px;
+}
+.aside-menu > li {
+    list-style: none;
+}
+.aside-menu > li a {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #114165;
+    text-transform: uppercase;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+    padding: 3px 61px 3px 5px;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+.sidebar button img {
+    transform: translateX(2px) translateY(3px);
+}
+.checks button {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #114165;
+    text-transform: uppercase;
+    border: 1px solid #79878d;
+    border-radius: 14px;
+    background: none;
+    padding: 0 100px 0 0;
+    margin: 1px 0 7px 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+.aside-menu li img {
+    transform: translateX(-1px) translateY(7px);
+}
+.aside-menu li input[type="checkbox"] {
+    margin-left: 34px;
+    margin-top: 10px;
+    transform: scale(.7);
+}
+.aside-menu li label {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #465961;
+}
+.aside-menu li {
+    padding-bottom: 6px;
+}
+input[type="submit"] {
+    width: 82px;
+    height: 28px;
+    background: -webkit-linear-gradient(top, rgba(31,101,133,1) 24%, rgba(13,54,90,1) 84%, rgba(13,54,90,1) 100%);
+    border-radius: 15px;
+    border: none;
+    margin: 12px 0 0 33px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+input[value] {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 11px;
+    color: #e5e9ea;
+    text-transform: uppercase;
+    text-align: center;
+}
+/** BRANDLOGO **/
+.brandlogo {
+    width: 700px;
+    height: 52px;
+    background: url("../img/brandLogo.png") no-repeat;
+    margin: 27px 0 0 162px;
+}
+/** FOOTER **/
+footer {
+    width: 910px;
+    height: 91px;
+    background: #213a4d;
+    margin: 0 auto;
+    padding-top: 9px ;
+}
+.footer-menu {
+    width: 400px;
+    height: 20px;
+    margin: 0 0 0 304px;
+}
+.footer-menu li {
+    display: inline-block;
+    list-style: none;
+    border-right: 1px solid #bec6c9;
+}
+.footer-menu li a {
+    display: block;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 12px;
+    color: #bec6c9;
+    text-decoration: none;
+    padding: 0 13px 0 6px;
+}
+.footer-menu li:last-child {
+    border-right: none;
+}
+.footer-menu li a:hover {
+    color: #52abcb;
+}
+footer p {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 10px;
+    color: #7f4740;
+    text-align: center;
+    padding-top: 9px;
 }
