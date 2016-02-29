@@ -137,13 +137,13 @@
         text-align: center;
         width: 245px;
     }
-    .sub-menu > li:hover {
+    .sub-menu > li:active {
         background: rgba(43, 34, 49, .7);
     }
-    .menu > li:hover {
+    .menu > li:active{
         background: rgba(63, 51, 72, .7);
     }
-    .menu li:hover a {
+    .menu li:active a {
         display: block;
     }
 }
