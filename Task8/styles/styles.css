@@ -114,6 +114,7 @@
     .sub-menu {
         width: 86%;
         height: 200px;
+        margin-left: -28px;
     }
     .sub-menu li {
         list-style: none;
