@@ -14,7 +14,7 @@
 }
 .logo {
     float: left;
-    padding: 5% 0 0% 1%;
+    padding: 5% 0 0 1%;
     width: 168px;
     height: 6%;
 }
@@ -39,8 +39,9 @@
 .menu li {
     list-style: none;
     display: inline-block;
+    position: relative;
 }
-.menu li a {
+.menu > li > a {
     font-family: "League Gothic Regular", sans-serif;
     font-size: 24px;
     color: white;
@@ -52,6 +53,12 @@
 .menu li a:hover {
     border-bottom: 2px solid #edbfff;
 }
+.sub-menu {
+    position: absolute;
+}
+.sub-menu li a {
+    display: none;
+}
 .content {
     width: 100%;
     height: 340px;
@@ -59,12 +66,14 @@
     background: -moz-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
 }
 
+/** WIDESCREEN DESCTOP **/
 @media (max-width: 961px) {
     .bg-container {
         height: 846px;
     }
 }
 
+/** DESCTOP **/
 @media (max-width: 769px) {
     .bg-container {
         height: 800px;
@@ -73,18 +82,69 @@
         clear: left;
         float: left;
         width: 100%;
+        margin: 0 auto;
+    }
+    .menu li {
+        margin-left: 1%;
+    }
+    .menu li a{
+        padding: 7px 5px 0 5px;
     }
 }
 
+/** TABLET **/
 @media (max-width: 480px) {
     .bg-container {
         height: 550px;
     }
+    .content {
+        width: 596px;
+    }
+    .logo {
+        margin-left: 30%;
+        width: 100%;
+    }
+    .menu > li:not(:first-child) {
+        display: none;
+    }
+    .menu > li:first-child {
+        margin-left: 31%;
+        padding: 10px 40px 10px 40px;
+    }
+    .sub-menu {
+        width: 86%;
+        height: 200px;
+    }
+    .sub-menu li {
+        list-style: none;
+        background: rgba(63, 51, 72, .7);
+    }
+    .sub-menu > li > a {
+        display: none;
+        font-family: "League Gothic Regular", sans-serif;
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 2px 20px 2px 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .menu li:hover a {
+        display: block;
+        padding: 0 20px 0 20px;
+    }
 }
 
+/** MOBILE **/
 @media (max-width: 320px) {
     .bg-container {
         width: 100%;
         height: 516px;
+    }
+    .content {
+        width: 596px;
     }
 }
