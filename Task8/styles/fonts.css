@@ -30,3 +30,16 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/OpenSansLight/2209-webfont.eot');
+    src: url('../fonts/OpenSansLight/2209-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSansLight/2209-webfont.woff2') format('woff2'),
+    url('../fonts/OpenSansLight/2209-webfont.woff') format('woff'),
+    url('../fonts/OpenSansLight/2209-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSansLight/2209-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

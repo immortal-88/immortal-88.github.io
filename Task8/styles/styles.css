@@ -82,16 +82,73 @@
     background: -webkit-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
     background: -moz-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
 }
+/** CONTENT **/
+.text__block {
+    max-width: 960px;
+    height: 340px;
+    margin: 0 auto;
+}
+.text__box {
+    position: relative;
+    display: inline-block;
+    width: 29%;
+    height: 62%;
+    /*padding: 67px 13px 0 15px;*/
+    padding: 6% 1% 0 1%;
+}
+.text__heading {
+    font-family: "League Gothic Regular", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-left: 27px;
+}
+.text {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+}
+.text__link {
+    font-family: "League Gothic Regular", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.link__paragraph {
+    text-align: right;
+    padding-top: 10px;
+}
+.link__paragraph .text__link:hover {
+    -webkit-text-shadow: 0 0 5px rgba(255,255,255,1);
+    -moz-text-shadow: 0 0 5px rgba(255,255,255,1);
+    text-shadow: 0 0 5px rgba(255,255,255,1);
+}
+.text__img {
+    position: absolute;
+    top: 22%;
+    left: 0%
+}
+.text__cell {
+    width: 100%;
+    /*max-width: 230px;*/
+    height: 113px;
+    overflow: hidden;
+    padding: 10px 20px 0 28px;
+}
 
-/** WIDESCREEN DESCTOP **/
-@media (max-width: 961px) {
+/** WIDESCREEN DESCTOP (960px ++) **/
+@media (max-width: 960px) {
     .bg-container {
         height: 846px;
     }
 }
 
-/** DESCTOP **/
-@media (max-width: 769px) {
+/** DESCTOP AND TABLETS (481px - 768px) **/
+@media (max-width: 768px) {
     .bg-container {
         height: 800px;
     }
@@ -107,18 +164,18 @@
     .menu__item {
         margin-left: 1%;
     }
-    .menu__link{
+    .menu__link {
         padding: 7px 5px 0 5px;
     }
 }
 
-/** TABLET **/
+/** MOBILE (321px - 480px) **/
 @media (max-width: 480px) {
     .bg-container {
         height: 550px;
     }
     .content {
-        width: 596px;
+        height: 596px;
     }
     .logo {
         margin-left: 30%;
@@ -174,9 +231,42 @@
     .menu__item:hover .sub-menu__link {
         display: block;
     }
+    /** CONTENT **/
+    .text__box {
+        width: 98%;
+        position: relative;
+        display: inline-block;
+        height: 50%;
+        /*padding: 67px 13px 0 15px;*/
+        padding: 6% 1% 0 1%;
+    }
+    .text__cell {
+        width: 88%;
+        /*max-width: 230px;*/
+        height: 63px;
+        overflow: hidden;
+        padding: 6px 14px 0 46px;
+    }
+    .text__img {
+        position: absolute;
+        top: 16%;
+        left: 2%;
+    }
+    .text__heading {
+        font-family: "League Gothic Regular", sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        margin-left: 46px;
+    }
+    .link__paragraph .text__link {
+        margin-right: 5%;
+    }
 }
 
-/** MOBILE **/
+/** IPHONE 3 (320px) **/
 @media (max-width: 320px) {
     .bg-container {
         width: 100%;
