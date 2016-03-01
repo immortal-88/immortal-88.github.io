@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Task8/img/bg-min.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task8/styles/styles.css" afterPath="$PROJECT_DIR$/Task8/styles/styles.css" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,13 +35,6 @@
       </file>
       <file leaf-file-name="bg-min.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task8/img/bg-min.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task8/img/bg.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -667,11 +658,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task8/img/bg-min.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task8/img/bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
