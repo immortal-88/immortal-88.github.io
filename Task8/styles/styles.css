@@ -10,7 +10,7 @@
 .bg-container {
     width: 100%;
     height: 846px;
-    background: url(../img/bg.png) no-repeat center top;
+    background: url(../img/bg-min.png) no-repeat center top;
 }
 /** LOGO **/
 .logo {
@@ -141,14 +141,14 @@
 }
 
 /** WIDESCREEN DESCTOP (960px ++) **/
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
     .bg-container {
         height: 846px;
     }
 }
 
 /** DESCTOP AND TABLETS (481px - 768px) **/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .bg-container {
         height: 800px;
     }
@@ -170,7 +170,7 @@
 }
 
 /** MOBILE (321px - 480px) **/
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .bg-container {
         height: 550px;
     }
@@ -267,7 +267,7 @@
 }
 
 /** IPHONE 3 (320px) **/
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .bg-container {
         width: 100%;
         height: 516px;
