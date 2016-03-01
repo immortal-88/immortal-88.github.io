@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/** WIDESCREEN DESCTOP (960px ++) **/
+
 .wrapper {
     max-width: 960px;
     height: 190px;
@@ -43,7 +46,6 @@
 .menu__item {
     list-style: none;
     display: inline-block;
-    position: relative;
 }
 .menu__link {
     font-family: "League Gothic Regular", sans-serif;
@@ -59,16 +61,10 @@
 .menu__link:hover {
     border-bottom: 2px solid #edbfff;
 }
-/** SUB-MENU **/
-.sub-menu {
-    position: absolute;
-}
-.sub-menu__item {
-    list-style: none;
-}
-.sub-menu__link {
+.menu--vertical {
     display: none;
 }
+
 /** SLIDER **/
 .slider {
     width: 100%;
@@ -82,11 +78,10 @@
     background: -webkit-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
     background: -moz-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
 }
+
 /** CONTENT **/
-.text__block {
-    max-width: 960px;
+.text--wrapper {
     height: 340px;
-    margin: 0 auto;
 }
 .text__box {
     position: relative;
@@ -130,22 +125,25 @@
 .text__img {
     position: absolute;
     top: 22%;
-    left: 0%
+    left: 0;
 }
 .text__cell {
     width: 100%;
-    /*max-width: 230px;*/
     height: 113px;
     overflow: hidden;
     padding: 10px 20px 0 28px;
 }
 
-/** WIDESCREEN DESCTOP (960px ++) **/
-@media screen and (max-width: 960px) {
-    .bg-container {
-        height: 846px;
-    }
+/** CONTENT-TWO **/
+.content--two {
+    height: 486px;
+    background: #f9f9f9;
 }
+.updates--wrapper {
+    height: 486px;
+}
+
+/** ---------------------------------------------------------------------------- **/
 
 /** DESCTOP AND TABLETS (481px - 768px) **/
 @media screen and (max-width: 768px) {
@@ -169,6 +167,8 @@
     }
 }
 
+/** ---------------------------------------------------------------------------- **/
+
 /** MOBILE (321px - 480px) **/
 @media screen and (max-width: 480px) {
     .bg-container {
@@ -181,56 +181,78 @@
         margin-left: 30%;
         width: 100%;
     }
-    .menu__item:not(:first-child) {
+    .menu {
         display: none;
     }
-    .menu__item:first-child {
-        margin-left: 20%;
-        padding: 0 119px 0 110px;
-        width: 56px;
-        margin-top: -20px;
+    .slider {
+        z-index: 1;
+    }
+    /*.menu__item:first-child {*/
+        /*margin-left: 20%;*/
+        /*padding: 0 119px 0 110px;*/
+        /*width: 56px;*/
+        /*margin-top: -20px;*/
+        /*-moz-border-radius: 10px 10px 0 0;*/
+        /*-webkit-border-radius: 10px 10px 0 0;*/
+        /*border-radius: 10px 10px 0 0;*/
+        /*!*border-bottom: 1px solid #36283e;*!*/
+        /*!*border-top: 1px solid #523e5a;*!*/
+    /*}*/
+
+    /** MENU-VERTICAL **/
+    nav {
+        padding-top: 100px;
+    }
+    .menu--vertical {
+        display: block;
+        width: 245px; /** change to static value px **/
+        margin: 0 auto;
+        padding-top: 10px;
+        z-index: 10;
+    }
+    .item--vertical {
+        display: block;
+        background: rgba(63, 51, 72, .7);
+        border-bottom: 1px solid #36283e;
+        border-top: 1px solid #523e5a;
+        z-index: 10;
+        box-sizing: border-box;
+    }
+    .link--vertical {
+        display: block;
+        padding: 5px 0 2px 0;
+        text-align: center;
+        text-shadow: none;
+        margin-left: 0;
+        z-index: 10;
+    }
+    .item--vertical:first-child {
         -moz-border-radius: 10px 10px 0 0;
         -webkit-border-radius: 10px 10px 0 0;
         border-radius: 10px 10px 0 0;
-        /*border-bottom: 1px solid #36283e;*/
-        /*border-top: 1px solid #523e5a;*/
     }
-    .sub-menu {
-        width: 100%;
-        margin-left: -110px;
-    }
-    .sub-menu__item{
-        list-style: none;
-        background: rgba(63, 51, 72, .7);
-        /*border-bottom: 1px solid #36283e;*/
-        /*border-top: 1px solid #523e5a;*/
-    }
-    .sub-menu__link{
-        display: none;
-        font-family: "League Gothic Regular", sans-serif;
-        font-size: 24px;
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 5px 20px 2px 20px;
-        border-radius: 10px;
-        text-align: center;
-        width: 245px;
-    }
-    .sub-menu__item:last-child {
+    .item--vertical:last-child {
         -moz-border-radius: 0 0 10px 10px;
         -webkit-border-radius: 0 0 10px 10px;
         border-radius: 0 0 10px 10px;
     }
-    .sub-menu__item:hover {
+    .item--vertical:hover .link--vertical {
         background: rgba(43, 34, 49, .7);
     }
-    .menu__item:hover {
-        background: rgba(63, 51, 72, .7);
+    .item--vertical:hover:first-child .link--vertical {
+        -moz-border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 0 0;
     }
-    .menu__item:hover .sub-menu__link {
-        display: block;
+    .item--vertical:hover:last-child .link--vertical {
+        -moz-border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
     }
+    /*.item--vertical:hover {*/
+        /*background: rgba(63, 51, 72, .7);*/
+    /*}*/
+
     /** CONTENT **/
     .text__box {
         width: 98%;
@@ -264,7 +286,18 @@
     .link__paragraph .text__link {
         margin-right: 5%;
     }
+    .content--two {
+        height: 786px;
+        background: #f9f9f9;;
+    }
+    /** MENU-VERTICAL **/
+    .menu-vertical {
+        display: block;
+    }
 }
+
+
+/** ---------------------------------------------------------------------------- **/
 
 /** IPHONE 3 (320px) **/
 @media screen and (max-width: 320px) {
