@@ -23,6 +23,10 @@
     width: 168px;
     height: 6%;
 }
+.wrapper--logo {
+    width: 160px;
+    height: 50px;
+}
 .pingbull {
     font-family: "League Gothic Regular", sans-serif;
     font-size: 48px;
@@ -235,9 +239,11 @@
         height: 596px;
     }
     .logo {
-        padding: 50px 0 0 0px;
-        text-align: center;
+        padding: 50px 0 0 0;
         width: 100%;
+    }
+    .wrapper--logo {
+        margin: 0 auto;
     }
     .menu {
         display: none;
