@@ -9,6 +9,7 @@
     max-width: 960px;
     height: 190px;
     margin: 0 auto;
+    z-index: 1;
 }
 .bg-container {
     width: 100%;
@@ -68,12 +69,14 @@
 /** SLIDER **/
 .slider--wrapper {
     height: 400px;
+    z-index: 1;
 }
 .slider {
     width: 100%;
     height: 400px;
     background: rgba(0, 0, 0, .3);
     margin-top: 50px;
+    z-index: 1;
 }
 .slider__article {
     float: left;
@@ -81,11 +84,13 @@
     height: 333px;
     padding: 67px 0 0 0;
     overflow: hidden;
+    z-index: 1;
 }
 .slider__heading {
     font-family: "League Gothic Regular", sans-serif;
     font-size: 60px;
     color: #fff;
+    z-index: 1;
 }
 .slider__subheading {
     font-family: "League Gothic Regular", sans-serif;
@@ -93,21 +98,24 @@
     text-transform: uppercase;
     font-size: 32px;
     color: #edbfff;
+    z-index: 1;
 }
 .slider--cell {
     width: 100%;
     overflow: hidden;
     padding: 10px 20px 0 28px;
     height: 150px;
+    word-wrap: break-word;
 }
 .slider__text {
     font-family: "Open Sans Light", sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #fff;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
+    /*-webkit-hyphens: auto;*/
+    /*-moz-hyphens: auto;*/
+    /*-ms-hyphens: auto;*/
+    word-wrap: break-word;
 }
 .slider__imagebox {
     position: relative;
@@ -115,6 +123,7 @@
     width: 45%;
     height: 400px;
     /*background: url("../img/iPhone%204.png") no-repeat 0 0;*/
+    z-index: 1;
 }
 .slider__image {
     position: absolute;
@@ -241,13 +250,14 @@
         padding-top: 100px;
     }
     .menu--vertical {
+        position: relative;
         display: block;
         width: 245px; /** change to static value px **/
         margin: 0 auto;
         padding-top: 10px;
         z-index: 10;
     }
-    .item--vertical {
+    .menu__item--vertical {
         display: block;
         background: rgba(63, 51, 72, .7);
         /*border-bottom: 1px solid #36283e;*/
@@ -255,7 +265,7 @@
         z-index: 10;
         box-sizing: border-box;
     }
-    .link--vertical {
+    .menu__link--vertical {
         display: block;
         padding: 5px 0 2px 0;
         text-align: center;
@@ -263,46 +273,49 @@
         margin-left: 0;
         z-index: 10;
     }
-    .item--vertical:first-child {
+    .menu__link--vertical:hover {
+        border-bottom: 2px solid #edbfff;
+        padding: 5px 0 0 0;
+    }
+    .menu__item--vertical:first-child {
         background: none;
         border: none;
     }
-    .item--vertical:first-child:hover {
+    .menu__item--vertical:first-child:hover {
         -moz-border-radius: 10px 10px 0 0;
         -webkit-border-radius: 10px 10px 0 0;
         border-radius: 10px 10px 0 0;
     }
-    .item--vertical:last-child {
+    .menu__item--vertical:last-child {
         -moz-border-radius: 0 0 10px 10px;
         -webkit-border-radius: 0 0 10px 10px;
         border-radius: 0 0 10px 10px;
     }
-    .item--vertical:hover .link--vertical {
+    .menu__item--vertical:hover .menu__link--vertical {
         background: rgba(43, 34, 49, .7);
     }
-    .item--vertical:hover:first-child .link--vertical {
+    .menu__item--vertical:hover:first-child .menu__link--vertical {
         -moz-border-radius: 10px 10px 0 0;
         -webkit-border-radius: 10px 10px 0 0;
         border-radius: 10px 10px 0 0;
     }
-    .item--vertical:hover:last-child .link--vertical {
+    .menu__item--vertical:hover:last-child .menu__link--vertical {
         -moz-border-radius: 0 0 10px 10px;
         -webkit-border-radius: 0 0 10px 10px;
         border-radius: 0 0 10px 10px;
     }
-    .item--vertical:not(:first-child) .link--vertical {
+    .menu__item--vertical:not(:first-child) {
         display: none;
     }
-    .item--vertical:hover .link--vertical {
+    .menu--vertical:hover .invisible {
         display: block;
     }
-    .invisible {
-        display: none;
+    .menu--vertical:hover .visible {
+        -moz-border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 0 0;
+        background: rgba(63, 51, 72, .7);
     }
-    .visible:hover .link--vertical .invisible {
-        display: block;
-    }
-
 
     /** CONTENT **/
     .text__box {
