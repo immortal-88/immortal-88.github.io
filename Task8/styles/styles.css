@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/** WIDESCREEN DESCTOP (960px ++) **/
+/** WIDESCREEN DESCTOP (769px - 960px - >> ++) Макет 960 **/
 
 .wrapper {
     max-width: 960px;
@@ -75,6 +75,18 @@
     height: 400px;
     z-index: 1;
 }
+/*.slider--wrapper::before {*/
+    /*content: url(../img/arrow_left.png);*/
+    /*position: absolute;*/
+    /*top: 174px;*/
+    /*left: -60px;*/
+/*}*/
+/*.slider--wrapper::after {*/
+    /*content: url(../img/arrow_right.png);*/
+    /*position: absolute;*/
+    /*top: 174px;*/
+    /*right: -60px;*/
+/*}*/
 .slider {
     width: 100%;
     height: 400px;
@@ -95,6 +107,7 @@
     font-size: 60px;
     color: #fff;
     z-index: 1;
+    padding: 0 0 0 28px;
 }
 .slider__subheading {
     font-family: "League Gothic Regular", sans-serif;
@@ -103,12 +116,13 @@
     font-size: 32px;
     color: #edbfff;
     z-index: 1;
+    padding: 0 0 0 28px;
 }
 .slider--cell {
-    width: 100%;
+    width: 89%;
     overflow: hidden;
     padding: 10px 20px 0 28px;
-    height: 150px;
+    height: 148px;
     word-wrap: break-word;
 }
 .slider__text {
@@ -116,9 +130,6 @@
     font-size: 18px;
     line-height: 24px;
     color: #fff;
-    /*-webkit-hyphens: auto;*/
-    /*-moz-hyphens: auto;*/
-    /*-ms-hyphens: auto;*/
     word-wrap: break-word;
 }
 .slider__imagebox {
@@ -203,10 +214,119 @@
 .updates--wrapper {
     height: 486px;
 }
+/** STARTS HERE **/
+.text__box--starts-here {
+    float: left;
+    width: 49%;
+    padding: 100px 0 0 15px;
+}
+.text__container {
+    height: 330px;
+    padding-right: 30px;
+}
+.text__message {
+    background:  #ffffff;
+    max-width: 370px;
+    height: 202px;
+    position: relative;
+    padding: 30px 30px 40px 30px;
+    -webkit-box-shadow: 0 4px 6px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 4px 6px -6px rgba(0,0,0,0.75);
+    box-shadow: 0 4px 6px -6px rgba(0,0,0,0.75);
+}
+.photo {
+    position: absolute;
+    background: url("../img/sprites.png") no-repeat 0 0;
+    width: 49px;
+    height: 50px;
+    top: 24px;
+    left: -26px;
+}
+.text__heading--starts-here {
+    margin-left: 16px;
+}
+.text__heading--black {
+    color: black;
+    margin-left: 0;
+}
+.text__heading--pink {
+    color: #edbfff;
+    margin-left: 0;
+}
+.text--black {
+    color: black;
+}
+.text__cell--starts-here {
+    width: 96%;
+    height: 155px;
+    padding: 10px 11px 0 14px;
+}
+.text__message::after {
+    position: absolute;
+    content: url("../img/corner.png");
+    top: 271px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.radio_group {
+    max-width: 370px;
+    margin: 0 auto;
+    height: 30px;
+}
+.radio_group--box {
+    width: 100%;
+    height: 30px;
+    background: url("../img/Navigation%20copy.png") no-repeat center;
+    padding-top: 45px;
+}
+
+/** RECENT UPDATES **/
+.recent-updates {
+    float: left;
+    width: 48%;
+    padding: 131px 0 0 7px;
+}
+.inform-block {
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+}
+.inform-block__heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.inform-block__image-box {
+    float: left;
+    width: 49px;
+    height: 50px;
+}
+.inform-block__text-box {
+    float: right;
+    width: 85%;
+    height: 60px;
+}
+.inform-block__image--one {
+    background: url("../img/sprites.png") no-repeat -48px 0;
+}
+.inform-block__image--two {
+    background: url("../img/sprites.png") no-repeat -96px 0;
+}
+.inform-block__image--three {
+    background: url("../img/sprites.png") no-repeat -144px 0;
+}
+.text__link--black {
+    color: #454545
+}
+.recent-updates__footer {
+    width: 100%;
+    height: 20px;
+}
 
 /** ---------------------------------------------------------------------------- **/
 
-/** DESCTOP AND TABLETS (481px - 768px) **/
+/** DESCTOP AND TABLETS (481px - 768px) Макет 768 **/
 @media screen and (max-width: 768px) {
     .bg-container {
         height: 800px;
@@ -230,7 +350,7 @@
 
 /** ---------------------------------------------------------------------------- **/
 
-/** MOBILE (321px - 480px) **/
+/** MOBILE (321px - 480px) Макет 480 **/
 @media screen and (max-width: 480px) {
     .bg-container {
         height: 550px;
@@ -323,6 +443,34 @@
         border-radius: 10px 10px 0 0;
         background: rgba(63, 51, 72, .7);
     }
+    .menu--vertical:hover .menu__item--vertical {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .menu--vertical:hover .visible {
+        border-top: 1px solid black;
+        border-radius: 10px 10px 0 0;
+    }
+    .menu--vertical:hover .menu__item--vertical:last-child {
+        border-bottom: 1px solid black;
+        border-radius: 0 0 10px 10px;
+    }
+    .menu--vertical:hover .invisible {
+        border-top: 1px solid #523e5a;
+    }
+    .menu--vertical:hover .menu__item--vertical {
+        border-bottom: 1px solid #36283e;
+    }
+    /*.menu__link--vertical p {*/
+        /*display: inline;*/
+        /*border-bottom: 2px solid #edbfff;*/
+    /*}*/
+    /*.menu__link--vertical:first-child {*/
+        /*padding-bottom: 5px;*/
+    /*}*/
+    /*.menu__link--vertical:not(:first-child){*/
+        /*padding-bottom: 0;*/
+    /*}*/
 
     /** CONTENT **/
     .text__box {
@@ -369,7 +517,7 @@
 
 /** ---------------------------------------------------------------------------- **/
 
-/** IPHONE 3 (320px) **/
+/** IPHONE 3 (1 - 320px) Макет 320 **/
 @media screen and (max-width: 320px) {
     .bg-container {
         width: 100%;
