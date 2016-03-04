@@ -210,6 +210,7 @@
 .content--two {
     height: 486px;
     background: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
 }
 .updates--wrapper {
     height: 486px;
@@ -246,7 +247,7 @@
     margin-left: 16px;
 }
 .text__heading--black {
-    color: black;
+    color: #454545;
     margin-left: 0;
 }
 .text__heading--pink {
@@ -287,6 +288,10 @@
     width: 48%;
     padding: 131px 0 0 7px;
 }
+.text__heading--light-black {
+    color: #454545;
+    margin-left: 0;
+}
 .inform-block {
     width: 100%;
     height: 60px;
@@ -294,8 +299,9 @@
 }
 .inform-block__heading {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    color: #515151;
+    font-weight: 800;
 }
 .inform-block__image-box {
     float: left;
@@ -303,9 +309,11 @@
     height: 50px;
 }
 .inform-block__text-box {
-    float: right;
-    width: 85%;
-    height: 60px;
+    float: left;
+    padding-left: 10px;
+    width: 82%;
+    height: 72px;
+    overflow: hidden;
 }
 .inform-block__image--one {
     background: url("../img/sprites.png") no-repeat -48px 0;
@@ -322,8 +330,37 @@
 .recent-updates__footer {
     width: 100%;
     height: 20px;
+    padding-top: 10px;
 }
 
+/** LOGO-AREA **/
+.logo-area--content {
+    height: 119px;
+    background: #f9f9f9;
+    border-top: 1px solid #fefefe;
+}
+.logo-area--wrapper {
+    height: 120px;
+}
+.logo-container {
+    width: 100%;
+    height: 118px;
+    margin: 0 auto;
+}
+.logo-item {
+    float: left;
+    width: 10%;
+    margin: 3% 4% 2% 4%;
+}
+.logo-item--rvca {
+    margin: 6% 4% 4% 4%;
+}
+.logo-item--billabong {
+    margin-left: 0;
+}
+.logo-item--vonzipper {
+    margin-right: 0;
+}
 /** ---------------------------------------------------------------------------- **/
 
 /** DESCTOP AND TABLETS (481px - 768px) Макет 768 **/
@@ -345,6 +382,48 @@
     }
     .menu__link {
         padding: 7px 5px 0 5px;
+    }
+    /** SLIDER **/
+
+    /** ABOUT US **/
+    .text__box {
+        position: relative;
+        display: inline-block;
+        width: 23%;
+        height: 62%;
+        /* padding: 67px 13px 0 15px; */
+        padding: 6% 1% 0 6%;
+    }
+    .text__img {
+        position: absolute;
+        top: 22%;
+        left: 15px;
+    }
+    /** CONTENT-TWO **/
+    /** STARTS HERE **/
+    .text__box--starts-here {
+        float: left;
+        width: 40%;
+        padding: 100px 0 0 15px;
+    }
+    .text__cell--starts-here {
+        width: 96%;
+        height: 108px;
+        padding: 10px 11px 0 14px;
+
+    }
+    /** RECENT UPDATES **/
+    .recent-updates {
+        float: left;
+        width: 56%;
+        padding: 131px 0 0 0;
+    }
+    .inform-block__text-box {
+        float: left;
+        padding-left: 4px;
+        width: 78%;
+        height: 72px;
+        overflow: hidden;
     }
 }
 
@@ -512,6 +591,15 @@
     /** MENU-VERTICAL **/
     .menu-vertical {
         display: block;
+    }
+    /** RECENT UPDATES **/
+
+    /** LOGO-AREA **/
+    .logo-item {
+        margin: 3% 10% 2% 10%;
+    }
+    .logo-item--rvca {
+        margin: 6% 10% 4% 10%;
     }
 }
 
