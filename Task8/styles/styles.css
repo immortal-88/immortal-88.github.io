@@ -930,6 +930,93 @@
         height: 516px;
     }
     .content {
-        width: 596px;
+        height: 596px;
+    }
+    /** SLIDER **/
+    .slider__imagebox {
+        display: none;
+    }
+    .slider__article {
+        width: 100%;
+    }
+    .slider__heading {
+        text-align: center;
+        padding: 6px 0 0 0;
+    }
+    .slider__subheading {
+        padding: 0;
+        text-align: center;
+    }
+
+    /** CONTENT **/
+    .text--wrapper {
+        height: 596px
+    }
+    .text__box {
+        width: 100%;
+        height: 31%;
+    }
+
+    /** STARTS HERE **/
+    .content--two {
+        height: 788px;
+    }
+    .updates--wrapper {
+        height: 788px;
+    }
+    .inform-block__heading {
+        width: 242px;
+        height: 26px;
+        overflow: hidden;
+    }
+    .text__message {
+        max-width: 197px;
+        height: 214px;
+    }
+    .text__cell--starts-here {
+        width: 76%;
+        height: 159px;
+    }
+
+    /** LOGO AREA **/
+    .logo-area--content {
+        height: 420px;
+    }
+    .logo-area--wrapper {
+        height: 420px;
+    }
+    .logo-item {
+        margin: 3% 16% 22% 17%
+    }
+    .logo-item--pinetree {
+        margin: 3% 16% 20% 17%
+    }
+    .logo-item--awsm {
+        margin: 3% 16% 21% 17%
+    }
+    .logo-item--rvca {
+        margin: 3% 16% 21% 11%
+    }
+    .logo-item--vonzipper {
+        margin: -3% 17% 22% 19%;
+    }
+
+    /** DOWN TEXT **/
+    .down-text--content {
+        display: none;
+    }
+
+    /** FOOTER **/
+    .footer--content {
+        height: 200px;
+    }
+    .footer--wrapper {
+        height: 200px;
+    }
+    .menu__container {
+        display: none;
+    }
+    .link__paragraph {
+        padding-right: 10px;
     }
 }
