@@ -69,7 +69,6 @@
 .menu--vertical {
     display: none;
 }
-
 /** SLIDER **/
 .slider--wrapper {
     height: 400px;
@@ -142,6 +141,7 @@
 }
 .slider__image {
     position: absolute;
+    width: 100%;
     top: -15px;
     left: -14px;
 }
@@ -214,7 +214,6 @@
     overflow: hidden;
     padding: 10px 20px 0 28px;
 }
-
 /** CONTENT-TWO **/
 .content--two {
     height: 485px;
@@ -291,7 +290,6 @@
     background: url("../img/Navigation%20copy.png") no-repeat center;
     padding-top: 45px;
 }
-
 /** RECENT UPDATES **/
 .recent-updates {
     float: left;
@@ -342,7 +340,6 @@
     height: 20px;
     padding-top: 10px;
 }
-
 /** LOGO-AREA **/
 .logo-area--content {
     height: 119px;
@@ -372,7 +369,6 @@
 .logo-item--vonzipper {
     margin-right: 0;
 }
-
 /** DOWN TEXT **/
 .down-text--content {
     height: 295px;
@@ -438,7 +434,6 @@
     height: 177px;
     width: 90%;
 }
-
 /** FOOTER **/
 .footer--content {
     height: 114px;
@@ -506,8 +501,6 @@
     .menu__link {
         padding: 7px 5px 0 5px;
     }
-    /** SLIDER **/
-
     /** ABOUT US **/
     .text__box {
         position: relative;
@@ -515,6 +508,9 @@
         width: 25%;
         height: 62%;
         padding: 6% 1% 0 6%;
+    }
+    .text__cell {
+        width: 80%;
     }
     .text__img {
         position: absolute;
@@ -547,7 +543,20 @@
         height: 72px;
         overflow: hidden;
     }
-
+    /** LOGO AREA **/
+    .logo-item--awsm {
+        margin: 6% 1% 4% 4%;
+    }
+    .logo-item--rvca {
+        margin: 6% 5% 4% 4%;
+    }
+    /** DOWN-TEXT **/
+    .text__heading--down-text {
+        width: 77%;
+    }
+    .text__cell {
+        width: 77%;
+    }
     /** FOOTER **/
     .footer--content {
         height: 201px;
@@ -560,7 +569,7 @@
     .menu--footer {
         float: left;
         padding: 4% 0 0 0;
-        width: 75%;
+        width: 100%;
         height: 42px;
     }
     .menu__container {
@@ -602,7 +611,6 @@
     .menu {
         display: none;
     }
-
     /** MENU-VERTICAL **/
     nav {
         padding-top: 100px;
@@ -697,10 +705,6 @@
     .menu__link--vertical:first-child {
         padding-top: 8px;
     }
-    /*.menu__link--vertical:not(:first-child){*/
-        /*padding-bottom: 0;*/
-    /*}*/
-
     /** SLIDER **/
     .slider {
         height: 245px;
@@ -727,6 +731,7 @@
     }
     .slider__image {
         transform: scale(.7);
+        width: auto;
         top: -77px;
         left: -101px;
     }
@@ -747,22 +752,19 @@
         margin: 0;
         background-position: center;
     }
-
     /** CONTENT **/
     .text__box {
         width: 98%;
         position: relative;
         display: inline-block;
         height: 50%;
-        /*padding: 67px 13px 0 15px;*/
         padding: 6% 1% 0 1%;
     }
     .text__cell {
         width: 88%;
-        /*max-width: 230px;*/
         height: 63px;
         overflow: hidden;
-        padding: 6px 14px 0 46px;
+        padding: 4% 2% 0 11%;
     }
     .text__img {
         position: absolute;
@@ -791,7 +793,7 @@
     }
     /** STARTS HERE **/
     .text__box--starts-here {
-        width: 100%;
+        width: 98%;
     }
     .text__container {
         height: 330px;
@@ -824,8 +826,8 @@
     }
     /** RECENT UPDATES **/
     .recent-updates {
-        width: 100%;
-        padding: 131px 0 0 15px;
+        width: 96%;
+        padding: 41% 0 0 4%;
     }
     .inform-block__text-box {
         padding-left: 15px;
@@ -839,7 +841,6 @@
         color: #454545;
         margin-left: 0;
     }
-
     /** LOGO-AREA **/
     .logo-area--content {
         height: 232px;
@@ -855,7 +856,6 @@
     .logo-item--rvca {
         margin: 6% 10% 4% 10%;
     }
-
     /** DOWN-TEXT CONTENT **/
     .down-text--content {
         height: 670px;
@@ -891,7 +891,6 @@
     .text__heading--down-text {
         color: #454545;
     }
-
     /** FOOTER **/
     .footer--content {
         height: 200px;
@@ -950,7 +949,6 @@
         padding: 0;
         text-align: center;
     }
-
     /** CONTENT **/
     .text--wrapper {
         height: 596px
@@ -959,7 +957,6 @@
         width: 100%;
         height: 31%;
     }
-
     /** STARTS HERE **/
     .content--two {
         height: 788px;
@@ -980,7 +977,6 @@
         width: 76%;
         height: 159px;
     }
-
     /** LOGO AREA **/
     .logo-area--content {
         height: 420px;
@@ -1003,12 +999,10 @@
     .logo-item--vonzipper {
         margin: -3% 17% 22% 19%;
     }
-
     /** DOWN TEXT **/
     .down-text--content {
         display: none;
     }
-
     /** FOOTER **/
     .footer--content {
         height: 200px;
