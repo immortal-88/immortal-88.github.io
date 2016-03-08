@@ -732,8 +732,8 @@
     .slider__image {
         transform: scale(.7);
         width: 100%;
-        top: -77px;
-        left: -101px;
+        top: 12px;
+        left: -24px;
     }
     .slider--wrapper::before {
         top: 294px;
