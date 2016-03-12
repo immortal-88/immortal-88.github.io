@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task8/index.html" afterPath="$PROJECT_DIR$/Task8/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task8/styles/styles.css" afterPath="$PROJECT_DIR$/Task8/styles/styles.css" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
@@ -23,14 +24,14 @@
     <favorites_list name="immortal-88.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56154466">
+    <splitter split-orientation="horizontal" split-proportion="0.116747186">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Task8/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41221374">
-                  <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.3129771">
+                  <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -40,9 +41,9 @@
             <entry file="file://$PROJECT_DIR$/Task8/styles/styles.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="294" column="16" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="16" />
+                  <caret line="305" column="16" selection-start-line="305" selection-start-column="16" selection-end-line="305" selection-end-column="16" />
                   <folding>
-                    <marker date="1457519864000" expanded="true" signature="10201:10239" placeholder="{...}" />
+                    <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -55,10 +56,10 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Task8/styles/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.19847329">
-                  <caret line="547" column="23" selection-start-line="547" selection-start-column="23" selection-end-line="547" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.64122134">
+                  <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
                   <folding>
-                    <marker date="1457519864000" expanded="true" signature="10201:10239" placeholder="{...}" />
+                    <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -106,7 +107,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
+    <option name="x" value="5" />
     <option name="y" value="23" />
     <option name="width" value="1425" />
     <option name="height" value="797" />
@@ -136,7 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,7 +190,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +302,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1425" height="797" extended-state="0" />
+    <frame x="5" y="23" width="1425" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11467236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -369,7 +370,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457519864000" expanded="true" signature="10201:10239" placeholder="{...}" />
+            <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -387,7 +388,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457519864000" expanded="true" signature="10201:10239" placeholder="{...}" />
+            <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -405,7 +406,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
           <folding>
-            <marker date="1457519864000" expanded="true" signature="10201:10239" placeholder="{...}" />
+            <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -703,18 +704,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Task8/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41221374">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.3129771">
+          <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task8/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19847329">
-          <caret line="547" column="23" selection-start-line="547" selection-start-column="23" selection-end-line="547" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.64122134">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
-            <marker date="1457519864000" expanded="true" signature="10201:10239" placeholder="{...}" />
+            <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
           </folding>
         </state>
       </provider>

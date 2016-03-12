@@ -13,13 +13,13 @@
 }
 .bg-container {
     width: 100%;
-    height: 842px;
+    height: 847px;
     background: url(../img/bg.jpg) no-repeat center top;
 }
 /** LOGO **/
 .logo {
     float: left;
-    padding: 50px 0 0 10px;
+    padding: 65px 0 0 10px;
     width: 168px;
     height: 6%;
 }
@@ -38,13 +38,16 @@
 }
 .er {
     background: -webkit-linear-gradient(top, rgba(113,78,127,1) 0%, rgba(88,62,99,1) 54%, rgba(55,40,62,1) 100%);
+    background: -o-linear-gradient(top, rgba(113,78,127,1) 0%, rgba(88,62,99,1) 54%, rgba(55,40,62,1) 100%);
     -webkit-background-clip: text;
-    color: transparent;
+    text-shadow: none;
+    color: rgba(113,78,127,1);
+    -webkit-text-fill-color: transparent;
 }
 /** MENU **/
 .menu {
     float: right;
-    padding: 60px 0 0 0;
+    padding: 74px 0 0 0;
     width: 75%;
     height: 8%;
 }
@@ -62,6 +65,14 @@
     margin-left: 10px;
     -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.75);
     text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+}
+.menu__link--first {
+    margin-left: 0;
+    padding-left: 0;
+}
+.menu__link--last {
+    margin-right: 0;
+    padding-right: 0;
 }
 .menu__link:hover {
     border-bottom: 2px solid #edbfff;
@@ -91,7 +102,7 @@
     width: 100%;
     height: 400px;
     background: rgba(0, 0, 0, .3);
-    margin-top: 82px;
+    margin-top: 90px;
     z-index: 1;
 }
 .slider__article {
@@ -155,7 +166,7 @@
 /** CONTENT **/
 .content {
     width: 100%;
-    height: 338px;
+    height: 340px;
     background: -webkit-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
     background: -moz-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
     border-top: 1px solid #37293e;
@@ -216,7 +227,7 @@
 }
 /** CONTENT-TWO **/
 .content--two {
-    height: 485px;
+    height: 486px;
     background: #f9f9f9;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid black;
@@ -342,13 +353,13 @@
 }
 /** LOGO-AREA **/
 .logo-area--content {
-    height: 119px;
+    height: 118px;
     background: #f9f9f9;
     border-top: 1px solid #fefefe;
     border-bottom: 1px solid #fefefe;
 }
 .logo-area--wrapper {
-    height: 120px;
+    height: 118px;
 }
 .logo-container {
     width: 100%;
@@ -371,7 +382,7 @@
 }
 /** DOWN TEXT **/
 .down-text--content {
-    height: 295px;
+    height: 396px;
     background: #ececec;
     border-top: 1px solid #d8d8d8;
     border-bottom: none;
@@ -380,7 +391,7 @@
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
 }
 .down-text--wrapper {
-    height: 295px;
+    height: 396px;
 }
 .text__heading--down-text {
     color: #454545;
@@ -415,7 +426,7 @@
     display: inline-block;
     width: 28%;
     height: 87%;
-    padding: 4% 1% 0 1%;
+    padding: 10% 1% 0 1%;
 }
 .text__box--down-text {
     vertical-align: top;
@@ -424,7 +435,7 @@
     display: inline-block;
     width: 28%;
     height: 87%;
-    padding: 4% 1% 0 1%;
+    padding: 10% 1% 0 1%;
 }
 .text__cell--down-text-first {
     height: 132px;
@@ -446,8 +457,11 @@
 .menu--footer {
     float: left;
     padding: 6% 0 0 0;
-    width: 75%;
+    width: 83%;
     height: 68px;
+}
+.menu__link--small {
+    font-size: 20px;
 }
 .menu__container {
     float: left;
@@ -481,16 +495,16 @@
 /** DESCTOP AND TABLETS (481px - 768px) Макет 768 **/
 @media screen and (max-width: 768px) {
     .bg-container {
-        height: 800px;
+        height: 798px;
     }
     .logo {
-        padding: 50px 0 0 20px;
+        padding: 63px 0 0 15px;
     }
     .menu {
         clear: left;
         float: left;
         width: 100%;
-        padding-top: 60px;
+        padding-top: 67px;
     }
     .menu__item {
         margin-left: 1%;
@@ -499,7 +513,11 @@
         margin-bottom: 1%;
     }
     .menu__link {
-        padding: 7px 5px 0 5px;
+        padding: 7px 1px 0 1px;
+        margin-left: 6px;
+    }
+    .slider {
+        margin-top: 54px;
     }
     /** ABOUT US **/
     .text__box {
@@ -507,15 +525,18 @@
         float: left;
         width: 25%;
         height: 62%;
-        padding: 6% 1% 0 6%;
+        padding: 10% 1% 0 6%;
+    }
+    .text__heading {
+        font-size: 23px;
     }
     .text__cell {
         width: 80%;
     }
     .text__img {
         position: absolute;
-        top: 22%;
-        left: 15px;
+        top: 27%;
+        left: 24px;
     }
     /** CONTENT-TWO **/
     /** STARTS HERE **/
@@ -554,6 +575,12 @@
     .text__heading--down-text {
         width: 77%;
     }
+    .text__box--down-text-first {
+        padding-top: 13%;
+    }
+    .text__box--down-text {
+        padding-top: 13%;
+    }
     .text__cell {
         width: 77%;
     }
@@ -587,7 +614,7 @@
     .signature {
         float: right;
         margin: 0 5px 0 0;
-        padding: 20px 5px 0 0;
+        padding: 7px 5px 0 0;
     }
 }
 
@@ -602,7 +629,7 @@
         height: 596px;
     }
     .logo {
-        padding: 50px 0 0 0;
+        padding: 65px 0 0 0;
         width: 100%;
     }
     .wrapper--logo {
@@ -619,7 +646,7 @@
         position: relative;
         display: block;
         width: 245px; /** change to static value px **/
-        margin: 0 auto;
+        margin: 26px auto;
         padding-top: 10px;
         z-index: 10;
     }
@@ -708,7 +735,7 @@
     /** SLIDER **/
     .slider {
         height: 245px;
-        margin-top: 0;
+        margin-top: 15px;
         z-index: 1;
     }
     .slider--wrapper {
@@ -858,12 +885,12 @@
     }
     /** DOWN-TEXT CONTENT **/
     .down-text--content {
-        height: 670px;
+        height: 666px;
     }
     .text__box--down-text-first {
         width: 95%;
         height: 180px;
-        margin-top: 50px;
+        margin-top: -20px;
     }
     .text__box--down-text {
         width: 95%;
@@ -886,7 +913,8 @@
         padding: 10px 20px 0 20px;
     }
     .text__box--down-text {
-        height: 54%;
+        height: 50%;
+        padding-top: 3%;
     }
     .text__heading--down-text {
         color: #454545;
@@ -900,6 +928,7 @@
     }
     .menu--footer {
         width: 100%;
+        margin-left: 50px;
     }
     .menu__container {
         margin-top: 25px;
