@@ -3,7 +3,7 @@
  */
 // LOGIN PROGRAMME
 
-// Create an array
+ // Create an array
 var names = [];
 
 // Fill array with names
@@ -26,4 +26,8 @@ for (var k = 0; k < names.length; k++) {
 }
 
 // Access reply
-(error == true) ? alert('Ошибка, в доступе отказано') : alert(hostName + ', Вы успешно вошли');
+if (error == true) {
+    alert('Ошибка, в доступе отказано');
+} else {
+    alert(hostName + ', Вы успешно вошли');
+}

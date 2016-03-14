@@ -2,118 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/names.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/pov.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task1/images/circle photo.png" afterPath="$PROJECT_DIR$/html1/images/circle photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task1/index.html" afterPath="$PROJECT_DIR$/html1/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task1/styles.css" afterPath="$PROJECT_DIR$/html1/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task3/img/image.png" afterPath="$PROJECT_DIR$/html3/img/image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task3/img/logo.png" afterPath="$PROJECT_DIR$/html3/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task3/img/panel.png" afterPath="$PROJECT_DIR$/html3/img/panel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task3/index.html" afterPath="$PROJECT_DIR$/html3/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task3/styles.css" afterPath="$PROJECT_DIR$/html3/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/.name" afterPath="$PROJECT_DIR$/html4/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/Task 4.iml" afterPath="$PROJECT_DIR$/html4/.idea/Task 4.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/encodings.xml" afterPath="$PROJECT_DIR$/html4/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/misc.xml" afterPath="$PROJECT_DIR$/html4/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/modules.xml" afterPath="$PROJECT_DIR$/html4/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/vcs.xml" afterPath="$PROJECT_DIR$/html4/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/html4/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/b_flag.png" afterPath="$PROJECT_DIR$/html4/img/b_flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/background.png" afterPath="$PROJECT_DIR$/html4/img/background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/google_head.png" afterPath="$PROJECT_DIR$/html4/img/google_head.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/i_flag.png" afterPath="$PROJECT_DIR$/html4/img/i_flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/logo.png" afterPath="$PROJECT_DIR$/html4/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/m_flag.png" afterPath="$PROJECT_DIR$/html4/img/m_flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/n_flag.png" afterPath="$PROJECT_DIR$/html4/img/n_flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/panel.png" afterPath="$PROJECT_DIR$/html4/img/panel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/photo.png" afterPath="$PROJECT_DIR$/html4/img/photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/s_flag.png" afterPath="$PROJECT_DIR$/html4/img/s_flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/t_flag.png" afterPath="$PROJECT_DIR$/html4/img/t_flag.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/img/white_triangles.png" afterPath="$PROJECT_DIR$/html4/img/white_triangles.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/index.html" afterPath="$PROJECT_DIR$/html4/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task4/styles.css" afterPath="$PROJECT_DIR$/html4/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/css/fonts.css" afterPath="$PROJECT_DIR$/html5One/css/fonts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/css/styles.css" afterPath="$PROJECT_DIR$/html5One/css/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/fonts/helveticaneue-thin-webfont.eot" afterPath="$PROJECT_DIR$/html5One/fonts/helveticaneue-thin-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/fonts/helveticaneue-thin-webfont.svg" afterPath="$PROJECT_DIR$/html5One/fonts/helveticaneue-thin-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/fonts/helveticaneue-thin-webfont.ttf" afterPath="$PROJECT_DIR$/html5One/fonts/helveticaneue-thin-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/fonts/helveticaneue-thin-webfont.woff" afterPath="$PROJECT_DIR$/html5One/fonts/helveticaneue-thin-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/fonts/helveticaneue-thin-webfont.woff2" afterPath="$PROJECT_DIR$/html5One/fonts/helveticaneue-thin-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/Background copy.png" afterPath="$PROJECT_DIR$/html5One/img/Background copy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/Layer 13.png" afterPath="$PROJECT_DIR$/html5One/img/Layer 13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/Layer 16.png" afterPath="$PROJECT_DIR$/html5One/img/Layer 16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/Layer 2 copy.png" afterPath="$PROJECT_DIR$/html5One/img/Layer 2 copy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/OU.png" afterPath="$PROJECT_DIR$/html5One/img/OU.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/black_stripes.png" afterPath="$PROJECT_DIR$/html5One/img/black_stripes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/button.png" afterPath="$PROJECT_DIR$/html5One/img/button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/cell-blue.png" afterPath="$PROJECT_DIR$/html5One/img/cell-blue.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/cell.png" afterPath="$PROJECT_DIR$/html5One/img/cell.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/check.png" afterPath="$PROJECT_DIR$/html5One/img/check.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/checkbox-checked.png" afterPath="$PROJECT_DIR$/html5One/img/checkbox-checked.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/facebook.png" afterPath="$PROJECT_DIR$/html5One/img/facebook.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/img/inventicons.png" afterPath="$PROJECT_DIR$/html5One/img/inventicons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5One/index.html" afterPath="$PROJECT_DIR$/html5One/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5Two/index.html" afterPath="$PROJECT_DIR$/html5Two/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5Two/picture.png" afterPath="$PROJECT_DIR$/html5Two/picture.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task5Two/styles.css" afterPath="$PROJECT_DIR$/html5Two/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/css/fonts.css" afterPath="$PROJECT_DIR$/html6/css/fonts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/css/styles.css" afterPath="$PROJECT_DIR$/html6/css/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/fonts/arial-regular-webfont.eot" afterPath="$PROJECT_DIR$/html6/fonts/arial-regular-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/fonts/arial-regular-webfont.ttf" afterPath="$PROJECT_DIR$/html6/fonts/arial-regular-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/fonts/arial-regular-webfont.woff" afterPath="$PROJECT_DIR$/html6/fonts/arial-regular-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/fonts/arial-regular-webfont.woff2" afterPath="$PROJECT_DIR$/html6/fonts/arial-regular-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/back_home.png" afterPath="$PROJECT_DIR$/html6/img/back_home.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/blue_circle.png" afterPath="$PROJECT_DIR$/html6/img/blue_circle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/brandLogo.png" afterPath="$PROJECT_DIR$/html6/img/brandLogo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/cell_phone.png" afterPath="$PROJECT_DIR$/html6/img/cell_phone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/circle.png" afterPath="$PROJECT_DIR$/html6/img/circle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/icon.png" afterPath="$PROJECT_DIR$/html6/img/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/kart.png" afterPath="$PROJECT_DIR$/html6/img/kart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/letter.png" afterPath="$PROJECT_DIR$/html6/img/letter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/man_logo.png" afterPath="$PROJECT_DIR$/html6/img/man_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/telephone.png" afterPath="$PROJECT_DIR$/html6/img/telephone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/tyre1.png" afterPath="$PROJECT_DIR$/html6/img/tyre1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/tyre2.png" afterPath="$PROJECT_DIR$/html6/img/tyre2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/tyre3.png" afterPath="$PROJECT_DIR$/html6/img/tyre3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/web_map.png" afterPath="$PROJECT_DIR$/html6/img/web_map.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/img/zazor_image.png" afterPath="$PROJECT_DIR$/html6/img/zazor_image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task6/index.html" afterPath="$PROJECT_DIR$/html6/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/OpenSansLight/2209-webfont.eot" afterPath="$PROJECT_DIR$/html8/fonts/OpenSansLight/2209-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/OpenSansLight/2209-webfont.svg" afterPath="$PROJECT_DIR$/html8/fonts/OpenSansLight/2209-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/OpenSansLight/2209-webfont.ttf" afterPath="$PROJECT_DIR$/html8/fonts/OpenSansLight/2209-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/OpenSansLight/2209-webfont.woff" afterPath="$PROJECT_DIR$/html8/fonts/OpenSansLight/2209-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/OpenSansLight/2209-webfont.woff2" afterPath="$PROJECT_DIR$/html8/fonts/OpenSansLight/2209-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/leaguegothicregular-webfont.eot" afterPath="$PROJECT_DIR$/html8/fonts/leaguegothicregular-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/leaguegothicregular-webfont.svg" afterPath="$PROJECT_DIR$/html8/fonts/leaguegothicregular-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/leaguegothicregular-webfont.ttf" afterPath="$PROJECT_DIR$/html8/fonts/leaguegothicregular-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/leaguegothicregular-webfont.woff" afterPath="$PROJECT_DIR$/html8/fonts/leaguegothicregular-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/fonts/leaguegothicregular-webfont.woff2" afterPath="$PROJECT_DIR$/html8/fonts/leaguegothicregular-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/Navigation copy.png" afterPath="$PROJECT_DIR$/html8/img/Navigation copy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/PINGBULL.png" afterPath="$PROJECT_DIR$/html8/img/PINGBULL.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/arrow_left.png" afterPath="$PROJECT_DIR$/html8/img/arrow_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/arrow_right.png" afterPath="$PROJECT_DIR$/html8/img/arrow_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/awsm.png" afterPath="$PROJECT_DIR$/html8/img/awsm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/bg-footer-768.jpg" afterPath="$PROJECT_DIR$/html8/img/bg-footer-768.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/bg-footer.jpg" afterPath="$PROJECT_DIR$/html8/img/bg-footer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/bg.jpg" afterPath="$PROJECT_DIR$/html8/img/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/billabong.png" afterPath="$PROJECT_DIR$/html8/img/billabong.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/bubble.png" afterPath="$PROJECT_DIR$/html8/img/bubble.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/corner.png" afterPath="$PROJECT_DIR$/html8/img/corner.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/dc.png" afterPath="$PROJECT_DIR$/html8/img/dc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/iPhone 4.png" afterPath="$PROJECT_DIR$/html8/img/iPhone 4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/key.png" afterPath="$PROJECT_DIR$/html8/img/key.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/pinetree.png" afterPath="$PROJECT_DIR$/html8/img/pinetree.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/rvca.png" afterPath="$PROJECT_DIR$/html8/img/rvca.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/slider_nav.png" afterPath="$PROJECT_DIR$/html8/img/slider_nav.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/sprites.png" afterPath="$PROJECT_DIR$/html8/img/sprites.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/tune.png" afterPath="$PROJECT_DIR$/html8/img/tune.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/img/vonzipper.png" afterPath="$PROJECT_DIR$/html8/img/vonzipper.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/index.html" afterPath="$PROJECT_DIR$/html8/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/styles/fonts.css" afterPath="$PROJECT_DIR$/html8/styles/fonts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Task8/styles/styles.css" afterPath="$PROJECT_DIR$/html8/styles/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js2/names2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js2/index.html" afterPath="$PROJECT_DIR$/js2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js2/names.js" afterPath="$PROJECT_DIR$/js2/names.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js2/pov.js" afterPath="$PROJECT_DIR$/js2/pov.js" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,10 +40,10 @@
       <file leaf-file-name="pov.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js2/pov.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3755523">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.22156574">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <element signature="e#0#40#0" expanded="false" />
+                <element signature="n#!!doc;n#pov#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -160,7 +53,19 @@
         <entry file="file://$PROJECT_DIR$/js2/names.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="names2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js2/names2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -200,9 +105,10 @@
         <option value="$PROJECT_DIR$/Task8/styles/fonts.css" />
         <option value="$PROJECT_DIR$/Task8/index.html" />
         <option value="$PROJECT_DIR$/Task8/styles/styles.css" />
-        <option value="$PROJECT_DIR$/js2/pov.js" />
-        <option value="$PROJECT_DIR$/js2/index.html" />
         <option value="$PROJECT_DIR$/js2/names.js" />
+        <option value="$PROJECT_DIR$/js2/names2.js" />
+        <option value="$PROJECT_DIR$/js2/index.html" />
+        <option value="$PROJECT_DIR$/js2/pov.js" />
       </list>
     </option>
   </component>
@@ -212,8 +118,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="23" />
+    <option name="x" value="52" />
+    <option name="y" value="68" />
     <option name="width" value="1425" />
     <option name="height" value="797" />
   </component>
@@ -302,8 +208,11 @@
       <recent name="$PROJECT_DIR$/Task 6/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Node.js.pov.js">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/immortal-88.github.io/Task 6/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="pov.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="pov.js" working-dir="$PROJECT_DIR$/js2">
       <method />
     </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="63342">
@@ -357,12 +266,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.pov.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.pov.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -389,13 +300,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1425" height="797" extended-state="0" />
-    <editor active="false" />
+    <frame x="52" y="68" width="1425" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11467236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03869969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11467236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.038189534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33049646" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -406,7 +318,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -444,16 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html8/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457793351000" expanded="true" signature="10557:10621" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html8/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -781,6 +682,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js2/names2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js2/names.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
@@ -789,22 +710,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js2/names.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js2/pov.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3755523">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.22156574">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="n#!!doc;n#pov#0" expanded="false" />
           </folding>
         </state>
       </provider>
