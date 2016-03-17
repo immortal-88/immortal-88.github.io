@@ -774,6 +774,9 @@
     .slider__imagebox {
         height: 260px;
     }
+    .slider__image {
+        max-width: 100%;
+    }
     .nav-buttons {
         width: 100%;
         margin: 0;
