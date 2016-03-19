@@ -202,4 +202,8 @@ footer {
 i {
 	margin: 8% 0 0 18%;
 }
+i:hover {
+	opacity: .5;
+	transition: all .6s;
+}
 
