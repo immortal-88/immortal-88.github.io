@@ -29,7 +29,7 @@ var dynamicPage = {
             counter++;
         }
     },
-    question: function (number) {
+    question: function(number) {
         for(var i = 1; i <= number; i++) {
             var subHeading = document.createElement('p');
             subHeading.className = 'question';
