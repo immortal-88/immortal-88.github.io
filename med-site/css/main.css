@@ -359,6 +359,10 @@ figcaption {
 	border-right: 1px solid #dae1e2;
 	border-bottom: 1px solid #dae1e2;
 }
+.treatment-box-footer:hover .footer-text {
+	opacity: .6;
+	transition: all .6s;
+}
 .wide-divider {
 	margin-top: 50px;
 }

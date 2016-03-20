@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/css/main.css" afterPath="$PROJECT_DIR$/med-site/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/index.html" afterPath="$PROJECT_DIR$/med-site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/page2.html" afterPath="$PROJECT_DIR$/med-site/page2.html" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/med-site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5648855">
-                  <caret line="375" column="41" selection-start-line="375" selection-start-column="41" selection-end-line="375" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.54198474">
+                  <caret line="541" column="10" selection-start-line="541" selection-start-column="10" selection-end-line="541" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -65,8 +64,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/med-site/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.54617834">
-                  <caret line="250" column="7" selection-start-line="250" selection-start-column="7" selection-end-line="250" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.7388535">
+                  <caret line="361" column="29" selection-start-line="361" selection-start-column="29" selection-end-line="361" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -130,8 +129,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-98" />
-    <option name="y" value="120" />
+    <option name="x" value="77" />
+    <option name="y" value="23" />
     <option name="width" value="1348" />
     <option name="height" value="797" />
   </component>
@@ -331,7 +330,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-98" y="120" width="1348" height="797" extended-state="0" />
+    <frame x="77" y="23" width="1348" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11906556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -729,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/med-site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5648855">
-          <caret line="375" column="41" selection-start-line="375" selection-start-column="41" selection-end-line="375" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.54198474">
+          <caret line="541" column="10" selection-start-line="541" selection-start-column="10" selection-end-line="541" selection-end-column="10" />
           <folding />
         </state>
       </provider>
