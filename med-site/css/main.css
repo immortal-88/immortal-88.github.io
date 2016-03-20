@@ -184,13 +184,13 @@ footer {
 .footer-logo {
 	margin: 19px 0 0 20px;
 }
-.footer-box {
+.footer-center-box {
 	width: 100%;
 	border-left: 2px solid white;
 	border-right: 2px solid white;
 	margin-top: 8%;
 }
-.footer-text {
+.footer-center-text {
 	font-family: "PT Sans", sans-serif;
 	font-size: 14px;
 	color: white;
@@ -241,12 +241,12 @@ i:hover {
 	font-family: "PT Sans", sans-serif;
 	font-size: 18px;
 }
-.image-box-footer {
+.footer-button {
 	height: 42px;
 	border-left: 1px solid #dae1e2;
 	border-right: 1px solid #dae1e2;
 	border-bottom: 1px solid #dae1e2;
-
+	display: block;
 }
 .footer-text {
 	font-family: "PT Sans", sans-serif;
@@ -269,12 +269,12 @@ i:hover {
 	font-weight: bold;
 	transition: all .6s;
 }
-.patient-box:hover .image-box-footer {
+.patient-box:hover .footer-button {
 	background-color: #283e85;
 	border: none;
 	transition: all .6s;
 }
-.patient-box:hover .footer-text {
+.patient-box:hover .footer-center-text {
 	color: white;
 	transition: all .6s;
 }
@@ -329,7 +329,7 @@ figcaption {
 	width: 212px;
 	margin-top: 50px;
 }
-.treatment-box:hover .footer-text {
+.treatment-box:hover .footer-center-text {
 	opacity: .5;
 	transition: all .6s;
 }
@@ -368,6 +368,12 @@ figcaption {
 .narrow-empty {
 	width: 69%;
 }
+.very-wide-divider-text {
+	width: 99%;
+}
+.very-narrow-empty {
+	width: 0;
+}
 .treatment-box-paddings {
 	height: 252px;
 	padding: 5px;
@@ -376,6 +382,7 @@ figcaption {
 	justify-content: center;
 	margin-top: 30px;
 }
+
 /** LAST NEWS **/
 .news-box {
 	height: 372px;
@@ -424,3 +431,59 @@ figcaption {
 	color: #2d3e6e;
 	text-decoration: underline;
 }
+
+/* COMMENTS */
+.message-box {
+	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #dae1e2;
+}
+.person-name {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2d3e6e;
+}
+.message-box-date {
+	font-family: "PT Sans", sans-serif;
+	font-size: 10px;
+	color: #2e2e30;
+}
+.message {
+	font-family: "PT Sans", sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	color: #2e2e30;
+}
+
+/* FORM */
+.leave-message {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2d3e6e;
+}
+.input-box {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.send-button {
+	width: 100%;
+	background: #283e85;
+	font-family: "PT Sans", sans-serif;
+	font-size: 15px;
+	border: none;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+/* DIPLOMAS */
+.diploma {
+	margin: 40px 0 40px 0;
+}
+.back-forward-buttons {
+	width: 50px;
+	margin: 0 auto 50px;
+}
+
