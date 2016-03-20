@@ -115,7 +115,14 @@ body {
 }
 .photo {
 	width: 100%;
+	animation-name: questionDrop;
+	animation-duration: 1s;
 }
+@keyframes questionDrop {
+	0% {margin-top: -163px; opacity: 0;}
+	100% {margin-top: 0; opacity: 1;}
+}
+
 
 /* SECTION */
 /* DIVIDER */
@@ -216,12 +223,12 @@ i:hover {
 
 /* PATIENTS GUIDE*/
 .patient-box-paddings {
-	height: 192px;
+	/*height: 192px;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 50px;
-	padding: 0 1% 0 1%;
+	padding: 0 2% 0 2%;
 }
 .patient-box {
 	width: 100%;
@@ -374,7 +381,7 @@ figcaption {
 	transition: all .6s;
 }
 .wide-divider {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 .wide-divider-text {
 	width: 30%;
@@ -401,16 +408,8 @@ figcaption {
 	height: 372px;
 	width: 100%;
 	margin-top: 50px;
-	padding: 0 4% 0 4%;
 	margin-bottom: 65px;
 }
-/*.news-box-paddings {*/
-/*padding: 5px;*/
-/*display: flex;*/
-/*align-items: center;*/
-/*justify-content: center;*/
-/*margin-bottom: 63px;*/
-/*}*/
 .news-image {
 	width: 100%;
 }
