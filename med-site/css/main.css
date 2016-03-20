@@ -217,23 +217,26 @@ i:hover {
 /* PATIENTS GUIDE*/
 .patient-box-paddings {
 	height: 192px;
-	padding: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 50px;
+	padding: 0 1% 0 1%;
+}
+.patient-box {
+	width: 100%;
 }
 .patient-image-box {
 	background-color: #49c4dc;
 	height: 152px;
-	width: 212px;
+	width: 100%;
 	padding-top: 24px;
 }
 .patient-image {
 	width: 76px;
 	height: 60px;
 	background: url("../img/med_bus.png") no-repeat;
-	margin: 0 68px 6px 68px;
+	margin: 0 auto;
 }
 .patient-text {
 	text-align: center;
@@ -325,15 +328,16 @@ figcaption {
 
 /* TREATMENT METHODS */
 .treatment-box {
-	height: 250px;
-	width: 212px;
+	height: auto;
+	width: 100%;
 	margin-top: 50px;
+	padding: 0 4% 0 4%;
 }
 .treatment-box:hover .footer-center-text {
 	opacity: .5;
 	transition: all .6s;
 }
-.treatment-image-box {
+.treatment-box-image {
 	width: 100%;
 }
 .treatment-name-box {
@@ -343,23 +347,29 @@ figcaption {
 	background-color: #49c4dc;
 }
 .treatment-name-box-text {
-	margin-top: 0;
-	display: table-cell;
 	vertical-align: middle;
 	font-family: "PT Sans", sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 	color: white;
 	text-align: center;
-	/*padding-top: 5px;*/
+	background-color: #49c4dc;
+	width: 100%;
+	padding: 5px 0 5px 0;
+	margin: 0;
+}
+.treatment-name-box-text-wide {
+	padding: 18px 0 17px 0;
 }
 .treatment-box-footer {
+	display: block;
+	width: 100%;
 	height: 40px;
 	border-left: 1px solid #dae1e2;
 	border-right: 1px solid #dae1e2;
 	border-bottom: 1px solid #dae1e2;
 }
-.treatment-box-footer:hover .footer-text {
+.treatment-box-footer:hover {
 	opacity: .6;
 	transition: all .6s;
 }
@@ -379,27 +389,30 @@ figcaption {
 	width: 0;
 }
 .treatment-box-paddings {
-	height: 252px;
+	height: auto;
 	padding: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 30px;
 }
 
 /** LAST NEWS **/
 .news-box {
 	height: 372px;
-	width: 212px;
+	width: 100%;
 	margin-top: 50px;
+	padding: 0 4% 0 4%;
+	margin-bottom: 65px;
 }
-.news-box-paddings {
-	height: 420px;
-	padding: 5px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 25px;
+/*.news-box-paddings {*/
+	/*padding: 5px;*/
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*margin-bottom: 63px;*/
+/*}*/
+.news-image {
+	width: 100%;
 }
 .news-box-heading {
 	font-family: "PT Sans", sans-serif;
@@ -484,7 +497,11 @@ figcaption {
 
 /* DIPLOMAS */
 .diploma {
-	margin: 40px 0 40px 0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.diploma-image {
+	width: 100%;
 }
 .back-forward-buttons {
 	width: 50px;
