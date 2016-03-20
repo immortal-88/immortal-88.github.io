@@ -28,8 +28,8 @@ body {
 	font-size: 16px;
 }
 
-/** HEADER **/
 
+/* HEADER */
 .header-topline {
 	background-color: #49c4dc;
 	height: 82px;
@@ -64,18 +64,20 @@ body {
 	float: right;
 	border-right: 2px solid white;
 }
-/*.address-box {*/
-	/*height: 50px;*/
-	/*margin-top: 14px;*/
-/*}*/
+.address-box {
+	float: left;
+	height: 50px;
+	width: 100%;
+	margin-top: 14px;
+}
 .header-address-1 {
-	margin: 6% 0 0 10%;
+	margin: 2% 0 0 10%;
 }
 .header-address-2 {
-	margin: 1% 0 1% 17%;
+	margin: 1% 0 1% 13%;
 }
 
-/** NAV MENU **/
+/* NAV MENU */
 .header-menu {
 	display: table-row;
 }
@@ -107,15 +109,19 @@ body {
 	transition: all .6s;
 }
 
-/** PHOTO BOX **/
-.photo-box {
+/* PHOTO BOX */
+.main-photo-box {
 	height: auto;
 }
 .photo {
 	width: 100%;
 }
 
-/** SECTION **/
+/* SECTION */
+/* DIVIDER */
+.section-divider {
+	margin-top: 30px;
+}
 .empty {
 	width: 1%;
 	float: left;
@@ -129,7 +135,7 @@ body {
 	width: 76%;
 	background-color: #e9e9e9;
 }
-.diagnosis-text {
+.divider-text {
 	float: left;
 	display: block;
 	background-color: #2d3e6e;
@@ -140,8 +146,10 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	width: 23%;
-	padding: 0 6%;
+	text-align: center;
 }
+
+/* CONTENT */
 .heading-box {
 	margin: 28px 0 0 0;
 }
@@ -168,7 +176,7 @@ body {
 	border-bottom: 2px solid #dae1e2;
 }
 
-/** FOOTER **/
+/* FOOTER */
 footer {
 	margin-top: 50px;
 	height: 106px;
@@ -207,3 +215,214 @@ i:hover {
 	transition: all .6s;
 }
 
+/* PATIENTS GUIDE*/
+.patient-box-paddings {
+	height: 192px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+.patient-image-box {
+	background-color: #49c4dc;
+	height: 152px;
+	width: 212px;
+	padding-top: 24px;
+}
+.patient-image {
+	width: 76px;
+	height: 60px;
+	background: url("../img/med_bus.png") no-repeat;
+	margin: 0 68px 6px 68px;
+}
+.patient-text {
+	text-align: center;
+	color: white;
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+}
+.image-box-footer {
+	height: 42px;
+	border-left: 1px solid #dae1e2;
+	border-right: 1px solid #dae1e2;
+	border-bottom: 1px solid #dae1e2;
+
+}
+.footer-text {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	color: #1c1c1d;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 0;
+}
+.patient-box:hover .patient-image-box {
+	background-color: #fff;
+	transition: all .6s;
+}
+.patient-box:hover .patient-image {
+	background: url("../img/med_bus_blue.png") no-repeat;
+	transition: all .6s;
+}
+.patient-box:hover .patient-text {
+	color: #49c4dc;
+	font-weight: bold;
+	transition: all .6s;
+}
+.patient-box:hover .image-box-footer {
+	background-color: #283e85;
+	border: none;
+	transition: all .6s;
+}
+.patient-box:hover .footer-text {
+	color: white;
+	transition: all .6s;
+}
+/* DOCTOR ARTICLE */
+.article-heading {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #2d3e6e;
+}
+.text-dark {
+	color: #2d3e6e;
+	text-align: justify;
+}
+.article-footer-text {
+	text-align: right;
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	color: #2d3e6e;
+}
+/* PATIENTS PHOTO */
+.photo-box {
+	margin-top: 50px;
+	width: 98%;
+	float: left;
+	border: 1px solid #dae1e2;
+	display: flex;
+	justify-content: center;
+}
+.photo-box-right {
+	float: right;
+}
+.photo-box-left {
+	float: left;
+}
+figure {
+	float: left;
+	padding: 6% 6% 4% 6%;
+}
+figcaption {
+	text-align: center;
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2d3e6e;
+	margin-top: 10px;
+}
+
+/* TREATMENT METHODS */
+.treatment-box {
+	height: 250px;
+	width: 212px;
+	margin-top: 50px;
+}
+.treatment-box:hover .footer-text {
+	opacity: .5;
+	transition: all .6s;
+}
+.treatment-image-box {
+	width: 100%;
+}
+.treatment-name-box {
+	height: 60px;
+	display: table;
+	width: 212px;
+	background-color: #49c4dc;
+}
+.treatment-name-box-text {
+	margin-top: 0;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	/*padding-top: 5px;*/
+}
+.treatment-box-footer {
+	height: 40px;
+	border-left: 1px solid #dae1e2;
+	border-right: 1px solid #dae1e2;
+	border-bottom: 1px solid #dae1e2;
+}
+.wide-divider {
+	margin-top: 50px;
+}
+.wide-divider-text {
+	width: 30%;
+}
+.narrow-empty {
+	width: 69%;
+}
+.treatment-box-paddings {
+	height: 252px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+/** LAST NEWS **/
+.news-box {
+	height: 372px;
+	width: 212px;
+	margin-top: 50px;
+}
+.news-box-paddings {
+	height: 420px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+.news-box-heading {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: #2e2e30;
+	text-align: center;
+}
+.news-box-text {
+	font-family: "PT Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	color: #2e2e30;
+}
+.news-box-footer {
+	width: 100%;
+	border: 1px solid #49c4dc;
+	display: table;
+}
+.news-box-footer-text {
+	padding: 8px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.news-box-footer:hover .news-box-footer-text {
+	opacity: .5;
+	transition: all .6s;
+}
+.news-more {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2d3e6e;
+	text-decoration: underline;
+	m
+}

@@ -2,17 +2,26 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .menu-button {
+        display: none;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    /*.long-container {*/
+        /*height: 567px;*/
+    /*}*/
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .menu-button {
+        display: block;
+    }
+    .header-menu {
+        display: none;
+    }
 }
 
 /* Extra Small Devices, Phones */
