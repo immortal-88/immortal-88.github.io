@@ -17,11 +17,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -405,11 +405,11 @@ figcaption {
 	margin-bottom: 65px;
 }
 /*.news-box-paddings {*/
-	/*padding: 5px;*/
-	/*display: flex;*/
-	/*align-items: center;*/
-	/*justify-content: center;*/
-	/*margin-bottom: 63px;*/
+/*padding: 5px;*/
+/*display: flex;*/
+/*align-items: center;*/
+/*justify-content: center;*/
+/*margin-bottom: 63px;*/
 /*}*/
 .news-image {
 	width: 100%;
@@ -454,6 +454,9 @@ figcaption {
 	padding: 40px 0 40px 0;
 	border-bottom: 1px solid #dae1e2;
 }
+.message-box-first {
+	padding-top: 90px;
+}
 .person-name {
 	font-family: "PT Sans", sans-serif;
 	font-size: 16px;
@@ -478,6 +481,7 @@ figcaption {
 	font-size: 16px;
 	font-weight: bold;
 	color: #2d3e6e;
+	padding-top: 90px;
 }
 .input-box {
 	width: 100%;
@@ -507,4 +511,5 @@ figcaption {
 	width: 50px;
 	margin: 0 auto 50px;
 }
+
 
