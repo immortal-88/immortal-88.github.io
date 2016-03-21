@@ -76,6 +76,15 @@ body {
 .header-address-2 {
 	margin: 1% 0 1% 13%;
 }
+.toggle-button {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
+.header-menu-toggle-icon {
+	font-size: 30px;
+	color: white;
+}
 
 /* NAV MENU */
 .header-menu {
@@ -193,6 +202,10 @@ footer {
 .footer-logo {
 	margin: 19px 0 0 20px;
 }
+.footer-box {
+	height: 50px;
+	margin-top: 14px;
+}
 .footer-center-box {
 	width: 100%;
 	border-left: 2px solid white;
@@ -216,7 +229,7 @@ footer {
 	margin: 10px 0 0 0;
 }
 i {
-	margin: 8% 0 0 18%;
+	margin: 8% 0 0 17%;
 }
 i:hover {
 	opacity: .5;
@@ -322,6 +335,9 @@ i:hover {
 .photo-box-left {
 	float: left;
 }
+.woman-photo {
+	width: 100%;
+}
 figure {
 	float: left;
 	padding: 6% 6% 4% 6%;
@@ -407,7 +423,6 @@ figcaption {
 
 /** LAST NEWS **/
 .news-box {
-	height: 372px;
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 65px;

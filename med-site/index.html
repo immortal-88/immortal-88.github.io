@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+
 </head>
 <body>
 <!-- H E A D E R-->
@@ -27,12 +28,12 @@
 	<div class="header-topline">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-12 logo-container">
 					<div class="logo-box">
 						<a href="#"><img class="logo" src="img/logo.png" alt="logo.png"></a>
 					</div>
 				</div>
-				<div class="col-md-5 col-sm-5">
+				<div class="col-md-5 col-sm-5 col-xs-12 phone-container">
 					<div class="header-box phone-box1">
 						<p class="header-text phone-1">+7(495) 150 11 22</p>
 						<p class="header-text phone-2">+7(495) 946 65 03</p>
@@ -42,12 +43,13 @@
 						<p class="header-text phone-4">+7(495) 945 88 55</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4">
+				<div class="col-md-4 col-sm-4 hidden-xs address-container">
 					<div class="header-box address-box">
 						<p class="header-text header-address-1"><b>Адрес:</b> 125284, Москва</p>
 						<p class="header-text header-address-2">2-й Боткинскй пр., д.3</p>
 					</div>
 				</div>
+				<a href="#" type="button" class="toggle-button"><i class="fa fa-bars header-menu-toggle-icon"></i></a>
 			</div>
 		</div>
 	</div>
@@ -55,7 +57,7 @@
 		<div class="container">
 			<div class="row">
 				<nav>
-					<ul class="header-menu clearfix">
+					<ul class="header-menu">
 						<li><a href="index.html">главная</a></li>
 						<li><a href="diagnosis.html">диагностика</a></li>
 						<li><a href="treatment.html">лечение</a></li>
@@ -66,7 +68,6 @@
 						<li><a href="contacts.html">контакты</a></li>
 					</ul>
 				</nav>
-				<!--<button class="menu-button"><i class="fa fa-bars"></i></button>-->
 			</div>
 		</div>
 	</div>
@@ -94,7 +95,7 @@
 <div class="container">
 	<div class="row">
 		<!-- B O X  1-->
-		<div class="col-md-3 col-sm-4 patient-box-paddings">
+		<div class="col-md-3 col-sm-4 col-xs-6 patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -108,7 +109,7 @@
 			</div>
 		</div>
 		<!-- B O X  2-->
-		<div class="col-md-3 col-sm-4 patient-box-paddings">
+		<div class="col-md-3 col-sm-4 col-xs-6 patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -122,7 +123,7 @@
 			</div>
 		</div>
 		<!-- B O X  3-->
-		<div class="col-md-3 col-sm-4 patient-box-paddings">
+		<div class="col-md-3 col-sm-4 col-xs-6 patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -136,7 +137,7 @@
 			</div>
 		</div>
 		<!-- B O X  4-->
-		<div class="col-md-3 col-sm-4 patient-box-paddings">
+		<div class="col-md-3 col-sm-4 col-xs-6 patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -150,7 +151,7 @@
 			</div>
 		</div>
 		<!--S E C O N D  R O W-->
-		<div class="col-md-3 col-sm-4 patient-box-paddings">
+		<div class="col-md-3 col-sm-4 hidden-xs patient-box-paddings">
 			<!-- B O X  1-->
 			<div class="patient-box">
 				<a href="#">
@@ -165,7 +166,7 @@
 			</div>
 		</div>
 		<!-- B O X  2-->
-		<div class="col-md-3 col-sm-4 patient-box-paddings">
+		<div class="col-md-3 col-sm-4 hidden-xs patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -179,7 +180,7 @@
 			</div>
 		</div>
 		<!-- B O X  3-->
-		<div class="col-md-3 col-sm-6 patient-box-paddings">
+		<div class="col-md-3 col-sm-6 hidden-xs patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -193,7 +194,7 @@
 			</div>
 		</div>
 		<!-- B O X  4-->
-		<div class="col-md-3 col-sm-6 patient-box-paddings">
+		<div class="col-md-3 col-sm-6 hidden-xs patient-box-paddings">
 			<div class="patient-box">
 				<a href="#">
 					<div class="patient-image-box">
@@ -272,10 +273,10 @@
 		<!-- W O M A N  1-->
 		<div class="col-md-6 col-sm-6">
 			<div class="photo-box photo-box-left">
-				<figure><img src="img/woman-1-before.jpg" alt="">
+				<figure><img class="woman-photo" src="img/woman-1-before.jpg" alt="">
 					<figcaption>До</figcaption>
 				</figure>
-				<figure><img src="img/woman-1-after.jpg" alt="">
+				<figure><img class="woman-photo" src="img/woman-1-after.jpg" alt="">
 					<figcaption>После</figcaption>
 				</figure>
 			</div>
@@ -283,10 +284,10 @@
 		<!--W O M A N  2-->
 		<div class="col-md-6 col-sm-6">
 			<div class="photo-box photo-box-right">
-				<figure><img src="img/woman-2before.jpg" alt="">
+				<figure><img class="woman-photo" src="img/woman-2before.jpg" alt="">
 					<figcaption>До</figcaption>
 				</figure>
-				<figure><img src="img/woman-2-after.jpg" alt="">
+				<figure><img class="woman-photo" src="img/woman-2-after.jpg" alt="">
 					<figcaption>После</figcaption>
 				</figure>
 			</div>
@@ -310,7 +311,7 @@
 <!--T R E A T M E N T  M E T H O D S-->
 <div class="container long-container">
 	<div class="row">
-		<div class="col-md-3 col-sm-6 treatment-box-paddings">
+		<div class="col-md-3 col-sm-6 col-xs-6 treatment-box-paddings">
 			<div class="treatment-box">
 				<a href="#">
 					<img class="treatment-box-image" src="img/limfoyzli.jpg" alt="">
@@ -319,7 +320,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 treatment-box-paddings">
+		<div class="col-md-3 col-sm-6 col-xs-6 treatment-box-paddings">
 			<div class="treatment-box">
 				<a href="#">
 					<img class="treatment-box-image" src="img/blood.jpg" alt="">
@@ -328,7 +329,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 treatment-box-paddings">
+		<div class="col-md-3 col-sm-6 col-xs-6 treatment-box-paddings">
 			<div class="treatment-box">
 				<a href="#">
 					<img class="treatment-box-image" src="img/syrenge.jpg" alt="">
@@ -337,7 +338,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 treatment-box-paddings">
+		<div class="col-md-3 col-sm-6 col-xs-6 treatment-box-paddings">
 			<div class="treatment-box">
 				<a href="#">
 					<img class="treatment-box-image" src="img/reab.jpg" alt="">
@@ -365,7 +366,7 @@
 <!--L A S T  N E W S-->
 <div class="container">
 	<div class="row">
-		<div class="col-md-3 col-sm-6">
+		<div class="col-md-3 col-sm-6 col-xs-6 news-container-first">
 			<div class="news-box">
 				<img class="news-image" src="img/news-1.jpg" alt="">
 				<h3 class="news-box-heading">Онкологический Chek-UP</h3>
@@ -377,7 +378,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6">
+		<div class="col-md-3 col-sm-6 col-xs-6 news-container">
 			<div class="news-box">
 				<img class="news-image" src="img/news-2.jpg" alt="">
 				<h3 class="news-box-heading">Онкологический Chek-UP</h3>
@@ -389,7 +390,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6">
+		<div class="col-md-3 col-sm-6 col-xs-6 news-container">
 			<div class="news-box">
 				<img class="news-image" src="img/news-3.jpg" alt="">
 				<h3 class="news-box-heading">Онкологический Chek-UP</h3>
@@ -401,7 +402,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-6">
+		<div class="col-md-3 col-sm-6 col-xs-6 news-container">
 			<div class="news-box">
 				<img class="news-image" src="img/news-4.jpg" alt="">
 				<h3 class="news-box-heading">Онкологический Chek-UP</h3>
@@ -441,7 +442,7 @@
 					огромное терпение к нам к больным с таким диагнозом. Вы настоящие медики,
 					здоровья и счастья Вам .</p>
 			</div>
-			<div class="message-box">
+			<div class="message-box hidden-xs">
 				<a class="person-name" href="">Дубакина Марина Ливиевна</a>
 				<p class="message-box-date">22.02.2016</p>
 				<p class="message">Хочу выразить огромную благодарность всему медперсоналу отделения
@@ -452,7 +453,7 @@
 					огромное терпение к нам к больным с таким диагнозом. Вы настоящие медики,
 					здоровья и счастья Вам .</p>
 			</div>
-			<div class="message-box">
+			<div class="message-box hidden-xs">
 				<a class="person-name" href="">Дубакина Марина Ливиевна</a>
 				<p class="message-box-date">22.02.2016</p>
 				<p class="message">Хочу выразить огромную благодарность всему медперсоналу отделения
@@ -463,7 +464,7 @@
 					огромное терпение к нам к больным с таким диагнозом. Вы настоящие медики,
 					здоровья и счастья Вам .</p>
 			</div>
-			<div class="message-box">
+			<div class="message-box hidden-xs">
 				<a class="person-name" href="">Дубакина Марина Ливиевна</a>
 				<p class="message-box-date">22.02.2016</p>
 				<p class="message">Хочу выразить огромную благодарность всему медперсоналу отделения
@@ -512,16 +513,16 @@
 <!--D I P L O M A S-->
 <div class="container">
 	<div class="row">
-		<div class="col-md-3 col-sm-3 diploma">
+		<div class="col-md-3 col-sm-3 col-xs-6 diploma diploma-first">
 			<img class="diploma-image" src="img/diploma.jpg" alt="">
 		</div>
-		<div class="col-md-3 col-sm-3 diploma">
+		<div class="col-md-3 col-sm-3 col-xs-6 diploma">
 			<img class="diploma-image" src="img/diploma.jpg" alt="">
 		</div>
-		<div class="col-md-3 col-sm-3 diploma">
+		<div class="col-md-3 col-sm-3 col-xs-6 diploma">
 			<img class="diploma-image" src="img/diploma.jpg" alt="">
 		</div>
-		<div class="col-md-3 col-sm-3 diploma">
+		<div class="col-md-3 col-sm-3 col-xs-6 diploma">
 			<img class="diploma-image" src="img/diploma.jpg" alt="">
 		</div>
 		<div class="col-md-12">
@@ -536,19 +537,26 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-3">
+			<div class="col-md-3 col-sm-3 col-xs-6 footer-logo-container">
 				<div class="logo-box">
 					<a href="#"><img class="logo footer-logo" src="img/logo.png" alt="logo.png"></a>
 				</div>
 			</div>
-			<div class="col-md-5 col-sm-5">
+			<div class="hidden-md hidden-sm col-xs-6 social-buttons">
+				<div class="footer-box">
+					<a class="sc-icons" href="http://vk.com"><i class="fa fa-vk"></i></a>
+					<a class="sc-icons" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+					<a class="sc-icons" href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="col-md-5 col-sm-5 col-xs-12 copyright-container">
 				<div class="footer-center-box">
 					<p class="footer-center-text">© 2016 Все права защищены</p>
 					<p class="footer-center-text">Сайт разработан командой <a class="j-web" href="#">j-web.pro</a></p>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-4">
-				<div class="header-box">
+			<div class="col-md-4 col-sm-4 hidden-xs">
+				<div class="footer-box">
 					<a class="sc-icons" href="http://vk.com"><i class="fa fa-vk"></i></a>
 					<a class="sc-icons" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
 					<a class="sc-icons" href="http://instagram.com"><i class="fa fa-instagram"></i></a>

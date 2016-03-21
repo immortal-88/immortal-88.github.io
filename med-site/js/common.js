@@ -83,8 +83,14 @@ $(document).ready(function() {
 		return false;
 	});
 
-	//$(".menu-button").click(function() {
-	//	$(".header-menu").toggle();
+	//$('header-menu-toggle').on('click', function(e) {
+	//	e.preventDefault();
+	//	var $this = $(this);
+	//	var $collapse = $this.find('.header-menu');
+	//	$collapse.collapse('toggle');
 	//});
 
+	$(document.querySelector(".toggle-button")).click(function(){
+		$(document.querySelector(".header-menu")).toggle("slow");
+	});
 });
