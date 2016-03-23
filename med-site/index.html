@@ -11,15 +11,16 @@
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="shortcut icon" href="img/logo.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="libs/owl.carousel.2/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owl.carousel.2/assets/owl.theme.default.min.css">
 
 </head>
 <body>
@@ -49,7 +50,7 @@
 						<p class="header-text header-address-2">2-й Боткинскй пр., д.3</p>
 					</div>
 				</div>
-				<a href="#" type="button" class="toggle-button"><i class="fa fa-bars header-menu-toggle-icon"></i></a>
+				<!--<a href="#" type="button" class="toggle-button"><i class="fa fa-bars header-menu-toggle-icon"></i></a>-->
 			</div>
 		</div>
 	</div>
@@ -513,22 +514,22 @@
 <!--D I P L O M A S-->
 <div class="container">
 	<div class="row">
-		<div class="col-md-3 col-sm-3 col-xs-6 diploma diploma-first">
-			<img class="diploma-image" src="img/diploma.jpg" alt="">
-		</div>
-		<div class="col-md-3 col-sm-3 col-xs-6 diploma">
-			<img class="diploma-image" src="img/diploma.jpg" alt="">
-		</div>
-		<div class="col-md-3 col-sm-3 col-xs-6 diploma">
-			<img class="diploma-image" src="img/diploma.jpg" alt="">
-		</div>
-		<div class="col-md-3 col-sm-3 col-xs-6 diploma">
-			<img class="diploma-image" src="img/diploma.jpg" alt="">
+		<div class="slider-container">
+			<div class="owl-carousel">
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+				<div class="slide"><img class="diploma-image" src="img/diploma.jpg" alt=""></div>
+			</div>
 		</div>
 		<div class="col-md-12">
 			<div class="back-forward-buttons">
-				<a class="prev-button" href="" type="button"><img src="img/prev_button.png" alt=""></a>
-				<a class="next-button" href="" type="button"><img src="img/next_button.png" alt=""></a>
+				<div class="prev-button"><img src="img/prev_button.png" alt=""></div>
+				<div class="next-button"><img src="img/next_button.png" alt=""></div>
 			</div>
 		</div>
 	</div>
@@ -566,22 +567,24 @@
 	</div>
 </footer>
 <!--[if lt IE 9]>
-<script src="../../Downloads/template_bootstrap/libs/html5shiv/es5-shim.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/html5shiv/html5shiv.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/html5shiv/html5shiv-printshiv.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/respond/respond.min.js"></script>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
 <![endif]-->
-<script src="../../Downloads/template_bootstrap/libs/jquery/jquery-1.11.1.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/fancybox/jquery.fancybox.pack.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/waypoints/waypoints-1.6.2.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/scrollto/jquery.scrollTo.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/owl-carousel/owl.carousel.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/countdown/jquery.plugin.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/countdown/jquery.countdown.min.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/countdown/jquery.countdown-ru.js"></script>
-<script src="../../Downloads/template_bootstrap/libs/landing-nav/navigation.js"></script>
-<script src="../../Downloads/template_bootstrap/js/common.js"></script>
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="libs/countdown/jquery.plugin.js"></script>
+<script src="libs/countdown/jquery.countdown.min.js"></script>
+<script src="libs/countdown/jquery.countdown-ru.js"></script>
+<script src="libs/landing-nav/navigation.js"></script>
+<script src="libs/owl.carousel.2/owl.carousel.min.js"></script>
+<script src="js/common.js"></script>
+
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

@@ -515,7 +515,10 @@ figcaption {
 	margin-top: 20px;
 }
 
-/* DIPLOMAS */
+/* SLIDER  */
+.slider-container {
+	margin: 50px 0 50px 0;
+}
 .diploma {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -527,6 +530,14 @@ figcaption {
 	width: 50px;
 	margin: 0 auto 50px;
 }
+.next-button {
+	float: right;
+	width: 25px;
+}
+.prev-button {
+	float: left;
+	width: 25px;
+}
 
 /* GOGGLE MAP*/
 #google-map-container {
@@ -535,6 +546,23 @@ figcaption {
 	margin-top: 50px;
 }
 
+/* LIMFOSTAZ */
+.limfostaz-button {
+	border: 1px solid #dae1e2;;
+	height: 42px;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.limfostaz-button:hover {
+	background-color: #283e85;
+	border: none;
+	transition: all .6s;
+}
+.limfostaz-button:hover .footer-text {
+	transition: all .6s;
+	color: white;
+}
 
 /* FIXES */
 .leave-message-fix {

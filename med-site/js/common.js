@@ -35,26 +35,60 @@ $(document).ready(function() {
 		});
 	});
 
+	//Карусель 2.0
+	var owl = $('.owl-carousel');
+	owl.owlCarousel({
+		loop:false, //Зацикливаем слайдер
+		margin:10, //Отступ от картино если выводите больше 1
+		nav:false, //Отключил навигацию
+		autoplay:false, //Автозапуск слайдера
+		smartSpeed:1000, //Время движения слайда
+		autoplayTimeout:2000, //Время смены слайда
+		responsive:{ //Адаптация в зависимости от разрешения экрана
+			0:{
+				items: 1
+			},
+			600:{
+				items: 2
+			},
+			1000:{
+				items: 4
+			}
+		}
+
+	});
+
+	$('.next-button').click(function() {
+		owl.trigger('next.owl.carousel');
+	});
+	// Go to the previous item
+	$('.prev-button').click(function() {
+		// With optional speed parameter
+		// Parameters has to be in square bracket '[]'
+		owl.trigger('prev.owl.carousel', [300]);
+	});
+
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
+	//var owl = $('.carousel');
+	//owl.owlCarousel({
+	//	items: 1
+	//});
+
+	//owl.on("mousewheel", ".owl-wrapper", function (e) {
+	//	if (e.deltaY > 0) {
+	//		owl.trigger("owl.prev");
+	//	} else {
+	//		owl.trigger("owl.next");
+	//	}
+	//	e.preventDefault();
+	//});
+	//$(".next-button").click(function(){
+	//	owl.trigger("owl.next");
+	//});
+	//$(".prev-button").click(function(){
+	//	owl.trigger("owl.prev");
+	//});
 
 	//Кнопка "Наверх"
 	//Документация:
@@ -83,14 +117,4 @@ $(document).ready(function() {
 		return false;
 	});
 
-	//$('header-menu-toggle').on('click', function(e) {
-	//	e.preventDefault();
-	//	var $this = $(this);
-	//	var $collapse = $this.find('.header-menu');
-	//	$collapse.collapse('toggle');
-	//});
-
-	$(document.querySelector(".toggle-button")).click(function(){
-		$(document.querySelector(".header-menu")).toggle("slow");
-	});
 });
