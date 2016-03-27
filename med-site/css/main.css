@@ -337,6 +337,11 @@ i:hover {
 }
 .woman-photo {
 	width: 100%;
+	opacity: .5;
+}
+.woman-photo:hover {
+	opacity: 1;
+	transition: all .6s;
 }
 figure {
 	float: left;

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('digital_font/DIGITALDREAM-webfont.eot');
+    src: url('digital_font/DIGITALDREAM-webfont.eot?#iefix') format('embedded-opentype'),
+         url('digital_font/DIGITALDREAM-webfont.woff') format('woff'),
+         url('digital_font/DIGITALDREAM-webfont.ttf') format('truetype'),
+         url('digital_font/DIGITALDREAM-webfont.svg#digital_dreamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
