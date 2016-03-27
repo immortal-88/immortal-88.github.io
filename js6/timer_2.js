@@ -6,8 +6,14 @@
 
 document.body.style.background = "black";
 
-var millis, seconds, minutes, hours, counter;
-millis = seconds = minutes = hours = counter = 0;
+//var millis, seconds, minutes, hours, counter;
+//millis = seconds = minutes = hours = counter = 0;
+
+var millis = 59;
+var seconds = 59;
+var minutes = 59;
+var hours = 23;
+var counter = 0;
 
 var interval = null;
 
@@ -16,6 +22,38 @@ function timer() {
     var dynamicTime = new Date().getTime();
     counter += 11;
     millis = dynamicTime - (dynamicTime - counter);
+
+    //if(millis > 999 - 11) { // отрезаем все что выше 999 с вычетом шага счетчика
+    //    counter = 0;
+    //    seconds += 1;
+    //}
+    //if(millis.toString().length < 2) {
+    //    sss.innerHTML = '00' + millis;
+    //} else if(millis.toString().length < 3) {
+    //    sss.innerHTML = '0' + millis;
+    //} else {
+    //    sss.innerHTML = millis;
+    //}
+    //if(seconds > 59) {
+    //    seconds = 0;
+    //    minutes += 1;
+    //}
+    //(seconds < 10) ? ss.innerHTML = '0' + seconds : ss.innerHTML = seconds;
+    //if(minutes > 59) {
+    //    minutes = 0;
+    //    hours += 1;
+    //}
+    //(minutes < 10) ? mm.innerHTML = '0' + minutes : mm.innerHTML = minutes;
+    //if(hours == 24) {
+    //    millis = 0;
+    //    seconds = 0;
+    //    minutes = 0;
+    //    hours = 0;
+    //}
+    //(hours < 10) ? HH.innerHTML = '0' + hours : HH.innerHTML = hours;
+    //hours = addZero(hours, 2);
+    //minutes = addZero(minutes, 2);
+    //seconds = addZero(seconds, 2);
 
     if(millis > 999 - 11) { // отрезаем все что выше 999 с вычетом шага счетчика
         counter = 0;
@@ -51,29 +89,50 @@ function addZero(value, length) {
 
 // Clock face
 var timeText = document.createElement('p');
-timeText.innerHTML = '00:00:00.000';
 timeText.style.color ='red';
 timeText.style.fontSize = '60px';
 timeText.style.marginTop = '200px';
-timeText.style.textAlign = 'center';
+timeText.style.textAlign = 'right';
+timeText.style.paddingRight = '150px';
 timeText.style.fontFamily = 'Digital';
 document.body.appendChild(timeText);
+//var HH = document.createElement('span');
+//HH.innerHTML = '00';
+//var mm = document.createElement('span');
+//mm.innerHTML = '00';
+//var ss = document.createElement('span');
+//ss.innerHTML = '00';
+//var sss = document.createElement('span');
+//sss.innerHTML = '000';
+//var colon = document.createElement('span');
+//colon.innerHTML = ':';
+//var colon2 = document.createElement('span');
+//colon2.innerHTML = ':';
+//var point = document.createElement('span');
+//point.innerHTML = '.';
+//timeText.appendChild(HH);
+//timeText.appendChild(colon);
+//timeText.appendChild(mm);
+//timeText.appendChild(colon2);
+//timeText.appendChild(ss);
+//timeText.appendChild(point);
+//timeText.appendChild(sss);
 
-// Buttons
-var buttonBox = document.createElement('div');
-buttonBox.style.width = '350px';
-buttonBox.style.height = '50px';
-buttonBox.style.margin = '0 auto';
-document.body.appendChild(buttonBox);
 
 // Split button results
 var timeResults = document.createElement('div');
 timeResults.style.textAlign = 'center';
-timeResults.style.fontSize = '20px';
+timeResults.style.fontSize = '30px';
 timeResults.style.fontFamily = 'Digital';
 timeResults.style.marginBottom = '20px';
-timeResults.style.color = 'white';
 document.body.appendChild(timeResults);
+
+// Buttons
+var buttonBox = document.createElement('div');
+buttonBox.style.width = '350px';
+buttonBox.style.margin = '0 auto';
+document.body.appendChild(buttonBox);
+
 
 var startButton = document.createElement('button');
 startButton.className = 'btn btn-success';
@@ -91,20 +150,14 @@ startButton.addEventListener('click', function() {
         interval = setInterval(function() {
             timer();
         }, 10);
-        splitButton.disabled = false;
-    } else { // work here
+    } else {
         startButton.innerHTML = 'Start';
         startButton.className = 'btn btn-success';
         startButton.style.transition = "all .6s";
         clearInterval(interval);
-        var stop = document.createElement('p');
-        stop.innerHTML = 'Stopped: ' + timeText.textContent;
-        timeResults.appendChild(stop);
-        splitButton.disabled = true;
+        timeResults.innerHTML = timeText.textContent;
     }
 });
-
-var splitCounter = 1;
 
 var splitButton = document.createElement('button');
 splitButton.className = 'btn btn-warning';
@@ -115,12 +168,7 @@ splitButton.style.float = 'left';
 splitButton.innerHTML = 'Split';
 buttonBox.appendChild(splitButton);
 splitButton.addEventListener('click', function() {
-    if(timeText.textContent != '00:00:00.000') {
-        var split = document.createElement('p');
-        split.innerHTML = splitCounter +' lap:' + timeText.textContent;
-        timeResults.appendChild(split);
-        splitCounter++;
-    }
+    timeResults.innerHTML = timeText.textContent; // input data when stopped
 });
 
 var resetButton = document.createElement('button');
@@ -133,12 +181,10 @@ resetButton.innerHTML = 'Reset';
 buttonBox.appendChild(resetButton);
 resetButton.addEventListener('click', function() {
     clearInterval(interval);
-    timeText.innerHTML = '00:00:00.000';
-    timeResults.innerHTML = '';
+    timeResults.innerHTML = "";
+    //sss.innerHTML = '000';
+    //ss.innerHTML = '00';
+    //mm.innerHTML = '00';
+    //HH.innerHTML = '00';
     millis = seconds = minutes = hours = counter = 0;
-    startButton.innerHTML = 'Start';
-    startButton.className = 'btn btn-success';
-    splitCounter = 1;
 });
-
-
