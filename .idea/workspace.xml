@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/DIGITALDREAM-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/DIGITALDREAM-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/DIGITALDREAM-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/specimen_files/DIGITALDREAM-cleartype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/DIGITALDREAM-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/DIGITALDREAM-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/specimen_files/grid_12-825-55-15.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/digital_font/specimen_files/specimen_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/timer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/comments.html" afterPath="$PROJECT_DIR$/med-site/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/contacts.html" afterPath="$PROJECT_DIR$/med-site/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/css/main.css" afterPath="$PROJECT_DIR$/med-site/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/diagnosis.html" afterPath="$PROJECT_DIR$/med-site/diagnosis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/index.html" afterPath="$PROJECT_DIR$/med-site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/limfostaz.html" afterPath="$PROJECT_DIR$/med-site/limfostaz.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/patients_photo.html" afterPath="$PROJECT_DIR$/med-site/patients_photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/public.html" afterPath="$PROJECT_DIR$/med-site/public.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/treatment.html" afterPath="$PROJECT_DIR$/med-site/treatment.html" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +39,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/med-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2977099">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.3537736">
+              <caret line="276" column="48" selection-start-line="276" selection-start-column="29" selection-end-line="276" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patients_photo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/med-site/patients_photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.916667">
+              <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -138,7 +129,6 @@
         <option value="$PROJECT_DIR$/med-site/comments.html" />
         <option value="$PROJECT_DIR$/med-site/contacts.html" />
         <option value="$PROJECT_DIR$/med-site/diagnosis.html" />
-        <option value="$PROJECT_DIR$/med-site/patients_photo.html" />
         <option value="$PROJECT_DIR$/med-site/public.html" />
         <option value="$PROJECT_DIR$/med-site/treatment.html" />
         <option value="$PROJECT_DIR$/js4/dynamic_page.js" />
@@ -146,6 +136,7 @@
         <option value="$PROJECT_DIR$/js6/index.html" />
         <option value="$PROJECT_DIR$/js6/timer.js" />
         <option value="$PROJECT_DIR$/med-site/css/main.css" />
+        <option value="$PROJECT_DIR$/med-site/patients_photo.html" />
       </list>
     </option>
   </component>
@@ -202,16 +193,6 @@
               <option name="myItemId" value="immortal-88.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="med-site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -246,6 +227,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,7 +372,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33049646" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -683,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/med-site/patients_photo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65648854">
-          <caret line="161" column="60" selection-start-line="161" selection-start-column="60" selection-end-line="161" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/med-site/diagnosis.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65648854">
@@ -784,10 +768,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/med-site/patients_photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.916667">
+          <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/med-site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2977099">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.3537736">
+          <caret line="276" column="48" selection-start-line="276" selection-start-column="29" selection-end-line="276" selection-end-column="48" />
           <folding />
         </state>
       </provider>
