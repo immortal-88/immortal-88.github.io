@@ -132,3 +132,13 @@ document.getElementById('start-button').onclick = (function() {
     document.getElementsByTagName('audio')[0].play();
     return false;
 });
+
+document.getElementById('split-button').onclick = (function() {
+    document.getElementsByTagName('audio')[0].play();
+    return false;
+});
+
+document.getElementById('reset-button').onclick = (function() {
+    document.getElementsByTagName('audio')[0].play();
+    return false;
+});
