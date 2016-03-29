@@ -255,10 +255,72 @@ i:hover {
 	padding-top: 24px;
 }
 .patient-image {
+	/*background: url("../img/med_bus.png") no-repeat;*/
+	margin: 0 auto;
+}
+.patient-image-main {
+	width: 65px;
+	height: 60px;
+	background: url("../img/house_white.png") no-repeat;
+}
+.patient-box-main:hover .patient-image-main {
+	background: url("../img/house_blue.png") no-repeat;
+}
+.patient-image-diagnosis {
 	width: 76px;
 	height: 60px;
 	background: url("../img/med_bus.png") no-repeat;
-	margin: 0 auto;
+}
+.patient-box-diagnosis:hover .patient-image-diagnosis {
+	background: url("../img/med_bus_blue.png") no-repeat;
+}
+.patient-image-treatment {
+	width: 50px;
+	height: 60px;
+	background: url("../img/med-case_white.png") no-repeat;
+}
+.patient-box-treatment:hover .patient-image-treatment {
+	background: url("../img/med-case_blue.png") no-repeat;
+}
+.patient-image-limfostaz {
+	width: 50px;
+	height: 60px;
+	background: url("../img/circles_white.png") no-repeat;
+}
+.patient-box-limfostaz:hover .patient-image-limfostaz {
+	background: url("../img/circles_blue.png") no-repeat;
+}
+.patient-image-patients-photo {
+	width: 50px;
+	height: 60px;
+	background: url("../img/person_white.png") no-repeat;
+}
+.patient-box-patients-photo:hover .patient-image-patients-photo {
+	background: url("../img/person_blue.png") no-repeat;
+}
+.patient-image-public {
+	width: 40px;
+	height: 60px;
+	background: url("../img/note_white.png") no-repeat;
+}
+.patient-box-public:hover .patient-image-public {
+	background: url("../img/note_blue.png") no-repeat;
+}
+.patient-image-comments {
+	width: 74px;
+	height: 60px;
+	background: url("../img/comments_white.png") no-repeat;
+}
+.patient-box-comments:hover .patient-image-comments {
+	background: url("../img/comments_blue.png") no-repeat;
+}
+.patient-image-contacts {
+	width: 40px;
+	height: 60px;
+	background: url("../img/contacts_white.png") no-repeat;
+}
+.patient-box-contacts:hover .patient-image-contacts {
+	background: url("../img/contacts_blue.png") no-repeat;
 }
 .patient-text {
 	text-align: center;
@@ -286,7 +348,7 @@ i:hover {
 	transition: all .6s;
 }
 .patient-box:hover .patient-image {
-	background: url("../img/med_bus_blue.png") no-repeat;
+	/*background: url("../img/med_bus_blue.png") no-repeat;*/
 	transition: all .6s;
 }
 .patient-box:hover .patient-text {
@@ -299,7 +361,7 @@ i:hover {
 	border: none;
 	transition: all .6s;
 }
-.patient-box:hover .footer-center-text {
+.patient-box:hover .footer-text {
 	color: white;
 	transition: all .6s;
 }

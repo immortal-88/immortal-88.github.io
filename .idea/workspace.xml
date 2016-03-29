@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js6/audio/beep-07.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js6/index.html" afterPath="$PROJECT_DIR$/js6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js6/timer.js" afterPath="$PROJECT_DIR$/js6/timer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/css/main.css" afterPath="$PROJECT_DIR$/med-site/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/med-site/index.html" afterPath="$PROJECT_DIR$/med-site/index.html" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,33 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="timer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js6/timer.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/med-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="140" column="30" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js6/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.416667">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.6091603">
+              <caret line="175" column="26" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js6/index.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/med-site/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4351145">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="-22.291666">
+              <caret line="317" column="12" selection-start-line="317" selection-start-column="12" selection-end-line="317" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -106,7 +93,6 @@
         <option value="$PROJECT_DIR$/med-site/js/diploma-carousel.js" />
         <option value="$PROJECT_DIR$/med-site/carousel.html" />
         <option value="$PROJECT_DIR$/med-site/js/common.js" />
-        <option value="$PROJECT_DIR$/med-site/index.html" />
         <option value="$PROJECT_DIR$/med-site/limfostaz.html" />
         <option value="$PROJECT_DIR$/med-site/comments.html" />
         <option value="$PROJECT_DIR$/med-site/contacts.html" />
@@ -115,12 +101,13 @@
         <option value="$PROJECT_DIR$/med-site/treatment.html" />
         <option value="$PROJECT_DIR$/js4/dynamic_page.js" />
         <option value="$PROJECT_DIR$/js6/stylesheet.css" />
-        <option value="$PROJECT_DIR$/med-site/css/main.css" />
         <option value="$PROJECT_DIR$/med-site/patients_photo.html" />
         <option value="$PROJECT_DIR$/js6/timer_2.js" />
         <option value="$PROJECT_DIR$/js6/styles.css" />
-        <option value="$PROJECT_DIR$/js6/index.html" />
         <option value="$PROJECT_DIR$/js6/timer.js" />
+        <option value="$PROJECT_DIR$/js6/index.html" />
+        <option value="$PROJECT_DIR$/med-site/index.html" />
+        <option value="$PROJECT_DIR$/med-site/css/main.css" />
       </list>
     </option>
   </component>
@@ -177,18 +164,8 @@
               <option name="myItemId" value="immortal-88.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js6" />
+              <option name="myItemId" value="med-site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,11 +179,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js6" />
+              <option name="myItemId" value="med-site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="audio" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="med-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,13 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html5One/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5Two/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -693,24 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/med-site/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34961832">
-          <caret line="334" column="17" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/med-site/patients_photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47328246">
           <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/med-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36641222">
-          <caret line="282" column="18" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -744,8 +728,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4351145">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.27480915">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/med-site/img/house_white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/med-site/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.291666">
+          <caret line="317" column="12" selection-start-line="317" selection-start-column="12" selection-end-line="317" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/med-site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6091603">
+          <caret line="175" column="26" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
           <folding />
         </state>
       </provider>
