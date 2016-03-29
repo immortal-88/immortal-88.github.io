@@ -228,10 +228,10 @@ footer {
 	font-size: 22px;
 	margin: 10px 0 0 0;
 }
-i {
+.social-images {
 	margin: 8% 0 0 17%;
 }
-i:hover {
+.social-images:hover {
 	opacity: .5;
 	transition: all .6s;
 }
