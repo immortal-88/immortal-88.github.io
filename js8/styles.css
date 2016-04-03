@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: gainsboro;
+}
+.tabs {
+    width: 90%;
+    margin: 10px auto;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px 3px 0 0;
+    background: #77d9d3;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: RobotoRegular, sans-serif;
+}
+a:hover {
+    opacity: .8;
+    transition: all linear 0.4s;
+}
+.tabs-content {
+    float: left;
+    width: 98%;
+    background: white;
+    padding: 2%;
+}
+.tab {
+    display: none;
+}
+.tab-active {
+    display: block;
+}
+p {
+    margin-top: 10px;
+    text-align: justify;
+    font-family: RobotoRegular, sans-serif;
+    color: gray;
+}
+p:first-letter {
+    color: #77d9d3;
+    font-size: 24px;
+}
+
+li.active a, li.active a:hover {
+    background: white;
+    color: #77d9d3;
+}
