@@ -16,14 +16,14 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
-    $('input').hover(function() {
-        //var currentText = $(this).attr('title');
-
-        $(this).next().fadeIn(500).show();
-    },
-        function() {
-            $(this).next().fadeOut(500).hide();
+    $('input').focus(function() {
+        if($('input').text =='') {
+            $(this).next().fadeIn(500).show();
         }
-    );
+    });
+
+    $('input').blur(function() {
+        $(this).next().fadeIn(500).hide();
+    });
 
 });
