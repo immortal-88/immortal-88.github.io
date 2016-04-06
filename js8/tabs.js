@@ -19,24 +19,24 @@ $(document).ready(function() {
     $('input').focus(function() {
         $(this).next().fadeIn(500).show();
         if($(this).val() != '') {
-            $(this).next().fadeOut(500).hide();
+            $(this).next().hide();
         }
     });
 
     $('input').blur(function() {
-        $(this).next().fadeOut('slow').hide();
+        $(this).next().hide();
     });
 
     $('input').on('input', function() {
         if($(this).val() != '') {
-            $(this).next().fadeOut(500).hide();
+            $(this).next().hide();
         }
     });
 
     $('.form-button').on('click', function() {
         $('input').next().fadeIn(500).show();
-        var timeOut = window.setTimeout(function() {
-            $('input').next().fadeOut('slow').hide();
+        window.setTimeout(function() {
+            $('input').next().hide();
         }, 3000);
     });
 
