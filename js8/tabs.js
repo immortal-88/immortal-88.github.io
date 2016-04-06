@@ -17,9 +17,9 @@ $(document).ready(function() {
     });
 
     $('input').focus(function() {
-        if($('input').text =='') {
+
             $(this).next().fadeIn(500).show();
-        }
+
     });
 
     $('input').blur(function() {
