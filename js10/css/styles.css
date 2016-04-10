@@ -44,6 +44,16 @@ i {
 .burning {
     color: white;         /* A light text makes a nice bright flame source */
     background: black;    /* A dark background gives some contrast */
-    letter-spacing: 1em;  /* Big text shows off the effect best */
+    letter-spacing: 20px;  /* Big text shows off the effect best */
     font-weight: bold;
+}
+.wrapper {
+    width: 500px;
+    margin: 20px auto;
+}
+.selectric {
+    margin-right: 30px;
+    background: black;
+    color: gold;
+    font-family: diablo, sans-serif;
 }

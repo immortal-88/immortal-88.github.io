@@ -47,5 +47,8 @@ $(document).ready(function(){
         $('.burning').burn();
     });
 
-});
+    $(function(){
+        $('select').selectric();
+    });
 
+});

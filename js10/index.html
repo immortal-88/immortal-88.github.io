@@ -5,11 +5,13 @@
     <title>Carousel page</title>
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="owlcarousel2/owl.carousel.min.js"></script>
+    <script src="libs/owlcarousel2/owl.carousel.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="owlcarousel2/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="libs/owlcarousel2/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="libs/lcdsantos-jQuery-Selectric-4d66adb/dist/jquery.selectric.min.js" />
+    <link rel="stylesheet" href="libs/lcdsantos-jQuery-Selectric-4d66adb/dist/selectric.css">
     <link rel="stylesheet" href="css/diablo.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="fire.js"></script>
@@ -17,13 +19,44 @@
 <body>
 <h1 class="burning">DIABLO</h1>
 <div class="owl-carousel">
-    <!--<div class="video-box"><a class="owl-video ow" href="https://www.youtube.com/watch?v=NozXUhhizro" preload="true"></a></div>-->
     <div><img src="img/diablo.jpg" alt=""></div>
     <div><img src="img/diablo-iii-malthael-reaper-of-souls-800x600-wallpaper.jpg" alt=""></div>
     <div><img src="img/witch_doctor.jpg" alt=""></div>
     <div><img src="img/crusader.jpg" alt=""></div>
     <div><img src="img/diablo-archangel-tyrael-800x600.jpg" alt=""></div>
 </div>
+
+<div class="wrapper">
+    <form action="">
+        <select class="selectric" name="Choose your hero class" id="1">
+            <option value="Barbarian">Barbarian</option>
+            <option value="Wizard">Wizard</option>
+            <option value="Monk">Monk</option>
+            <option value="Witch Doctor">Witch Doctor</option>
+            <option value="Demon Hunter">Demon Hunter</option>
+            <option value="Crusader">Crusader</option>
+        </select>
+
+        <select class="selectric" name="Choose town" id="2">
+            <option value="Tristram">Tristram</option>
+            <option value="Caldeum">Caldeum</option>
+            <option value="Lut Golein">Lut Golein</option>
+            <option value="Westmarch">Westmarch</option>
+            <option value="Kingsport">Kingsport</option>
+            <option value="Ureh">Ureh</option>
+        </select>
+
+        <select class="selectric" name="Choose boss" id="3">
+            <option value="Diablo">Diablo</option>
+            <option value="Baal">Baal</option>
+            <option value="Mephisto">Mephisto</option>
+            <option value="Malthael">Malthael</option>
+            <option value="Duriel">Duriel</option>
+            <option value="Andariel">Andariel</option>
+        </select>
+    </form>
+</div>
+
 <div class="prev"><i class="fa fa-angle-left fa-5x"></i></div>
 <div class="next"><i class="fa fa-angle-right fa-5x"></i></div>
 <script src="main.js"></script>
