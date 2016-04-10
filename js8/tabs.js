@@ -28,7 +28,9 @@ $(document).ready(function() {
     });
 
     $('input').on('input', function() {
-        if($(this).val() != '') {
+        if($(this).val() == '') {
+            $(this).next().fadeIn(500).show();
+        }else{
             $(this).next().hide();
         }
     });
