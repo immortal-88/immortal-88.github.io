@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop: true, //Зацикливаем слайдер
         margin: 10, //Отступ от картино если выводите больше 1
-        autoplay: true, //Автозапуск слайдера
+        autoplay: false, //Автозапуск слайдера
         smartSpeed:1000, //Время движения слайда
         autoplayTimeout:2000, //Время смены слайда
         video: true,
@@ -29,17 +29,23 @@ $(document).ready(function(){
 
     });
 
+    var owl = $('.owl-carousel');
+
     $('.next').click(function(){
-        owl.trigger('owl.next');
+        owl.trigger('next.owl.carousel');
     });
     $('.prev').click(function(){
-        owl.trigger('owl.prev');
+        owl.trigger('prev.owl.carousel');
     });
 
     $(window).resize(function () {
         $('.owl-carousel-top').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
         $('.owl-carousel-top').find('.owl-stage-outer').children().unwrap();
-
     });
+
+    $(document).ready(function() {
+        $('.burning').burn();
+    });
+
 });
 
