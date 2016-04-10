@@ -35,5 +35,11 @@ $(document).ready(function(){
     $('.prev').click(function(){
         owl.trigger('owl.prev');
     });
+
+    $(window).resize(function () {
+        $('.owl-carousel-top').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
+        $('.owl-carousel-top').find('.owl-stage-outer').children().unwrap();
+
+    });
 });
 
