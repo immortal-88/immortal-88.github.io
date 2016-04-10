@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.box {
+    background: red;
+    width: 1000px;
+    height: 600px;
+}
