@@ -53,4 +53,18 @@ $(document).ready(function(){
 
     $('tr').iCheck();
 
+
+    $('.sub-menu').hide();
+    $('.menu-item').hover(function() {
+        $(this).find('.sub-menu').slideDown().fadeIn(300);
+    }, function () {
+        $('.sub-menu').slideUp();
+    });
+
+    //$('.menu-item').hover(function() {
+    //    $('.sub-menu').show(400)
+    //}, function () {
+    //    $('.sub-menu').css('top', '0');
+    //});
+
 });
