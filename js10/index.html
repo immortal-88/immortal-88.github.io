@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carousel page</title>
-    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+    <title>Diabolic carousel page</title>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="libs/owlcarousel2/owl.carousel.min.js"></script>
-    <script src="libs/icheck-1.x/icheck.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="libs/owlcarousel2/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="libs/lcdsantos-jQuery-Selectric-4d66adb/dist/jquery.selectric.min.js" />
     <link rel="stylesheet" href="libs/lcdsantos-jQuery-Selectric-4d66adb/dist/selectric.css">
+    <link rel="stylesheet" href="libs/prettyCheckable/dist/prettyCheckable.css">
     <link rel="stylesheet" href="css/diablo.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="fire.js"></script>
+    <script src="libs/prettyCheckable/dev/prettyCheckable.js"></script>
 </head>
 <body>
 <h1 class="burning">DIABLO</h1>
@@ -38,6 +38,7 @@
             <li class="sub-menu-item"><a class="sub-menu-link" href="">Mephisto</a></li>
             <li class="sub-menu-item"><a class="sub-menu-link" href="">Belial</a></li>
             <li class="sub-menu-item"><a class="sub-menu-link" href="">Azmodan</a></li>
+            <li class="sub-menu-item"><a class="sub-menu-link" href="">Duriel</a></li>
             <li class="sub-menu-item"><a class="sub-menu-link" href="">Andariel</a></li>
         </ul>
     </li>
@@ -92,9 +93,23 @@
 
     </form>
 </div>
-
-<!--<div class="prev"><i class="fa fa-angle-left fa-5x"></i></div>-->
-<!--<div class="next"><i class="fa fa-angle-right fa-5x"></i></div>-->
+<div>
+    <form class="checkbox-form" action="">
+        <input type="checkbox" class="checkbox" value="yes" id="answer1" name="answer" data-label="DIABLO"/>
+        <input type="checkbox" class="checkbox" value="yes" id="answer2" name="answer" data-label="BAAL" checked/>
+        <input type="checkbox" class="checkbox" value="yes" id="answer3" name="answer" data-label="MEPHISTO" disabled/>
+    </form>
+</div>
+<div>
+    <form class="css-checkbox-form" action="">
+        <input class="css-checkbox"  type="checkbox" id="tyrael">
+        <label class="css-label" for="tyrael">TYRAEL</label>
+        <input class="css-checkbox" type="checkbox" id="imperius" checked>
+        <label class="css-label" for="imperius">IMPERIUS</label>
+        <input class="css-checkbox" type="checkbox" id="malthael" disabled>
+        <label class="css-label" for="malthael">MALTHAEL</label>
+    </form>
+</div>
 <script src="main.js"></script>
 </body>
 </html>

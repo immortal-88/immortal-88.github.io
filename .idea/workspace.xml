@@ -2,6 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/icheck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/arrow-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/arrow-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/header-line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-fork.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-lab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-options.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/montserrat-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/zepto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/icheck.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/flat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/flat/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/futurico/futurico.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/futurico/futurico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/futurico/futurico@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/line.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/line@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/line/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/minimal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/minimal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/minimal@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/minimal/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/polaris/polaris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/polaris/polaris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/polaris/polaris@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/square.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/square@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js10/libs/icheck-1.x/skins/square/yellow@2x.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js10/css/styles.css" afterPath="$PROJECT_DIR$/js10/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js10/index.html" afterPath="$PROJECT_DIR$/js10/index.html" />
@@ -29,8 +173,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js10/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32061067">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.28091604">
+              <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -40,10 +184,20 @@
         <entry file="file://$PROJECT_DIR$/js10/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js10/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.541667">
+              <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,9 +267,9 @@
         <option value="$PROJECT_DIR$/js10/styles.css" />
         <option value="$PROJECT_DIR$/js10/fonts/stylesheet.css" />
         <option value="$PROJECT_DIR$/js10/fire.js" />
+        <option value="$PROJECT_DIR$/js10/main.js" />
         <option value="$PROJECT_DIR$/js10/index.html" />
         <option value="$PROJECT_DIR$/js10/css/styles.css" />
-        <option value="$PROJECT_DIR$/js10/main.js" />
       </list>
     </option>
   </component>
@@ -203,79 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owlcarousel2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,8 +381,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js10/img" />
       <recent name="$PROJECT_DIR$/js10/libs" />
+      <recent name="$PROJECT_DIR$/js10/img" />
       <recent name="$PROJECT_DIR$/js10/css" />
       <recent name="$PROJECT_DIR$/js10/fonts" />
       <recent name="$PROJECT_DIR$/js10" />
@@ -669,66 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/zepto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-github.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/header-line.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-star.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-fork.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/arrow-top.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/css/ie/icon-lab.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/custom.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js10/libs/icheck-1.x/demo/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js10/libs/owlcarousel2/assets/owl.carousel.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -783,15 +805,63 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js10/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/js8/tabs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js8/tabs.js">
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/G-radio.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/A-checkbox.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/H-radio-focus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/E-checkbox-disabled.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/C-checkbox-checked.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/K-radio-disabled.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/B-checkbox-focus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/img/sprites/I-radio-checked.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/dev/prettyCheckable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js10/libs/prettyCheckable/dev/prettyCheckable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -802,17 +872,25 @@
     <entry file="file://$PROJECT_DIR$/js10/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js10/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.541667">
+          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js10/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32061067">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.28091604">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
           <folding />
         </state>
       </provider>

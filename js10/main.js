@@ -4,6 +4,7 @@
 
 $(document).ready(function(){
 
+    // O W L  C A R O U S E L
     $('.owl-carousel').owlCarousel({
         loop: true, //Зацикливаем слайдер
         margin: 10, //Отступ от картино если выводите больше 1
@@ -43,28 +44,30 @@ $(document).ready(function(){
         $('.owl-carousel-top').find('.owl-stage-outer').children().unwrap();
     });
 
+    // B U R N I N G  T E X T
     $(document).ready(function() {
         $('.burning').burn();
     });
 
+    // S E L E C T
     $(function(){
         $('select').selectric();
     });
 
-    $('tr').iCheck();
+    // C H E C K B O X
+    var inputList = $('form .checkbox');
+    for (var i = inputList.length - 1; i >= 0; i--) {
+        $(inputList[i]).prettyCheckable({
 
+        });
+    }
 
+    // A N I M A T I O N    M E N U
     $('.sub-menu').hide();
     $('.menu-item').hover(function() {
         $(this).find('.sub-menu').slideDown().fadeIn(300);
     }, function () {
         $('.sub-menu').slideUp();
     });
-
-    //$('.menu-item').hover(function() {
-    //    $('.sub-menu').show(400)
-    //}, function () {
-    //    $('.sub-menu').css('top', '0');
-    //});
 
 });

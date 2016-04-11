@@ -78,10 +78,6 @@ i {
     text-align: center;
     background: black;
 }
-.menu-item:hover .sub-menu-link {
-    display: block;
-    transition: all .6s;
-}
 .sub-menu-link:hover {
     text-decoration: none;
     color: darkred;
@@ -160,3 +156,33 @@ i {
 .owl-carousel {
     position: relative;
 }
+
+/* CHECKBOX */
+.checkbox-form {
+    width: 340px;
+    margin: 0 auto;
+}
+.prettycheckbox label{
+    font-family: diablo, sans-serif;
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.css-checkbox-form {
+    width: 350px;
+    margin: 0 auto;
+}
+.css-checkbox {
+    color: green;
+    width: 20px;
+    font-size: 50px;
+}
+.css-label {
+    color: deepskyblue;
+    font-family: diablo, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
