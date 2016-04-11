@@ -46,7 +46,9 @@ $(document).ready(function(){
 
     // B U R N I N G  T E X T
     $(document).ready(function() {
-        $('.burning').burn();
+        $('.burning').burn({
+            w: 0.5
+        })
     });
 
     // S E L E C T
