@@ -31,10 +31,10 @@ $(document).ready(function(){
 
     var owl = $('.owl-carousel');
 
-    $('.next').click(function(){
+    $('.owl-next').click(function(){
         owl.trigger('next.owl.carousel');
     });
-    $('.prev').click(function(){
+    $('.owl-prev').click(function(){
         owl.trigger('prev.owl.carousel');
     });
 
@@ -50,5 +50,7 @@ $(document).ready(function(){
     $(function(){
         $('select').selectric();
     });
+
+    $('tr').iCheck();
 
 });
