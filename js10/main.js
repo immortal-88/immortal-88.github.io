@@ -67,7 +67,7 @@ $(document).ready(function(){
     $('.menu-item').hover(function() {
         $(this).find('.sub-menu').slideDown().fadeIn(300);
     }, function () {
-        $('.sub-menu').slideUp();
+        $('.sub-menu').stop(true).slideUp();
     });
 
 });
