@@ -48,7 +48,7 @@ nav {
 /* SUB-MENU */
 .sub-nav {
     position: absolute;
-    top: 42px;
+    top: 41px;
     left: 0;
     width: 100%;
     background-color: white;
@@ -100,9 +100,17 @@ nav {
 .photos {
     height: 796px;
 }
+.photos-catalog {
+    height: 1195px;
+}
 .photo-box {
     width: 50%;
     height: 398px;
+}
+.photo-box-large {
+    width: 100%;
+    height: 398px;
+    background: url(../img/photobox-large.jpg) no-repeat;
 }
 .float-left {
     float: left;
@@ -122,12 +130,32 @@ nav {
 .photo-box-4 {
     background: url(../img/photobox-4.jpg) no-repeat;
 }
+.photo-box-5 {
+    background: url(../img/photobox-5.jpg) no-repeat;
+}
+.photo-box-6 {
+    background: url(../img/photobox-6.jpg) no-repeat;
+}
+.photo-box-7 {
+    background: url(../img/photobox-7.jpg) no-repeat;
+}
+.women {
+    background: url(../img/women.jpg) no-repeat;
+}
 .inner-box {
     width: 302px;
     height: 138px;
     background: #330d2f;
-    margin: 50px 24% 0 0;
+    margin: 50px 0 0 0;
+    float: left;
+}
+.inner-box-large {
+    width: 430px;
+    height: 186px;
+}
+.inner-box-container {
     float: right;
+    width: 498px;
 }
 .margin-zero {
     float: left;
@@ -162,21 +190,29 @@ hr {
     height: 386px;
     clear: both;
 }
+.about-factory-about {
+    height: 310px;
+    clear: both;
+}
 .about-factory-box {
     width: 1000px;
     height: auto;
     margin: 0 auto;
 }
 .about-factory-box-left {
-    width: 500px;
-    height: 386px;
+    width: 48%;
     float: left;
 }
 .about-factory-box-right {
-    width: 470px;
-    height: 304px;
+    width: 49%;
     float: right;
     padding: 81px 0 0 30px;
+}
+.padding-top {
+    padding-top: 24px;
+}
+.full-width {
+    width: 100%;
 }
 .violet-text {
     padding: 39px 0 16px 1px;
@@ -233,6 +269,7 @@ hr {
 }
 .social-links {
     padding: 32px 0 0 0;
+    float: left;
 }
 .footer-text {
     line-height: 2.27;
