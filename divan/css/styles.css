@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    width: 1920px;
+    max-width: 1920px;
     height: auto;
 }
 header {
@@ -14,12 +14,15 @@ header {
 a {
     text-decoration: none;
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 .logo {
     float: left;
     width: 176px;
     height: 41px;
     background: url("../img/logo.png") no-repeat;
-    margin-left: 461px;
 }
 /* MENU */
 nav {
@@ -45,7 +48,7 @@ nav {
 /* SUB-MENU */
 .sub-menu {
     position: absolute;
-    width: 1920px;
+    /*width: 1920px;*/
     background-color: white;
     margin-left: -811px;
 }
@@ -73,6 +76,7 @@ nav {
 }
 /* SLIDER */
 .slider {
+    width: 100%;
     display: flex;
     height: 562px;
     background: gainsboro;
@@ -88,11 +92,10 @@ nav {
 }
 /* PHOTOS */
 .photos {
-    width: 1920px;
     height: 796px;
 }
 .photo-box {
-    width: 960px;
+    width: 50%;
     height: 398px;
 }
 .float-left {
@@ -117,9 +120,11 @@ nav {
     width: 302px;
     height: 138px;
     background: #330d2f;
-    margin: 50px 0 0 460px;
+    margin: 50px 195px 0 0;
+    float: right;
 }
 .margin-zero {
+    float: left;
     margin-left: 0;
 }
 .inner-box-heading {
