@@ -160,6 +160,7 @@ hr {
 /* ABOUT FACTORY */
 .about-factory {
     height: 386px;
+    clear: both;
 }
 .about-factory-box {
     width: 1000px;
