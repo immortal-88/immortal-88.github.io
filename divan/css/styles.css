@@ -169,10 +169,12 @@ hr {
 }
 .about-factory-box-left {
     width: 500px;
+    height: 386px;
     float: left;
 }
 .about-factory-box-right {
     width: 470px;
+    height: 304px;
     float: right;
     padding: 81px 0 0 30px;
 }
