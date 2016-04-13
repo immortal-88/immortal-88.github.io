@@ -164,6 +164,7 @@ hr {
 }
 .about-factory-box {
     width: 1000px;
+    height: auto;
     margin: 0 auto;
 }
 .about-factory-box-left {
