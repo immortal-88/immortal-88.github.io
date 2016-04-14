@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Lounge & Sofa</title>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/geometria.css">
+    <script src="js/accordion.js"></script>
 </head>
 <body>
 <!--H E A D E R-->
@@ -28,59 +30,83 @@
                         </ul>
                     </nav>
                 </li>
-                <li class="menu-item"><a class="menu-link" href="about.html">в &nbsp; &nbsp; наличии</a></li>
-                <li class="menu-item"><a class="menu-link" href="">о &nbsp; &nbsp; нас</a></li>
+                <li class="menu-item"><a class="menu-link" href="">в &nbsp; &nbsp; наличии</a></li>
+                <li class="menu-item"><a class="menu-link" href="about.html">о &nbsp; &nbsp; нас</a></li>
                 <li class="menu-item"><a class="menu-link" href="contacts.html">контакты</a></li>
             </ul>
         </nav>
     </div>
 </header>
 <!--P H O T O S-->
-<section class="photos-catalog">
+<section class="photos-content">
     <div class="photo-box-large">
         <div class="container">
             <div class="inner-box">
-                <a href="content.html">
-                    <h3 class="inner-box-heading">модульные <br>системы</h3><hr>
-                    <p class="inner-box-text">серия lusso</p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="photo-box photo-box-1 float-left">
-        <div class="inner-box-container">
-            <div class="inner-box">
-                <a href="content.html">
+                <a href="">
                     <h3 class="inner-box-heading">модульные <br>системы</h3><hr>
                     <p class="inner-box-text">адриано</p>
                 </a>
             </div>
         </div>
     </div>
-    <div class="photo-box photo-box-5 float-right">
-        <div class="inner-box margin-zero">
-            <a href="content.html">
-                <h3 class="inner-box-heading">модульные <br>системы</h3><hr>
-                <p class="inner-box-text">луиджи</p>
-            </a>
+    <div class="content-container">
+        <div class="photo-box photo-box-content photo-box-content1 float-left">
+            <div class="inner-box-container">
+                <div class="inner-box">
+                    <a href="">
+                        <h3 class="inner-box-heading">модульные <br>системы</h3><hr>
+                        <p class="inner-box-text">адриано</p>
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="photo-box photo-box-6 float-left">
-        <div class="inner-box-container">
-            <div class="inner-box">
-                <a href="content.html">
-                    <h3 class="inner-box-heading">модульные <br>системы</h3><hr>
-                    <p class="inner-box-text">нельсон</p>
-                </a>
+        <div class="photo-box photo-box-content float-left">
+            <div class="images-box float-right">
+                <div class="image margin-zero"><img src="img/image-1.jpg" alt=""></div>
+                <div class="image"><img src="img/image-2.jpg" alt=""></div>
+                <div class="image margin-zero"><img src="img/image-3.jpg" alt=""></div>
+                <div class="image"><img src="img/image-4.jpg" alt=""></div>
             </div>
         </div>
     </div>
-    <div class="photo-box photo-box-7 float-right">
-        <div class="inner-box margin-zero">
-            <a href="content.html">
-                <h3 class="inner-box-heading">модульные <br>системы</h3><hr>
-                <p class="inner-box-text">федерико</p>
-            </a>
+
+    <!--A C C O R D E O N-->
+    <div class="accordion">
+        <div class="accordion-section">
+            <a class="accordion-section-title" href="#accordion-1"><span class="inner-box-text">описание</span></a>
+
+            <div id="accordion-1" class="accordion-section-content">
+                <p class="about-factory-text">
+                    Размер спального места 135 х 188 см<br><br>
+                    Модульная система «Адриано» — это поистине рай<br>
+                    на земле!<br><br>
+                    Ласковый и нежный, теплый и комфортный, яркий и роскошный, включающий все возможности 100% модульной системы. Это делает Адриано одним из самых модных и престижных моделей коллекции диванов Blando для комфортного отдыха. Он станет сердцем Вашего интерьера и самым любимым местом для Вас и Ваших близких.
+                    Каркас: Брус (сосна), Фанера, ДСП, ЛДСП, ДВП, ХДФ, картон<br><br>
+                    Механизм трансформации: Седафлекс 12М - серия "Механизмы в два сложения" м-м Седафлекс 12М (перед раскладыванием механизма, сидушка убирается)<br><br>
+                    Механизм может быть выполнен в двух вариантах:<br>
+                    1. С металлической сеткой<br>
+                    2. С ортопедическими латами<br><br>
+                    Механизм комплектуется ППУ матрасом, толщиной 10 см<br>
+                    и стеганным чехлом.<br>
+                </p>
+            </div>
+        </div>
+        <div class="accordion-section">
+            <a class="accordion-section-title" href="#accordion-2"><span class="inner-box-text">размеры</span></a>
+
+            <div id="accordion-2" class="accordion-section-content">
+                <p class="about-factory-text">
+                    Размер спального места 135 х 188 см<br>
+                    Габариты 150 см х 200 см х 180 см<br>
+                </p>
+            </div>
+        </div>
+        <div class="accordion-section">
+            <a class="accordion-section-title" href="#accordion-3"><span class="inner-box-text">видео</span></a>
+
+            <div id="accordion-3" class="accordion-section-content">
+                <iframe width="425" height="349" src="https://www.youtube.com/embed/4p6AnkK01ic" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </section>
