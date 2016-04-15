@@ -65,11 +65,31 @@ $(document).ready(function(){
     }
 
     // A N I M A T I O N    M E N U
-    $('.sub-menu').hide();
+    $('.sub-menu').hide().css({
+        zIndex: 10
+    });
     $('.menu-item').hover(function() {
         $(this).find('.sub-menu').slideDown().fadeIn(300);
-    }, function () {
+    }, function() {
         $('.sub-menu').stop(true).slideUp();
     });
+
+    // A N I M A T I O N   T Y R A E L   M E N U
+    $('.tyrael-menu').hide().css({
+        left: 0,
+        zIndex: 5,
+        opacity: 0
+    });
+    $('.tyrael').hover(function() {
+        $(this).find('.tyrael-menu').show().animate({
+            left: '280',
+            opacity: 1
+        });
+    }, function() {
+        $('.tyrael-menu').stop(true).animate({
+            left: "0",
+            opacity: 0
+        }).fadeOut(100);
+    })
 
 });

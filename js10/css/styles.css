@@ -88,7 +88,33 @@ i {
     color: deepskyblue;
     transition: all .3s;
 }
-
+/* TYRAEL MENU */
+.tyrael {
+    position: relative;
+}
+.tyrael-menu{
+    position: absolute;
+    width: 250px;
+    left: 270px;
+    top: 0;
+}
+.tyrael-item {
+    list-style: none;
+}
+.tyrael-link{
+    display: block;
+    font-family: diablo, sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    background: black;
+}
+.tyrael-link:hover {
+    text-decoration: none;
+    color: green;
+    transition: all .6s;
+}
 /* OWL-DOTS FIX*/
 .owl-theme .owl-controls{
     margin-top:10px;
