@@ -75,21 +75,23 @@ $(document).ready(function(){
     });
 
     // A N I M A T I O N   T Y R A E L   M E N U
-    $('.tyrael-menu').hide().css({
-        left: 0,
-        zIndex: 5,
-        opacity: 0
-    });
+    $('.tyrael-menu').hide();
+    //    .css({
+    //    left: 0,
+    //    zIndex: 5,
+    //    opacity: 0
+    //});
     $('.tyrael').hover(function() {
-        $(this).find('.tyrael-menu').show().animate({
-            left: '280',
-            opacity: 1
-        });
+        $(this).find('.tyrael-menu').slideDown();
+        //    .animate({
+        //    left: '280',
+        //    opacity: 1
+        //});
     }, function() {
-        $('.tyrael-menu').stop(true).animate({
-            left: "0",
-            opacity: 0
-        }).fadeOut(100);
+        $('.tyrael-menu').stop(true).slideUp();
+        //    .animate({
+        //    left: "0",
+        //    opacity: 0
+        //});
     })
-
 });

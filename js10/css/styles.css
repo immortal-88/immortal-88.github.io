@@ -95,7 +95,7 @@ i {
 .tyrael-menu{
     position: absolute;
     width: 250px;
-    left: 270px;
+    left: 100%;
     top: 0;
 }
 .tyrael-item {
