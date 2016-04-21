@@ -5,7 +5,9 @@
 $(document).ready(function(){
 
     // O W L  C A R O U S E L
-    $('.owl-carousel').owlCarousel({
+
+    var $owl = $('.owl-carousel');
+    $owl.owlCarousel({
         loop: true, //Зацикливаем слайдер
         margin: 10, //Отступ от картино если выводите больше 1
         autoplay: false, //Автозапуск слайдера
@@ -30,14 +32,12 @@ $(document).ready(function(){
 
     });
 
-    var owl = $('.owl-carousel');
-
-    $('.owl-next').click(function(){
-        owl.trigger('next.owl.carousel');
-    });
-    $('.owl-prev').click(function(){
-        owl.trigger('prev.owl.carousel');
-    });
+    // $('.owl-next').click(function(){
+    //     owl.trigger('next.owl.carousel');
+    // });
+    // $('.owl-prev').click(function(){
+    //     owl.trigger('prev.owl.carousel');
+    // });
 
     $(window).resize(function () {
         $('.owl-carousel-top').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
@@ -45,16 +45,14 @@ $(document).ready(function(){
     });
 
     // B U R N I N G  T E X T
-    $(document).ready(function() {
-        $('.burning').burn({
-            w: 0.5
-        })
-    });
+    $('.burning').burn({
+        w: 0.5
+    })
+
 
     // S E L E C T
-    $(function(){
-        $('select').selectric();
-    });
+    $('select').selectric();
+
 
     // C H E C K B O X
     var inputList = $('form .checkbox');
@@ -76,22 +74,9 @@ $(document).ready(function(){
 
     // A N I M A T I O N   T Y R A E L   M E N U
     $('.tyrael-menu').hide();
-    //    .css({
-    //    left: 0,
-    //    zIndex: 5,
-    //    opacity: 0
-    //});
     $('.tyrael').hover(function() {
         $(this).find('.tyrael-menu').slideDown();
-        //    .animate({
-        //    left: '280',
-        //    opacity: 1
-        //});
     }, function() {
         $('.tyrael-menu').stop(true).slideUp();
-        //    .animate({
-        //    left: "0",
-        //    opacity: 0
-        //});
     })
 });
