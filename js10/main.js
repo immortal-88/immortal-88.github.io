@@ -5,7 +5,6 @@
 $(document).ready(function(){
 
     // O W L  C A R O U S E L
-
     var $owl = $('.owl-carousel');
     $owl.owlCarousel({
         loop: true, //Зацикливаем слайдер
@@ -32,12 +31,7 @@ $(document).ready(function(){
 
     });
 
-    // $('.owl-next').click(function(){
-    //     owl.trigger('next.owl.carousel');
-    // });
-    // $('.owl-prev').click(function(){
-    //     owl.trigger('prev.owl.carousel');
-    // });
+
 
     $(window).resize(function () {
         $('.owl-carousel-top').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
@@ -51,21 +45,19 @@ $(document).ready(function(){
 
 
     // S E L E C T
-    $('select').selectric();
-
+    $(function(){
+      $('select').selectric();
+    });
 
     // C H E C K B O X
     var inputList = $('form .checkbox');
     for (var i = inputList.length - 1; i >= 0; i--) {
-        $(inputList[i]).prettyCheckable({
-
-        });
+      $(inputList[i]).prettyCheckable({});
     }
 
+
     // A N I M A T I O N    M E N U
-    $('.sub-menu').hide().css({
-        zIndex: 10
-    });
+    $('.sub-menu').hide();
     $('.menu-item').hover(function() {
         $(this).find('.sub-menu').slideDown().fadeIn(300);
     }, function() {
