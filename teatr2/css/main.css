@@ -1192,7 +1192,7 @@ footer
 	color: #464646;
 }
 
-
+/* TABS */
 .tabs {
     width: 90%;
     margin: 10px auto;
@@ -1243,7 +1243,7 @@ p {
 .owl-carousel {
 	position: relative;
 }
-.owl-carousel .item-video{
+.owl-carousel .item-video {
 	height:300px
 }
 .prev-button {
@@ -1294,8 +1294,8 @@ p {
 }
 .jp-controls a {
     color: #fff;
+	outline: none;
 }
-/*buttons*/
 .jp-play,.jp-pause {
     width: 60px;
     height: 40px;
@@ -1303,9 +1303,6 @@ p {
     text-align: center;
     line-height: 43px;
 }
-/*.jp-controls .jp-play:hover,.jp-controls .jp-pause:hover {
-    background-color: #de3918;
-}*/
 .jp-mute,.jp-unmute {
     position: absolute;
     right: 55px;
@@ -1329,9 +1326,8 @@ p {
     position: absolute;
     right: 10px;
     top: 11px;
-    /* text-shadow: 1px 1px 0 rgba(0,0,0,0.3); */
 }
-/* slider */
+
 .jp-progress {
     background-color: #cdcdcd;
     overflow: hidden;

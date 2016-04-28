@@ -25,7 +25,7 @@ $(document).ready(function() {
         video: true,
         videoWidth: false, // Default false; Type: Boolean/Number
         videoHeight: false, // Default false; Type: Boolean/Number
-        // center:true,
+        center:true,
         lazyLoad: true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
@@ -35,7 +35,7 @@ $(document).ready(function() {
                 items: 2
             },
             1000:{
-                items: 4
+                items: 2
             }
         }
     });
