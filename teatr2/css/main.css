@@ -1267,6 +1267,9 @@ p {
     margin: 0 auto;
 }
 .jp-title {
+	position: absolute;
+	top: 5px;
+	left: 60px;
     font-size: 18px;
     text-align: center;
 }
@@ -1277,17 +1280,6 @@ p {
 }
 .jp-gui {
 	position: relative;
-	background: #f34927;
-	background: -moz-linear-gradient(top,  #f34927 0%, #dd3311 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f34927), color-stop(100%,#dd3311));
-	background: -webkit-linear-gradient(top,  #f34927 0%,#dd3311 100%);
-	background: -o-linear-gradient(top,  #f34927 0%,#dd3311 100%);
-	background: -ms-linear-gradient(top,  #f34927 0%,#dd3311 100%);
-	background: linear-gradient(to bottom,  #f34927 0%,#dd3311 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34927', endColorstr='#dd3311',GradientType=0 );
-	-webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .1);
-    box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .1);
-    border-radius: 3px;
 	overflow: hidden;
 	margin-top: 10px;
 }
@@ -1310,13 +1302,10 @@ p {
     display: inline-block;
     text-align: center;
     line-height: 43px;
-    border-right: 1px solid #d22f0f;
 }
-
-.jp-controls .jp-play:hover,.jp-controls .jp-pause:hover {
+/*.jp-controls .jp-play:hover,.jp-controls .jp-pause:hover {
     background-color: #de3918;
-}
-
+}*/
 .jp-mute,.jp-unmute {
     position: absolute;
     right: 55px;
@@ -1326,38 +1315,35 @@ p {
     display: inline-block;
     line-height: 46px;
 }
-
+.play-stop-icon {
+	margin-bottom: 3px;
+}
 .jp-mute {
     text-align: left;
 }
 .jp-time-holder {
-    color: #FFF;
-    font-size: 12px;
+    color: black;
+    font-size: 18px;
+    font-family: pt-serif;
     line-height: 14px;
     position: absolute;
-    right: 90px;
-    top: 14px;
-    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+    right: 10px;
+    top: 11px;
+    /* text-shadow: 1px 1px 0 rgba(0,0,0,0.3); */
 }
 /* slider */
 .jp-progress {
-    background-color: #992E18;
-    border-radius: 20px 20px 20px 20px;
+    background-color: #cdcdcd;
     overflow: hidden;
     position: absolute;
-    right: 133px;
-    top: 15px;
-    width: 210px;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2) inset;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2) inset;
+    right: 10px;
+    top: 32px;
+    width: 398px;
 }
-
 .jp-play-bar {
-    height: 12px;
-    background-color: #fff;
-    border-radius: 20px 20px 20px 20px;
+    height: 5px;
+    background-color: #a1a1a1;
 }
-
 .jp-volume-bar {
     position: absolute;
     right: 10px;
@@ -1370,7 +1356,6 @@ p {
     background-color: #992E18;
     overflow: hidden;
 }
-
 .jp-volume-bar-value {
     background-color: #fff;
     height: 8px;
