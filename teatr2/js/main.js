@@ -19,7 +19,7 @@ $(document).ready(function() {
     $owl.owlCarousel({
         loop: true, //Зацикливаем слайдер
         margin: 10, //Отступ от картино если выводите больше 1
-        autoplay: true, //Автозапуск слайдера
+        autoplay: false, //Автозапуск слайдера
         smartSpeed:1000, //Время движения слайда
         autoplayTimeout:2000, //Время смены слайда
         video: true,
@@ -38,9 +38,20 @@ $(document).ready(function() {
                 items: 2
             }
         }
-
     });
 
+    // Go to the next item
+    $('.next-button').click(function() {
+        $owl.trigger('next.owl.carousel');
+    });
+    // Go to the previous item
+    $('.prev-button').click(function() {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        $owl.trigger('prev.owl.carousel', [300]);
+    });
+
+    // O W L  C A R O U S E L  F I X
     $(window).resize(function () {
         $('.owl-carousel-top').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
         $('.owl-carousel-top').find('.owl-stage-outer').children().unwrap();

@@ -1210,7 +1210,7 @@ footer
     font-family: : pt-serif, sans-serif;
 	font-size: 25px;
 }
-a:hover {
+.tabs-link:hover {
     opacity: .8;
     transition: all linear 0.4s;
 }
@@ -1240,6 +1240,23 @@ p {
 }*/
 
 /*OWL CAROUSEL FIX*/
+.owl-carousel {
+	position: relative;
+}
 .owl-carousel .item-video{
 	height:300px
+}
+.prev-button {
+	position: absolute;
+	left: 20px;
+}
+.next-button {
+	position: absolute;
+	right: 20px;
+}
+.photo-buttons {
+	top: 300px;
+}
+.video-buttons {
+	top: 250px;
 }
