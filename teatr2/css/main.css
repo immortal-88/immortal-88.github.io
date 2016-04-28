@@ -1263,8 +1263,9 @@ p {
 
 /* AUDIO PLAYER */
 .jp-jplayer,.jp-audio {
-    width: 420px;
+    max-width: 420px;
     margin: 0 auto;
+	padding: 0 10px;
 }
 .jp-title {
 	position: absolute;
@@ -1297,7 +1298,7 @@ p {
 	outline: none;
 }
 .jp-play,.jp-pause {
-    width: 60px;
+    width: 40px;
     height: 40px;
     display: inline-block;
     text-align: center;
