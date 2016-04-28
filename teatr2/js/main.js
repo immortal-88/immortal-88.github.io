@@ -25,17 +25,17 @@ $(document).ready(function() {
         video: true,
         videoWidth: false, // Default false; Type: Boolean/Number
         videoHeight: false, // Default false; Type: Boolean/Number
-        center:true,
+        // center:true,
         lazyLoad: true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items: 1
             },
             600:{
-                items: 1
+                items: 2
             },
             1000:{
-                items: 2
+                items: 4
             }
         }
     });
@@ -59,5 +59,17 @@ $(document).ready(function() {
 
     // F A N C Y B O X
     $(".fancybox").fancybox();
+
+    // A U D I O  P L A Y E R
+    $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+        $(this).jPlayer("setMedia", {
+            mp3: "audio/ducktales_remastered.mp3",
+            oga: ""
+        });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga"
+    });
 
 });

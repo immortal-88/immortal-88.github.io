@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/add-on/jplayer.playlist.js"></script> -->
+  <script src="libs/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
   <script src="libs/owlcarousel2/owl.carousel.min.js"></script>
   <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="js/fe.js">               </script>
@@ -23,50 +25,6 @@
   <script src="js/main.js"></script>
 </head>
 <body>
-  <!-- H E A D E R -->
-  <!-- <header>
-    <div class="fe-row">
-      <nav>
-        <ul class="fe-nav fe-col-m-only" id="menu">
-          <li><a href="index.html"><img src="icon/img/logo_small.png" alt="logo.png"></a></li>
-          <li id="category-button">  <p> <span class="menu_main-span"> О доме        </span>   <br /> <span class="menu_sub-span"> ёнгын кол       </span>       </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Афиша         </span>   <br /> <span class="menu_sub-span"> ляххал          </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Новые дела    </span>   <br /> <span class="menu_sub-span"> лильпи вāрмальт </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Хозяева       </span>   <br /> <span class="menu_sub-span"> театрын мирт    </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Мировоззрение </span>   <br /> <span class="menu_sub-span"> мир мӯтра       </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Библеотека    </span>   <br /> <span class="menu_sub-span"> ёнгын           </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Контакты      </span>   <br /> <span class="menu_sub-span"> рупитан мāнанл  </span> </a> </p> </li>
-          <li id="last-li"> <p> <a href="index.html"> <span class="menu_main-span"> Билеты  </a> </li>
-        </ul>
-        <ul class="fe-none" id="menu-small">
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> О доме        </span>   <br /> <span class="menu_sub-span"> ёнгын кол       </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Афиша         </span>   <br /> <span class="menu_sub-span"> ляххал          </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Новые дела    </span>   <br /> <span class="menu_sub-span"> лильпи вāрмальт </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Хозяева       </span>   <br /> <span class="menu_sub-span"> театрын мирт    </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Мировоззрение </span>   <br /> <span class="menu_sub-span"> мир мӯтра       </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Библеотека    </span>   <br /> <span class="menu_sub-span"> ёнгын           </span> </a> </p> </li>
-          <li> <p> <a href="index.html"> <span class="menu_main-span"> Контакты      </span>   <br /> <span class="menu_sub-span"> рупитан мāнанл  </span> </a> </p> </li>
-          <li id="menu_last-element"> <p> <a href="#"> <span class="menu_main-span"> Билеты  </a> </li>
-        </ul>
-          <ul id="category" class="fe-none">
-            <li> <a href="index.html"> История       </a> </li>
-            <li> <a href="index.html"> Новости       </a> </li>
-            <li> <a href="index.html"> Сцена         </a> </li>
-            <li> <a href="index.html"> Документы     </a> </li>
-            <li> <a href="index.html"> Пресса        </a> </li>
-            <li> <a href="index.html"> Награды       </a> </li>
-            <li> <a href="index.html"> Партнеры      </a> </li>
-            <li> <a href="index.html"> Вакансии      </a> </li>
-            <li> <a href="index.html"> Книга отзывов </a> </li>
-          </ul>
-      </nav>
-    </div>
-  </header> -->
-  <!-- О   Д О М Е -->
-  <!-- <div class="fe-row about-home">
-    <h2 class="top-heading">О доме</h2>
-    <h3 class="top-subheading">ёнгын кол</h3>
-  </div> -->
   <div class="fe-row">
     <div class="fe-col-12">
       <!--T A B S-->
@@ -74,7 +32,8 @@
               <ul class="tabs-links">
                   <li class="active tabs-item"><a class="tabs-link"href="#tab1">Фото &nbsp;&nbsp;&nbsp;|<br> <span class="tabs-subheading">айат</span></a></li>
                   <li class="tabs-item"><a class="tabs-link"href="#tab2">Видео &nbsp;&nbsp;&nbsp;| <br> <span class="tabs-subheading">оӑң</span></a></li>
-                  <li class="tabs-item"><a class="tabs-link"href="#tab3">Пресса о спектакле <br> <span class="tabs-subheading">лупӑт</span></a></li>
+                  <li class="tabs-item"><a class="tabs-link"href="#tab3">Пресса о спектакле &nbsp;&nbsp;&nbsp;|<br> <span class="tabs-subheading">лупӑт</span></a></li>
+                  <li class="tabs-item"><a class="tabs-link"href="#tab4">Награды <br> <span class="tabs-subheading">лупӑт</span></a></li>
               </ul>
               <div class="tabs-content">
                   <div id="tab1" class="tab tab-active fe-col-12">
@@ -82,14 +41,6 @@
                       <div class="prev-button photo-buttons"><img src="icon/img/prev_button.png" alt=""></div>
                       <div class="next-button photo-buttons"><img src="icon/img/next_button.png" alt=""></div>
                       <div class="owl-carousel owl-theme">
-                        <!-- <div><img src="img/s22_pic1.jpg" alt=""></div>
-                        <div><img src="img/s22_pic2.jpg" alt=""></div>
-                        <div><img src="img/s22_pic3.jpg" alt=""></div>
-                        <div><img src="img/s22_pic4.jpg" alt=""></div>
-                        <div><img src="img/s22_pic1.jpg" alt=""></div>
-                        <div><img src="img/s22_pic2.jpg" alt=""></div>
-                        <div><img src="img/s22_pic3.jpg" alt=""></div>
-                        <div><img src="img/s22_pic4.jpg" alt=""></div> -->
                         <div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic1.jpg" alt=""/></a></div>
                         <div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic2.jpg" alt=""/></a></div>
                         <div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic3.jpg" alt=""/></a></div>
@@ -113,6 +64,13 @@
                       </div>
                   </div>
                   <div id="tab3" class="tab">
+                      <!-- P U B L I C A T I O N S -->
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda ipsum nisi, optio quas quis ullam veritatis! Deleniti excepturi ipsam, maxime mollitia nam nesciunt, praesentium quaerat recusandae reprehenderit sunt voluptatem.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur distinctio, impedit ipsam minus nostrum obcaecati odit officiis! Accusantium architecto at dolorem, ducimus ea facilis iusto molestiae nesciunt nihil sit.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ea eaque id ipsa iste iure provident quas quis repellat vitae. Eligendi hic laboriosam qui sapiente voluptas! At eveniet harum id!</p>
+                  </div>
+                  <div id="tab4" class="tab">
+                      <!-- A W A R D S -->
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda ipsum nisi, optio quas quis ullam veritatis! Deleniti excepturi ipsam, maxime mollitia nam nesciunt, praesentium quaerat recusandae reprehenderit sunt voluptatem.</p>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur distinctio, impedit ipsam minus nostrum obcaecati odit officiis! Accusantium architecto at dolorem, ducimus ea facilis iusto molestiae nesciunt nihil sit.</p>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ea eaque id ipsa iste iure provident quas quis repellat vitae. Eligendi hic laboriosam qui sapiente voluptas! At eveniet harum id!</p>
@@ -121,5 +79,67 @@
           </div>
     </div>
   </div>
+  <div class="fe-row">
+      <div class="fe-col-12">
+          <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+            <div id="jp_container_1" class="jp-audio">
+              <div class="jp-type-single">
+
+                <div class="jp-title">
+                  <ul>
+                    <li>Ducktales Remastered</li>
+                  </ul>
+                </div>
+
+                <div class="jp-gui jp-interface">
+
+                    <ul class="jp-controls">
+                      <li><a href="javascript:;" class="jp-play" tabindex="1"><img src="icon/img/play.png" alt=""></a></li>
+                      <li><a href="javascript:;" class="jp-pause" tabindex="1"><img src="icon/img/stop.png" alt=""></a></li>
+                      <!-- <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">?</a></li>
+                      <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">?</a></li> -->
+                    </ul>
+
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                      </div>
+                    </div>
+
+                    <div class="jp-time-holder">
+                      <div class="jp-current-time"></div>
+                    </div>
+
+                    <div class="jp-volume-bar">
+                      <div class="jp-volume-bar-value"></div>
+                    </div>
+
+                <div class="jp-no-solution">
+                  <span>Update Required</span>
+                  To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+  <!-- F O O T E R -->
+  <footer>
+      <div class="fe-row">
+          <div class="fe-col-u-4 fe-col-b-4 fe-col-m-4 fe-col-s-6 fe-text-center">
+              <div id="footer_address"> ул. Мира 14 а,  Дом Дружбы народов <br /> mail@toun.ru </div>
+          </div>
+          <div class="fe-col-u-4 fe-col-b-4 fe-col-m-4 fe-col-s-6 fe-text-center">
+              <div id="footer_phone"> +7(3467) 33-54-61 &nbsp +7(3467) 85-25-61 </div>
+          </div>
+          <div class="fe-col-u-4 fe-col-b-4 fe-col-m-4 fe-col-s-12" style="overflow: hidden;">
+            <ul class="fe-nav" id="footer_icon">
+                <li> <a href="#"> <img src="icon/img/vk.png"        alt="icon"> </a> </li>
+                <li> <a href="#"> <img src="icon/img/facebook.png"  alt="icon"> </a> </li>
+                <li> <a href="#"> <img src="icon/img/instagram.png" alt="icon"> </a> </li>
+                <li> <a href="#"> <img src="icon/img/you-tube.png"  alt="icon"> </a> </li>
+            <ul>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>
