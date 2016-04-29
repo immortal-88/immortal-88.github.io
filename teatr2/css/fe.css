@@ -2,7 +2,7 @@
 
 
 
----------------------  FE.CSS  --------------------- 
+---------------------  FE.CSS  ---------------------
 
 
 
@@ -12,18 +12,18 @@
 
 @font-face
 {
-	
+
 	/* pt-serif */
 
 	font-family: pt-serif;
     src: url("../fonts/pt-serif/PTF55F.ttf");
 
 }
-	
-	
+
+
 @font-face
 {
-	
+
 	/* pt-serif-bold */
 
 	font-family: pt-serif-bold;
@@ -39,7 +39,7 @@
 	margin:  0px;
 
 	font-family: pt-serif;
-	
+
 }
 
 
@@ -95,25 +95,25 @@ button
 
 .fe-bold
 {
-	
+
 	font-weight: 700;
-	
+
 }
 
 
 .fe-text-center
 {
-	
+
 	text-align: center;
-	
+
 }
 
 
 .fe-none
 {
-	
+
 	display: none;
-	
+
 }
 
 
@@ -860,7 +860,7 @@ button
 /*-------- col-nano --------*/
 
 
-@media screen and (max-width: 749px) 
+@media screen and (max-width: 749px)
 {
 
 	.fe-col-n-1
@@ -985,6 +985,6 @@ button
 }
 
 
-
-
-
+nav#menuTop {
+    z-index: 9999;
+}
