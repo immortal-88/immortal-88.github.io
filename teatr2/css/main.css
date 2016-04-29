@@ -1219,6 +1219,7 @@ footer
     width: 98%;
     background: white;
     padding: 2%;
+	position: relative;
 }
 .tab {
     display: none;
@@ -1248,17 +1249,18 @@ p {
 }
 .prev-button {
 	position: absolute;
-	left: 20px;
+	left: -1%;
 }
 .next-button {
 	position: absolute;
-	right: 20px;
+	right: -1%;
 }
 .photo-buttons {
-	top: 300px;
+	top: 46%;
+	z-index: 3;
 }
 .video-buttons {
-	top: 250px;
+	top: 45%;
 }
 
 /* AUDIO PLAYER */
@@ -1473,4 +1475,39 @@ p {
 	.invisible {
 		display: none;
 	}
+}
+
+
+/* FEEDBACK */
+.feedback-form {
+	width: 90%;
+	margin: 0 auto;
+}
+.feedback {
+	background: #ececec;
+	border: none;
+	outline: none;
+	padding: 1%;
+	font-family: pt-serif;
+	font-size: 18px;
+	color: #aaaaaa;
+}
+.feedback-name {
+	width: 99%;
+	margin: 10px auto;
+	height: 30px;
+}
+.feedback-text {
+	width: 99%;
+	margin: auto;
+	height: 160px;
+	resize: none;
+}
+.submit-button {
+	width: 120px;
+	height: 50px;
+	margin-top: 5px;
+	border: none;
+	font-size: 18px;
+	background: #ececec;
 }
