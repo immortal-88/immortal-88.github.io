@@ -72,4 +72,9 @@ $(document).ready(function() {
         supplied: "mp3,oga"
     });
 
+    // L I G H T  G A L L E R Y
+    $('#lightgallery, #lightgallery2').lightGallery({
+        selector: '.item'
+    });
+
 });
