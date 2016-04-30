@@ -510,3 +510,9 @@ p {
     margin-top: 89px;
   }
 }
+@media screen and (max-width: 480px)
+{
+    .header-h {
+        margin: 89px auto;
+    }
+}

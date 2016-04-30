@@ -73,8 +73,16 @@ $(document).ready(function() {
     });
 
     // L I G H T  G A L L E R Y
-    $('#lightgallery, #lightgallery2').lightGallery({
+    $('#lightgallery, #lightgallery2, #video-gallery').lightGallery({
         selector: '.item'
+    });
+
+    $('.light-gal-item').lightGallery({
+        thumbnail: true,
+        thumbWidth: 120,
+        thumbContHeight: 90,
+        loadYoutubeThumbnail: true,
+        youtubeThumbSize: 'default'
     });
 
 });
