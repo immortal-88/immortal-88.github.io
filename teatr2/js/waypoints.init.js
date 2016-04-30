@@ -28,7 +28,7 @@ $(function() {
              $('#menuTop').slideUp();
          } else {
              console.log('up');
-             $('#menuTop').slideDown(200);
+             $('#menuTop, #menu').slideDown(200);
          }
          previousScroll = currentScroll;
       });
