@@ -6,6 +6,7 @@ $(function() {
       // notify(this.id + ' hit');
       $('#menuTop').toggleClass('inverse-nav');
       $('#menu').toggleClass('inverse-menu');
+      $('#small-menu-buttton').toggleClass('inverse-small-menu-buttton');
       if(direction == 'down') {
           $('#menu img').replaceWith("<img src='icon/img/logo_invert.png' />");
       }else{
@@ -20,18 +21,24 @@ $(function() {
       var previousScroll = 0;
 
       $(window).scroll(function(){
-         var currentScroll = $(this).scrollTop();
-         if (currentScroll <= 0) {
-            //  $('#menuTop').style.top = '0px';
-         } else if (currentScroll > previousScroll){
-             console.log('down');
-             $('#menuTop').slideUp();
-         } else {
-             console.log('up');
-             $('#menuTop, #menu').slideDown(200);
+        var currentScroll = $(this).scrollTop();
+
+        if (currentScroll === 0) {
+          $('#menuTop').removeClass('menu-hide');
+          console.log('show');
+        }
+        else if(currentScroll > 0) {
+         if (currentScroll > previousScroll && $('#menuTop').css('top') == '0px'){
+            $('#menuTop').addClass('menu-hide');
+            console.log('hide');
+         } else if(currentScroll < previousScroll && $('#menuTop').css('top') == '-150px') {
+            $('#menuTop').removeClass('menu-hide');
+            console.log('show');
          }
+       }
          previousScroll = currentScroll;
       });
   }());
+
 
 });

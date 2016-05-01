@@ -5,11 +5,13 @@ header {
   padding-top: 1px;
 }
 
-nav {
+#menuTop {
   width: 100%;
-  position: fixed;
+  position: absolute;
+  top: 0;
   padding-top: 30px;
   transition: all .5s;
+  z-index: 999;
 }
 
 #menu {
@@ -31,16 +33,24 @@ nav {
 
 .inverse-nav {
   background: white;
-  padding-top: 10px;
-  /*color: black !important;*/
+  padding-top: 0 !important;
+  position: fixed !important;
 }
 
 .inverse-menu {
   color: black !important;
 }
 
+.inverse-small-menu-buttton {
+	background: url("../icon/img/menu-white.png") center no-repeat !important;
+}
+
+.menu-hide {
+  top: -150px !important;
+}
+
 .header-h {
-  max-width: 300px;
+  max-width: 30%;
   letter-spacing: .04em;
   margin-top: 170px;
   margin-left: 85px;
@@ -510,9 +520,19 @@ p {
     margin-top: 89px;
   }
 }
-@media screen and (max-width: 480px)
+
+@media screen and (max-width: 749px)
+{
+  .header-h {
+    max-width: 90%;
+    text-align: center;
+    margin: 89px auto;
+  }
+}
+
+/*@media screen and (max-width: 480px)
 {
     .header-h {
         margin: 89px auto;
     }
-}
+}*/
