@@ -25,7 +25,7 @@ $(document).ready(function() {
         video: true,
         videoWidth: false, // Default false; Type: Boolean/Number
         videoHeight: false, // Default false; Type: Boolean/Number
-        center:true,
+        //center:true,
         lazyLoad: true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
@@ -35,7 +35,7 @@ $(document).ready(function() {
                 items: 2
             },
             1000:{
-                items: 2
+                items: 5
             }
         }
     });
@@ -74,15 +74,45 @@ $(document).ready(function() {
 
     // L I G H T  G A L L E R Y
     $('#lightgallery, #lightgallery2, #video-gallery').lightGallery({
-        selector: '.item'
+        selector: '.item',
+        download: false,
+        thumbnail: 0
     });
 
     $('.light-gal-item').lightGallery({
-        thumbnail: true,
-        thumbWidth: 120,
-        thumbContHeight: 90,
-        loadYoutubeThumbnail: true,
-        youtubeThumbSize: 'default'
+        videoAutoplay : false
+        //thumbnail: false,
+        //thumbWidth: 120,
+        //thumbContHeight: 90,
+        //loadYoutubeThumbnail: true,
+        //youtubeThumbSize: 'default',
+        //youtubePlayerParams: {
+        //            modestbranding: 1,
+        //            showinfo: 0,
+        //            rel: 0,
+        //            controls: 0
+        //        },
+        //        vimeoPlayerParams: {
+        //            byline : 0,
+        //            portrait : 0,
+        //            color : 'A90707'
+        //        }
+
     });
+
+    //$('.video-gallery').lightGallery({
+    //    selector: "video-item",
+    //    youtubePlayerParams: {
+    //        modestbranding: 1,
+    //        showinfo: 0,
+    //        rel: 0,
+    //        controls: 0
+    //    },
+    //    vimeoPlayerParams: {
+    //        byline : 0,
+    //        portrait : 0,
+    //        color : 'A90707'
+    //    }
+    //});
 
 });

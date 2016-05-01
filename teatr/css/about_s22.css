@@ -170,11 +170,11 @@ header {
 
 .top-heading {
 	text-align: center;
-	font: 26px;
+	font-size: 26px;
 }
 .top-subheading {
 	text-align: center;
-	font: 18px;
+	font-size: 18px;
 	color: #464646;
 }
 
@@ -193,7 +193,7 @@ header {
     padding: 10px 10px;
     text-decoration: none;
     color: black;
-    font-family: : pt-serif, sans-serif;
+    font-family: pt-serif, sans-serif;
 	font-size: 25px;
 }
 .tabs-link:hover {
@@ -310,7 +310,6 @@ p {
 .jp-time-holder {
     color: black;
     font-size: 18px;
-    font-family: pt-serif;
     line-height: 14px;
     position: absolute;
     right: 10px;
@@ -475,7 +474,6 @@ p {
 	border: none;
 	outline: none;
 	padding: 1%;
-	font-family: pt-serif;
 	font-size: 18px;
 	color: #aaaaaa;
 }
@@ -508,6 +506,17 @@ p {
   .invisible {
 		display: none;
 	}
+}
+
+@media screen and (min-width: 949px)
+{
+    #menu-small
+    {
+        display: none !important;
+    }
+    .invisible {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 949px)
