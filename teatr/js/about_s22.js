@@ -73,46 +73,25 @@ $(document).ready(function() {
     });
 
     // L I G H T  G A L L E R Y
-    $('#lightgallery, #lightgallery2, #video-gallery').lightGallery({
+    // P H O T O
+    $('#lightgallery, #lightgallery2').lightGallery({
         selector: '.item',
         download: false,
         thumbnail: 0
     });
 
-    $('.light-gal-item').lightGallery({
-        videoAutoplay : false
-        //thumbnail: false,
-        //thumbWidth: 120,
-        //thumbContHeight: 90,
-        //loadYoutubeThumbnail: true,
-        //youtubeThumbSize: 'default',
-        //youtubePlayerParams: {
-        //            modestbranding: 1,
-        //            showinfo: 0,
-        //            rel: 0,
-        //            controls: 0
-        //        },
-        //        vimeoPlayerParams: {
-        //            byline : 0,
-        //            portrait : 0,
-        //            color : 'A90707'
-        //        }
-
+    // Y O U T U B E  V I D E O
+    $('#video-gallery').lightGallery({
+        selector: '.light-gal-item',
+        download: false,
+        thumbnail: 0,
+        youtubePlayerParams: {
+            modestbranding: 1,
+            showinfo: 0,
+            rel: 0,
+            autoplay: 0,
+            controls: 1
+        }
     });
-
-    //$('.video-gallery').lightGallery({
-    //    selector: "video-item",
-    //    youtubePlayerParams: {
-    //        modestbranding: 1,
-    //        showinfo: 0,
-    //        rel: 0,
-    //        controls: 0
-    //    },
-    //    vimeoPlayerParams: {
-    //        byline : 0,
-    //        portrait : 0,
-    //        color : 'A90707'
-    //    }
-    //});
 
 });
