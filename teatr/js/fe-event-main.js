@@ -81,7 +81,6 @@ addEventListener("load",function()
 	smallMenuButtton.addEventListener("click",function()
 	{
 		 fe.click( fe.g("i","menu-small"));
-
 	});
 
 	/*---*/

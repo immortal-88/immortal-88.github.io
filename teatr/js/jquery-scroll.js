@@ -8,7 +8,9 @@ $(function() {
   function scrollToElem(elem, speed) { //elem - id элемента
   	if(document.getElementById(elem)) {
   		var destination = $('#'+elem).offset().top;
-  		$("html,body").animate({scrollTop: destination}, speed);
+  		$("html,body").animate({scrollTop: destination}, speed, function() {
+  		  $('#menuTop').removeClass('menu-hide');
+  		});
   	}
   }
 });

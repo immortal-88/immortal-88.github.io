@@ -327,7 +327,7 @@ nav
 {
 
 	background: url("../icon/img/menu.png") center no-repeat;
-	background-size: contain;
+	/*background-size: contain;*/
 
 	width:  40px;
 	height: 40px;
@@ -338,7 +338,8 @@ nav
 	right: 25px;
 
 	cursor: pointer;
-
+	transition: all .5s;
+	z-index: 100500;
 }
 
 

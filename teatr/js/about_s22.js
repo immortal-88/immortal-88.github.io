@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
     // T A B S

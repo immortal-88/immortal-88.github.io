@@ -7,10 +7,11 @@ header {
 
 #menuTop {
   width: 100%;
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   top: 0;
   padding-top: 30px;
-  transition: all .5s;
+  transition: all 1s;
   z-index: 999;
 }
 
@@ -23,7 +24,9 @@ header {
 }
 
 #menu-small {
-  top: 100px;
+  top: 18vh;
+  height: 82vh;
+  overflow: auto;
 }
 
 #category {
@@ -34,14 +37,18 @@ header {
 .inverse-nav {
   background: white;
   padding-top: 0 !important;
-  position: fixed !important;
+  /*position: fixed !important;*/
 }
 
 .inverse-menu {
   color: black !important;
 }
 
-.inverse-small-menu-buttton {
+#menu li p.inverse-arrows:hover {
+	background: url("../icon/img/arrow-left-white.png") left bottom no-repeat, url("../icon/img/arrow-right-white.png")right top no-repeat;
+}
+
+#small-menu-buttton.inverse-small-menu-buttton {
 	background: url("../icon/img/menu-white.png") center no-repeat !important;
 }
 
@@ -53,8 +60,9 @@ header {
   max-width: 30%;
   letter-spacing: .04em;
   margin-top: 170px;
-  margin-left: 85px;
+  margin-left: 8%;
   color: white;
+  transition: all .5s;
 }
 
 .header-h h2 {
@@ -83,6 +91,8 @@ header {
 
 #content {
   font-size: 14px;
+  overflow: hidden;
+  margin-top: 0;
 }
 
 .about-spectacle {
@@ -170,11 +180,11 @@ header {
 
 .top-heading {
 	text-align: center;
-	font-size: 26px;
+	font: 26px;
 }
 .top-subheading {
 	text-align: center;
-	font-size: 18px;
+	font: 18px;
 	color: #464646;
 }
 
@@ -255,18 +265,6 @@ p {
   margin: 0 auto;
 	/*padding: 0 10px;*/
 }
-/*.jp-title {*/
-	/*position: absolute;*/
-	/*top: 5px;*/
-	/*left: 60px;*/
-    /*font-size: 18px;*/
-    /*text-align: center;*/
-/*}*/
-/*.jp-title ul {*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*list-style: none;*/
-/*}*/
 .jp-title {
     float: left;
     width: 64%;
@@ -275,6 +273,11 @@ p {
     font-size: 18px;
     /* text-align: center; */
     overflow: hidden;
+}
+.jp-title ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .jp-gui {
 	position: relative;
@@ -320,6 +323,7 @@ p {
 .jp-time-holder {
     color: black;
     font-size: 18px;
+    font-family: pt-serif;
     line-height: 14px;
     position: absolute;
     right: 10px;
@@ -488,6 +492,7 @@ p {
 	border: none;
 	outline: none;
 	padding: 1%;
+	font-family: pt-serif;
 	font-size: 18px;
 	color: #aaaaaa;
 }
@@ -522,17 +527,6 @@ p {
 	}
 }
 
-@media screen and (min-width: 949px)
-{
-    #menu-small
-    {
-        display: none !important;
-    }
-    .invisible {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 949px)
 {
   .people-of-spectacle {
@@ -547,9 +541,9 @@ p {
 @media screen and (max-width: 749px)
 {
   .header-h {
-    max-width: 90%;
-    text-align: center;
-    margin: 89px auto;
+    max-width: 80%;
+    /*text-align: center;*/
+    /*margin: 89px auto;*/
   }
 }
 
