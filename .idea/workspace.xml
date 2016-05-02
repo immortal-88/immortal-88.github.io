@@ -2,190 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/fancybox_loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/fancybox_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/fancybox_sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/helpers/jquery.fancybox-media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/fancybox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/.jamignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/CLA.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/MIGRATION.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/artwork/jplayer.blue.monday.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/artwork/jplayer.blue.monday.spirites.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/artwork/jplayer.circle.player.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/artwork/jplayer.pink.flag.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/artwork/jplayer.pink.flag.sprites.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/add-on/jplayer.playlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/add-on/jquery.jplayer.inspector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/add-on/jquery.jplayer.inspector.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/popcorn/popcorn.jplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/popcorn/popcorn.jplayer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.video.play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.video.play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-android.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-supplied-mp3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-video-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-video-supplied-m4v.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-video-supplied-rtmpv.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-02-jPlayerPlaylist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-02-media-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-02-media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-02-multi.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-02-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-03-together.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-03-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-08.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-09-popcorn-video-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/demo-09-popcorn-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/blue.monday/jPlayer-tester.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/other/demo-04.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/other/demo-05.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/other/demo-07.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-android.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-supplied-mp3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-video-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-video-supplied-m4v.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-video-supplied-rtmpv.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-02-jPlayerPlaylist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-02-media-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-02-media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-02-multi.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-02-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-03-together.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-03-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-08.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-09-popcorn-video-solution-flash-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/demo-09-popcorn-video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/examples/pink.flag/jPlayer-tester.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/aac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/aurora.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/flac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/mp3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/ogg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/opus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/aurora/vorbis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/js/circle.player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/js/jquery.grab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/js/jquery.transform2d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/js/mod.csstransforms.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/skin/bgr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/skin/buffer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/skin/circle.player.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/skin/controls.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/skin/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/circle-player/skin/progress_sprite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/popcorn.ie8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/popcorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/popcorn.player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/lib/popcorn.subtitle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/Jplayer.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/ConnectManager.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerMp3.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerMp4.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerRtmp.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerStatus.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/add-on/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/add-on/jplayer.playlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/add-on/jquery.jplayer.inspector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/jplayer/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/jplayer/jquery.jplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/popcorn/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/javascript/popcorn/popcorn.jplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.video.play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/blue.monday/scss/jplayer.blue.monday.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.video.play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/src/skin/pink.flag/scss/jplayer.pink.flag.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.theme.default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.theme.default.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.theme.green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.theme.green.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.video.play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/owl.carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/photoswipe/default-skin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/photoswipe/photoswipe-ui-defailt.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/photoswipe/photoswipe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/libs/photoswipe/photoswipe.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/teatr/libs/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js" afterPath="$PROJECT_DIR$/teatr/js/jquery.jplayer.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/assets/owl.carousel.min.css" afterPath="$PROJECT_DIR$/teatr/css/owl.carousel.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/teatr/libs/owlcarousel2/owl.carousel.min.js" afterPath="$PROJECT_DIR$/teatr/js/owl.carousel.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/about_s22.html" afterPath="$PROJECT_DIR$/teatr/about_s22.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/css/about_s22.css" afterPath="$PROJECT_DIR$/teatr/css/about_s22.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/css/main.css" afterPath="$PROJECT_DIR$/teatr/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/js/about_s22.js" afterPath="$PROJECT_DIR$/teatr/js/about_s22.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/js/accordion.js" afterPath="$PROJECT_DIR$/teatr/js/accordion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/js/fe-event-main.js" afterPath="$PROJECT_DIR$/teatr/js/fe-event-main.js" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,8 +28,8 @@
       <file leaf-file-name="about_s22.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teatr/about_s22.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9160305">
-              <caret line="97" column="76" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.022900764">
+              <caret line="605" column="61" selection-start-line="605" selection-start-column="61" selection-end-line="605" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -219,8 +38,8 @@
       <file leaf-file-name="about_s22.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teatr/css/about_s22.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.803922">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.509804">
+              <caret line="555" column="0" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -229,8 +48,8 @@
       <file leaf-file-name="fe-event-main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teatr/js/fe-event-main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.777778">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -312,10 +131,10 @@
         <option value="$PROJECT_DIR$/Task6/index.html" />
         <option value="$PROJECT_DIR$/teatr/js/about_s22.js" />
         <option value="$PROJECT_DIR$/teatr/css/main.css" />
-        <option value="$PROJECT_DIR$/teatr/css/about_s22.css" />
         <option value="$PROJECT_DIR$/teatr/js/fe-event-main.js" />
         <option value="$PROJECT_DIR$/teatr/js/accordion.js" />
         <option value="$PROJECT_DIR$/teatr/about_s22.html" />
+        <option value="$PROJECT_DIR$/teatr/css/about_s22.css" />
       </list>
     </option>
   </component>
@@ -375,42 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="teatr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teatr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immortal-88.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teatr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,24 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/css/about_s22.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.803922">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/js/fe-event-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.777778">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teatr/js/accordion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -681,10 +446,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/teatr/js/fe-event-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teatr/css/about_s22.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.509804">
+          <caret line="555" column="0" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/teatr/about_s22.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9160305">
-          <caret line="97" column="76" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.022900764">
+          <caret line="605" column="61" selection-start-line="605" selection-start-column="61" selection-end-line="605" selection-end-column="61" />
           <folding />
         </state>
       </provider>
