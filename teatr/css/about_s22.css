@@ -1,26 +1,26 @@
 header {
-  height: 100vh;
-  background: url('../img/about-s22-header.jpg') top center no-repeat;
-  background-size: cover;
-  padding-top: 1px;
+    height: 100vh;
+    background: url('../img/about-s22-header.jpg') top center no-repeat;
+    background-size: cover;
+    padding-top: 1px;
 }
 
 #menuTop {
-  width: 100%;
-  /*position: absolute;*/
-  position: fixed;
-  top: 0;
-  padding-top: 30px;
-  transition: all 1s;
-  z-index: 999;
+    width: 100%;
+    /*position: absolute;*/
+    position: fixed;
+    top: 0;
+    padding-top: 30px;
+    transition: all 1s;
+    z-index: 999;
 }
 
 #menu {
-  color: white;
+    color: white;
 }
 
 #menu li {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 #menu {
@@ -32,8 +32,9 @@ header {
 }
 
 #menu-small {
-    top: 85px;
-    height: calc(100vh - 85px);
+    top: 0;
+    height: 100vh;
+    padding-top: 40px;
     overflow: auto;
 }
 
@@ -48,6 +49,7 @@ header {
 #menu-small .accordion-section-title {
     padding: 0;
 }
+
 .accordion-section-content ul {
     font-size: 13px;
 }
@@ -62,162 +64,176 @@ header {
 }
 
 #category {
-  position: static;
-  margin-left: 10%;
+    position: static;
+    margin-left: 10%;
 }
 
 .inverse-nav {
-  background: white;
-  padding-top: 0 !important;
-  /*position: fixed !important;*/
+    background: white;
+    padding-top: 0 !important;
+    /*position: fixed !important;*/
 }
 
 .inverse-menu {
-  color: black !important;
+    color: black !important;
 }
 
 #menu li p.inverse-arrows:hover {
-	background: url("../icon/img/arrow-left-white.png") left bottom no-repeat, url("../icon/img/arrow-right-white.png")right top no-repeat;
+    background: url("../icon/img/arrow-left-white.png") left bottom no-repeat, url("../icon/img/arrow-right-white.png") right top no-repeat;
 }
 
 #small-menu-buttton.inverse-small-menu-buttton {
-	background: url("../icon/img/menu-white.png") center no-repeat !important;
+    background: url("../icon/img/menu-white.png") center no-repeat !important;
 }
 
 .menu-hide {
-  top: -150px !important;
+    top: -150px !important;
 }
 
 .header-h {
-  max-width: 30%;
-  letter-spacing: .04em;
-  margin-top: 170px;
-  margin-left: 8%;
-  color: white;
-  transition: all .5s;
+    max-width: 30%;
+    letter-spacing: .04em;
+    margin-top: 170px;
+    margin-left: 8%;
+    color: white;
+    transition: all .5s;
 }
 
 .header-h h2 {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .header-title-big {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 .header-title-small {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .header-title-smallest {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .scroll-arrow {
-  position: absolute;
-  cursor: pointer;
-  width: 100%;
-  text-align: center;
-  bottom: 40px;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    bottom: 40px;
+    animation-name: arrowDown;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes arrowDown {
+    0%, 100% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(20px)
+    }
 }
 
 #content {
-  font-size: 14px;
-  overflow: hidden;
-  margin-top: 0;
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 0;
 }
 
 .about-spectacle {
-  letter-spacing: .08em;
-  margin-left: 8%;
-  margin-right: 4%;
+    letter-spacing: .08em;
+    margin-left: 8%;
+    margin-right: 4%;
 }
 
 .about-spectacle-title {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .about-spectacle-title h3 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .title-big {
-  font-size: 26px;
-  font-weight: normal;
-  letter-spacing: .1em;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: .1em;
 }
 
 .title-small {
-  font-size: 18px;
-  letter-spacing: .02em;
+    font-size: 18px;
+    letter-spacing: .02em;
 }
 
 .title-additional {
-  font-size: 18px;
-  letter-spacing: .12em;
+    font-size: 18px;
+    letter-spacing: .12em;
 }
 
 .people-of-spectacle {
-  margin-left: 15%;
-  margin-right: 12%;
+    margin-left: 15%;
+    margin-right: 12%;
 }
 
 .people-of-spectacle-title h3 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .people-of-spectacle-col {
-  letter-spacing: .12em;
-  margin-right: 5%;
+    letter-spacing: .12em;
+    margin-right: 5%;
 }
 
 .music-of-spectacle-title {
-  margin-top: 80px;
-  margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .about-spectacle-ru {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .about-spectacle-kca-mns {
-  margin-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .about-spectacle-p {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .read-piece-a {
-  font-size: 18px;
-  vertical-align: bottom;
+    font-size: 18px;
+    vertical-align: bottom;
 }
 
 .read-piece-a img {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .people-position {
-  font-weight: bold;
-  /*font-size: 14px;*/
+    font-weight: bold;
+    /*font-size: 14px;*/
 }
 
 .people {
-  /*font-size: 14px;*/
+    /*font-size: 14px;*/
 }
 
 .people-indent {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .top-heading {
-	text-align: center;
-	font-size: 26px;
+    text-align: center;
+    font-size: 26px;
 }
+
 .top-subheading {
-	text-align: center;
-	font-size: 18px;
-	color: #464646;
+    text-align: center;
+    font-size: 18px;
+    color: #464646;
 }
 
 /* TABS */
@@ -225,39 +241,42 @@ header {
     width: 90%;
     margin: 80px auto;
 }
+
 .tabs-item {
     list-style: none;
     float: left;
     margin-left: 5px;
 }
+
 .tabs-link {
     display: inline-block;
     padding: 10px 10px;
     text-decoration: none;
     color: black;
     font-family: pt-serif, sans-serif;
-	font-size: 25px;
+    font-size: 25px;
 }
-.tabs-link:hover {
-    opacity: .6;
-    transition: all linear 0.4s;
-}
+
 .tabs-content {
     float: left;
     width: 98%;
     background: white;
     padding: 2%;
-	position: relative;
+    position: relative;
 }
+
 .tab {
     display: none;
 }
+
 .tabs-subheading {
-	font-size: 17px;
+    font-size: 17px;
 }
+
 .tab-active {
     display: block;
 }
+
 p {
     margin-top: 10px;
     text-align: justify;
@@ -270,33 +289,39 @@ p {
 
 /*OWL CAROUSEL FIX*/
 .owl-carousel {
-	position: relative;
+    position: relative;
 }
+
 .owl-carousel .item-video {
-	height:300px
+    height: 300px
 }
+
 .prev-button {
-	position: absolute;
-	left: -1%;
+    position: absolute;
+    left: -1%;
 }
+
 .next-button {
-	position: absolute;
-	right: -1%;
+    position: absolute;
+    right: -1%;
 }
+
 .photo-buttons {
-	top: 46%;
-	z-index: 3;
+    top: 46%;
+    z-index: 3;
 }
+
 .video-buttons {
-	top: 45%;
+    top: 45%;
 }
 
 /* AUDIO PLAYER */
-.jp-jplayer,.jp-audio {
-  /*max-width: 420px;*/
-  margin: 0 auto;
-	/*padding: 0 10px;*/
+.jp-jplayer, .jp-audio {
+    /*max-width: 420px;*/
+    margin: 0 auto;
+    /*padding: 0 10px;*/
 }
+
 .jp-title {
     float: left;
     width: 64%;
@@ -306,30 +331,36 @@ p {
     /* text-align: center; */
     overflow: hidden;
 }
+
 .jp-title ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
+
 .jp-gui {
-	position: relative;
-	overflow: hidden;
-	margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
 }
+
 .jp-controls {
     padding: 0;
     margin: 0;
     list-style: none;
-    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
+
 .jp-controls li {
     display: inline;
 }
+
 .jp-controls a {
     color: #fff;
-	outline: none;
+    outline: none;
 }
-.jp-play,.jp-pause {
+
+.jp-play, .jp-pause {
     float: left;
     width: 40px;
     height: 40px;
@@ -337,7 +368,8 @@ p {
     text-align: center;
     line-height: 43px;
 }
-.jp-mute,.jp-unmute {
+
+.jp-mute, .jp-unmute {
     position: absolute;
     right: 55px;
     top: 0;
@@ -346,12 +378,15 @@ p {
     display: inline-block;
     line-height: 46px;
 }
+
 .play-stop-icon {
-	margin-bottom: 3px;
+    margin-bottom: 3px;
 }
+
 .jp-mute {
     text-align: left;
 }
+
 .jp-time-holder {
     color: black;
     font-size: 18px;
@@ -360,11 +395,13 @@ p {
     right: 10px;
     top: 11px;
 }
+
 .jp-current-time {
     float: right;
     font-size: 18px;
     padding: 5px 10px;
 }
+
 .jp-progress {
     background-color: #cdcdcd;
     overflow: hidden;
@@ -373,10 +410,12 @@ p {
     top: 32px;
     width: 100%;
 }
+
 .jp-play-bar {
     height: 5px;
     background-color: #a1a1a1;
 }
+
 .jp-volume-bar {
     position: absolute;
     right: 10px;
@@ -384,11 +423,12 @@ p {
     width: 45px;
     height: 8px;
     border-radius: 20px 20px 20px 20px;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1) inset;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1) inset;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1) inset;
     background-color: #992E18;
     overflow: hidden;
 }
+
 .jp-volume-bar-value {
     background-color: #fff;
     height: 8px;
@@ -397,14 +437,14 @@ p {
 
 /* ACCORDEON */
 .accordion, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .accordion {
     width: 90%;
-    overflow:hidden;
+    overflow: hidden;
     /*box-shadow:0 1px 3px rgba(0,0,0,0.25);*/
     margin: 0 auto;
     /*background:#f7f7f7;*/
@@ -414,12 +454,12 @@ p {
 .accordion-section-title {
     width: 100%;
     padding: 15px;
-    display:inline-block;
+    display: inline-block;
     /*border-bottom:1px solid #1a1a1a;*/
-    transition:all linear 0.15s;
-	background: white;
+    transition: all linear 0.15s;
+    background: white;
     /* Type */
-    font-size:1.200em;
+    font-size: 1.200em;
     /*text-shadow:0 1px 0 #1a1a1a;*/
     color: black;
 }
@@ -428,23 +468,25 @@ p {
     /*background:#4c4c4c;*/
     opacity: .8;
     /* Type */
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .accordion-section:last-child .accordion-section-title {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 /*----- Section Content -----*/
 .accordion-section-content {
     width: 100%;
-    padding:15px;
-    display:none;
+    padding: 15px;
+    display: none;
 }
+
 .images-box {
     width: 500px;
     height: 500px;
 }
+
 .image {
     width: 230px;
     height: 230px;
@@ -452,17 +494,21 @@ p {
     margin-top: 40px;
     margin-left: 40px;
 }
+
 .return-link {
     width: 186px;
     display: block;
     margin: 40px 0 0 40px;
 }
+
 .content-heading {
     margin: 0 0 0 40px;
 }
+
 .container-404 {
     height: 100%;
 }
+
 .not-found {
     position: relative;
     background: gainsboro;
@@ -472,6 +518,7 @@ p {
     margin: 100px auto;
     vertical-align: middle;
 }
+
 .not-found-heading {
     position: absolute;
     top: 95px;
@@ -482,6 +529,7 @@ p {
     color: white;
 
 }
+
 .not-found-text {
     position: absolute;
     top: 250px;
@@ -493,13 +541,14 @@ p {
     text-align: center;
     text-transform: uppercase;
 }
+
 .not-found-link {
     position: absolute;
     top: 420px;
     left: 25px;
     font-family: geometriamedium, sans-serif;
     font-size: 25px;
-    color:  #330d2f;
+    color: #330d2f;
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
@@ -507,99 +556,103 @@ p {
 
 /* FEEDBACK */
 .feedback-form {
-	width: 90%;
-	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .feedback-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 40px;
-  margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .feedback {
-	background: #ececec;
-	border: none;
-	outline: none;
-	padding: 1%;
-	font-size: 18px;
-	color: #aaaaaa;
+    background: #ececec;
+    border: none;
+    outline: none;
+    padding: 1%;
+    font-size: 18px;
+    color: #aaaaaa;
 }
+
 .feedback-name {
-	width: 99%;
-	margin: 10px auto;
-	height: 30px;
+    width: 99%;
+    margin: 10px auto;
+    height: 30px;
 }
+
 .feedback-text {
-	width: 99%;
-	margin: auto;
-	height: 160px;
-	resize: none;
+    width: 99%;
+    margin: auto;
+    height: 160px;
+    resize: none;
 }
+
 .submit-button {
-	width: 120px;
-	height: 50px;
-	margin-top: 5px;
-	border: none;
-	font-size: 18px;
-	background: #ececec;
+    width: 120px;
+    height: 50px;
+    margin-top: 5px;
+    border: none;
+    font-size: 18px;
+    background: #ececec;
 }
+
 .post {
     width: 90%;
     margin: auto;
 }
+
 .post-date {
     font-size: 10px;
     color: gray;
 }
+
 .post-name {
     font-size: 15px;
     font-weight: bold;
 }
 
-@media screen and (min-width: 949px)
-{
-  #menu-small
-	{
-		display: none !important;
-	}
-  .invisible {
-		display: none;
-	}
+@media screen and (min-width: 949px) {
+    #menu-small {
+        display: none !important;
+    }
+
+    .invisible {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 949px)
-{
-  .people-of-spectacle {
-    margin-top: 80px;
-  }
+@media screen and (max-width: 949px) {
+    .people-of-spectacle {
+        margin-top: 80px;
+    }
 
-  .header-h {
-    margin-top: 89px;
-  }
+    .header-h {
+        margin-top: 89px;
+    }
 }
 
-@media screen and (max-width: 749px)
-{
-  .header-h {
-    max-width: 80%;
-    /*text-align: center;*/
-    /*margin: 89px auto;*/
-  }
+@media screen and (max-width: 749px) {
+    .header-h {
+        max-width: 80%;
+        /*text-align: center;*/
+        /*margin: 89px auto;*/
+    }
 }
 
-@media screen and (max-width: 480px)
-{
+@media screen and (max-width: 480px) {
     .jp-play, .jp-pause {
         float: none;
     }
+
     .jp-title {
-        text-align: center;
-        padding: 4px 0 0 0px;
+        width: 100%;
+        padding: 4px 0 0 0;
     }
+
     .jp-current-time {
-        margin-top: -40px;
+        margin-top: -70px;
     }
 }
 

@@ -77,10 +77,19 @@ addEventListener("load",function()
 	/*---*/
 
 	var smallMenuButtton = fe.g("i","small-menu-buttton");
+	var btnState = false;
 
 	smallMenuButtton.addEventListener("click",function()
 	{
-		 fe.click( fe.g("i","menu-small"));
+		if (btnState) {
+			$('#small-menu-buttton').toggleClass('inverse-small-menu-buttton');
+			btnState = false;
+		}
+		if ($('#menu-small').css('display') == 'none' && $('#small-menu-buttton').hasClass('inverse-small-menu-buttton')) {
+			$('#small-menu-buttton').toggleClass('inverse-small-menu-buttton');
+			btnState = true;
+		}
+		fe.click( fe.g("i","menu-small"));
 	});
 
 	/*---*/

@@ -16,7 +16,7 @@ $(document).ready(function() {
     // O W L  C A R O U S E L
     var $owl = $('.owl-carousel');
     $owl.owlCarousel({
-        loop: true, //Зацикливаем слайдер
+        loop: false, //Зацикливаем слайдер
         margin: 10, //Отступ от картино если выводите больше 1
         autoplay: false, //Автозапуск слайдера
         smartSpeed:1000, //Время движения слайда
@@ -55,9 +55,6 @@ $(document).ready(function() {
         $('.owl-carousel-top').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
         $('.owl-carousel-top').find('.owl-stage-outer').children().unwrap();
     });
-
-    // F A N C Y B O X
-    $(".fancybox").fancybox();
 
     // A U D I O  P L A Y E R
     $("#jquery_jplayer_1").jPlayer({

@@ -22,7 +22,7 @@ $(document).ready(function() {
             // Add active class to section title
             $(this).addClass('active');
             // Open up the hidden content panel
-            $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+            $('.accordion ' + currentAttrValue).stop().slideDown(300).addClass('open');
         }
 
         e.preventDefault();
