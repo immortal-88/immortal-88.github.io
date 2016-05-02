@@ -255,17 +255,26 @@ p {
   margin: 0 auto;
 	/*padding: 0 10px;*/
 }
+/*.jp-title {*/
+	/*position: absolute;*/
+	/*top: 5px;*/
+	/*left: 60px;*/
+    /*font-size: 18px;*/
+    /*text-align: center;*/
+/*}*/
+/*.jp-title ul {*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*list-style: none;*/
+/*}*/
 .jp-title {
-	position: absolute;
-	top: 5px;
-	left: 60px;
+    float: left;
+    width: 64%;
+    height: 28px;
+    padding: 4px 0 0 25px;
     font-size: 18px;
-    text-align: center;
-}
-.jp-title ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    /* text-align: center; */
+    overflow: hidden;
 }
 .jp-gui {
 	position: relative;
@@ -286,6 +295,7 @@ p {
 	outline: none;
 }
 .jp-play,.jp-pause {
+    float: left;
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -315,7 +325,11 @@ p {
     right: 10px;
     top: 11px;
 }
-
+.jp-current-time {
+    float: right;
+    font-size: 18px;
+    padding: 5px 10px;
+}
 .jp-progress {
     background-color: #cdcdcd;
     overflow: hidden;

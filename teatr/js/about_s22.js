@@ -81,7 +81,7 @@ $(document).ready(function() {
     });
 
     // Y O U T U B E  V I D E O
-    $('#video-gallery').lightGallery({
+    $('#video-gallery, #video-gallery2').lightGallery({
         selector: '.light-gal-item',
         download: false,
         thumbnail: 0,
