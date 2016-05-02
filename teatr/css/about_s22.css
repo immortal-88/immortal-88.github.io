@@ -180,11 +180,11 @@ header {
 
 .top-heading {
 	text-align: center;
-	font: 26px;
+	font-size: 26px;
 }
 .top-subheading {
 	text-align: center;
-	font: 18px;
+	font-size: 18px;
 	color: #464646;
 }
 
@@ -323,7 +323,6 @@ p {
 .jp-time-holder {
     color: black;
     font-size: 18px;
-    font-family: pt-serif;
     line-height: 14px;
     position: absolute;
     right: 10px;
@@ -492,7 +491,6 @@ p {
 	border: none;
 	outline: none;
 	padding: 1%;
-	font-family: pt-serif;
 	font-size: 18px;
 	color: #aaaaaa;
 }
@@ -514,6 +512,18 @@ p {
 	border: none;
 	font-size: 18px;
 	background: #ececec;
+}
+.post {
+    width: 90%;
+    margin: auto;
+}
+.post-date {
+    font-size: 10px;
+    color: gray;
+}
+.post-name {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 949px)
@@ -553,3 +563,14 @@ p {
         margin: 89px auto;
     }
 }*/
+img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+img:hover {
+    filter: none;
+    transition: all .7s;
+    -webkit-filter: grayscale(0%);
+}
