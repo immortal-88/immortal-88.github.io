@@ -23,10 +23,42 @@ header {
   vertical-align: top;
 }
 
+#menu {
+    color: white;
+}
+
+#menu li {
+    vertical-align: top;
+}
+
 #menu-small {
-  top: 18vh;
-  height: 82vh;
-  overflow: auto;
+    top: 85px;
+    height: calc(100vh - 85px);
+    overflow: auto;
+}
+
+#menu-small li {
+    padding: 15px 5%;
+}
+
+#menu-small li p {
+    margin-top: 0;
+}
+
+#menu-small .accordion-section-title {
+    padding: 0;
+}
+.accordion-section-content ul {
+    font-size: 13px;
+}
+
+#menu-small .accordion-section-content ul li {
+    border-top: 1px solid #AAA;
+    border-bottom: none;
+}
+
+#menu-small .menu_main-span {
+    font-size: 13px;
 }
 
 #category {
@@ -557,19 +589,27 @@ p {
   }
 }
 
-/*@media screen and (max-width: 480px)
+@media screen and (max-width: 480px)
 {
-    .header-h {
-        margin: 89px auto;
+    .jp-play, .jp-pause {
+        float: none;
     }
-}*/
-img {
+    .jp-title {
+        text-align: center;
+        padding: 4px 0 0 0px;
+    }
+    .jp-current-time {
+        margin-top: -40px;
+    }
+}
+
+img.grayscale {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
-img:hover {
+img.grayscale:hover {
     filter: none;
     transition: all .7s;
     -webkit-filter: grayscale(0%);

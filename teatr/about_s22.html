@@ -37,8 +37,6 @@
     <!-- Light Gallery -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.18/css/lightgallery.css">
 
-    <!-- ScrollMagic -->
-    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> -->
 </head>
 
 <body>
@@ -74,22 +72,55 @@
 
         </ul>
 
-        <ul class="fe-none" id="menu-small">
+        <ul class="fe-none accordion" id="menu-small">
 
-            <li><p><a href="index.html"> <span class="menu_main-span"> О доме        </span> <br/> <span
-                    class="menu_sub-span"> ёнгын кол       </span> </a></p></li>
-            <li><p><a href="index.html"> <span class="menu_main-span"> Афиша         </span> <br/> <span
-                    class="menu_sub-span"> ляххал          </span> </a></p></li>
-            <li><p><a href="index.html"> <span class="menu_main-span"> Новые дела    </span> <br/> <span
-                    class="menu_sub-span"> лильпи вāрмальт </span> </a></p></li>
-            <li><p><a href="index.html"> <span class="menu_main-span"> Хозяева       </span> <br/> <span
-                    class="menu_sub-span"> театрын мирт    </span> </a></p></li>
-            <li><p><a href="index.html"> <span class="menu_main-span"> Мтровоззрение </span> <br/> <span
-                    class="menu_sub-span"> мир мӯтра       </span> </a></p></li>
-            <li><p><a href="index.html"> <span class="menu_main-span"> Библеотека    </span> <br/> <span
-                    class="menu_sub-span"> ёнгын           </span> </a></p></li>
-            <li><p><a href="index.html"> <span class="menu_main-span"> Контакты      </span> <br/> <span
-                    class="menu_sub-span"> рупитан мāнанл  </span> </a></p></li>
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> О доме        </span> <br/> <span-->
+                    <!--class="menu_sub-span"> ёнгын кол       </span> </a></p></li>-->
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> Афиша         </span> <br/> <span-->
+                    <!--class="menu_sub-span"> ляххал          </span> </a></p></li>-->
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> Новые дела    </span> <br/> <span-->
+                    <!--class="menu_sub-span"> лильпи вāрмальт </span> </a></p></li>-->
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> Хозяева       </span> <br/> <span-->
+                    <!--class="menu_sub-span"> театрын мирт    </span> </a></p></li>-->
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> Мтровоззрение </span> <br/> <span-->
+                    <!--class="menu_sub-span"> мир мӯтра       </span> </a></p></li>-->
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> Библеотека    </span> <br/> <span-->
+                    <!--class="menu_sub-span"> ёнгын           </span> </a></p></li>-->
+            <!--<li><p><a href="index.html"> <span class="menu_main-span"> Контакты      </span> <br/> <span-->
+                    <!--class="menu_sub-span"> рупитан мāнанл  </span> </a></p></li>-->
+            <!--<li id="menu_last-element"><p><a href="#"> <span class="menu_main-span"> Билеты </a></li>-->
+            <li class="accordion-section">
+                <p>
+                    <a class="accordion-section-title menu_main-span inner-box-text" href="#menu-1"> О доме </a>
+                </p>
+                <div id="menu-1" class="accordion-section-content">
+
+                    <!-- <div class="fe-row"> -->
+                    <!-- <div class="fe-col-12"> -->
+                    <ul>
+                        <li><a href="index.html"> История </a></li>
+                        <li><a href="index.html"> Новости </a></li>
+                        <li><a href="index.html"> Сцена </a></li>
+                        <li><a href="index.html"> Документы </a></li>
+                        <li><a href="index.html"> Пресса </a></li>
+                        <li><a href="index.html"> Награды </a></li>
+                        <li><a href="index.html"> Партнеры </a></li>
+                        <li><a href="index.html"> Вакансии </a></li>
+                        <li><a href="index.html"> Книга отзывов </a></li>
+                    </ul>
+                    <!-- </div> -->
+                    <!-- </div> -->
+
+                </div>
+            </li>
+
+
+            <li><p><a href="index.html"> <span class="menu_main-span"> Афиша         </span></a></p></li>
+            <li><p><a href="index.html"> <span class="menu_main-span"> Новые дела    </span></a></p></li>
+            <li><p><a href="index.html"> <span class="menu_main-span"> Хозяева       </span></a></p></li>
+            <li><p><a href="index.html"> <span class="menu_main-span"> Мтровоззрение </span></a></p></li>
+            <li><p><a href="index.html"> <span class="menu_main-span"> Библеотека    </span></a></p></li>
+            <li><p><a href="index.html"> <span class="menu_main-span"> Контакты      </span></a></p></li>
             <li id="menu_last-element"><p><a href="#"> <span class="menu_main-span"> Билеты </a></li>
 
         </ul>
@@ -512,7 +543,7 @@
                             <div class="next-button photo-buttons"><img src="icon/img/next_button.png" alt=""></div>
                             <div id="lightgallery" class="owl-carousel owl-theme">
                                 <div class="item" data-src="http://1.bp.blogspot.com/-y8SPaO6KnVA/UOh1kJWZifI/AAAAAAAAheA/4Lj8eQx7AVw/s1600/sydney+australia+rubber+duck+6.jpg">
-                                    <img src="https://flavorwire.files.wordpress.com/2016/04/5181176-3x2-940x627.jpg?w=205&h=138&crop=1"/>
+                                    <img class="grayscale" src="https://flavorwire.files.wordpress.com/2016/04/5181176-3x2-940x627.jpg?w=205&h=138&crop=1"/>
                                 </div>
                                 <div class="item" data-src="img/big_image.jpg">
                                     <img src="img/s22_pic2.jpg"/>
@@ -545,22 +576,22 @@
                                 <!--<div class="light-gal-item" data-src="https://www.youtube.com/watch?v=G8KpPw303PY">-->
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=G8KpPw303PY">
                                     <!--<a class="light-gal-item" href="https://www.youtube.com/watch?v=G8KpPw303PY"-->
-                                    <img src="http://img.youtube.com/vi/G8KpPw303PY/hqdefault.jpg"/>
+                                    <img class="grayscale" src="http://img.youtube.com/vi/G8KpPw303PY/hqdefault.jpg"/>
                                 </div>
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=PHAc3_MEjgQ">
-                                    <img src="http://img.youtube.com/vi/PHAc3_MEjgQ/hqdefault.jpg"/>
+                                    <img class="grayscale" src="http://img.youtube.com/vi/PHAc3_MEjgQ/hqdefault.jpg"/>
                                 </div>
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=kFv4qYZQz1g">
-                                    <img src="http://img.youtube.com/vi/kFv4qYZQz1g/hqdefault.jpg"/>
+                                    <img class="grayscale" src="http://img.youtube.com/vi/kFv4qYZQz1g/hqdefault.jpg"/>
                                 </div>
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=ZpMp7RK2TMQ">
-                                    <img src="http://img.youtube.com/vi/ZpMp7RK2TMQ/hqdefault.jpg"/>
+                                    <img class="grayscale" src="http://img.youtube.com/vi/ZpMp7RK2TMQ/hqdefault.jpg"/>
                                 </div>
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=N8l1Cjnm9Wg">
-                                    <img src="http://img.youtube.com/vi/N8l1Cjnm9Wg/hqdefault.jpg"/>
+                                    <img class="grayscale" src="http://img.youtube.com/vi/N8l1Cjnm9Wg/hqdefault.jpg"/>
                                 </div>
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=e3PdcKcUvDY">
-                                    <img src="http://img.youtube.com/vi/e3PdcKcUvDY/hqdefault.jpg"/>
+                                    <img class="grayscale" src="http://img.youtube.com/vi/e3PdcKcUvDY/hqdefault.jpg"/>
                                 </div>
                             </div>
                         </div>
@@ -627,27 +658,6 @@
                         <div id="accordion-1" class="accordion-section-content activeContent">
                             <div id="tab1" class="tab tab-active fe-col-12">
                                 <!-- P H O T O   C A R O U S E L -->
-                                <!-- <div class="prev-button photo-buttons"><img src="icon/img/prev_button.png" alt=""></div>
-                                <div class="next-button photo-buttons"><img src="icon/img/next_button.png" alt=""></div> -->
-                                <!--<div id="lightgallery2" class="owl-carousel owl-theme">-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic1.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic2.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic3.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic4.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic1.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic2.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic3.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--<div><a class="fancybox" href="img/big_image.jpg"><img src="img/s22_pic4.jpg"-->
-                                <!--alt=""/></a></div>-->
-                                <!--</div>-->
-                                <!-- P H O T O   C A R O U S E L -->
                                 <div id="lightgallery2" class="owl-carousel owl-theme">
                                     <div class="item" data-src="http://1.bp.blogspot.com/-y8SPaO6KnVA/UOh1kJWZifI/AAAAAAAAheA/4Lj8eQx7AVw/s1600/sydney+australia+rubber+duck+6.jpg">
                                         <img src="https://flavorwire.files.wordpress.com/2016/04/5181176-3x2-940x627.jpg?w=205&h=138&crop=1"/>
@@ -683,28 +693,6 @@
 
                         <div id="accordion-2" class="accordion-section-content">
                             <!-- V I D E O   C A R O U S E L -->
-                            <!-- <div class="prev-button video-buttons"><img src="icon/img/prev_button.png" alt=""></div>
-                            <div class="next-button video-buttons"><img src="icon/img/next_button.png" alt=""></div> -->
-                            <!--<div class="owl-carousel owl-theme fe-col-12">-->
-                            <!--<div class="item-video"><a class="owl-video"-->
-                            <!--href="https://www.youtube.com/watch?v=PM5BCjNswd0"></a>-->
-                            <!--</div>-->
-                            <!--<div class="item-video"><a class="owl-video"-->
-                            <!--href="https://www.youtube.com/watch?v=PHAc3_MEjgQ"></a>-->
-                            <!--</div>-->
-                            <!--<div class="item-video"><a class="owl-video"-->
-                            <!--href="https://www.youtube.com/watch?v=1Kl4rNUTWCA"></a>-->
-                            <!--</div>-->
-                            <!--<div class="item-video"><a class="owl-video"-->
-                            <!--href="https://www.youtube.com/watch?v=kMhw5MFYU0s"></a>-->
-                            <!--</div>-->
-                            <!--<div class="item-video"><a class="owl-video"-->
-                            <!--href="https://www.youtube.com/watch?v=kMhw5MFYU0s"></a>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!-- V I D E O   C A R O U S E L -->
-                            <!--<div class="prev-button video-buttons"><img src="icon/img/prev_button.png" alt=""></div>-->
-                            <!--<div class="next-button video-buttons"><img src="icon/img/next_button.png" alt=""></div>-->
                             <div id="video-gallery2" class="owl-carousel owl-theme">
                                 <div class="light-gal-item" data-src="https://www.youtube.com/watch?v=G8KpPw303PY">
                                     <img src="http://img.youtube.com/vi/G8KpPw303PY/hqdefault.jpg"/>
