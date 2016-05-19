@@ -1,28 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="js/slider.js"></script>
-  <script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-  <div class="container">
+<!--T E M P L A T I N G-->
+<script type="text/template" id="intro">
+
+    <div class="page">
+        <h3 class="title"><%= data[0].name %></h3>
+        <img class="picture" src="<%= data[0].photoPath %>" alt="">
+        <p class="paragraph"><%= data.status %></p>
+        <hr>
+        <p class="paragraph">Хочу учить фронтенд потому что:</p>
+        <ul class="list">
+            <% for (var i = 0; i < data.length; i++) { %>
+            <li><%= data[i].reason %></li>
+            <% }; %>
+        </ul>
+        <hr>
+        <p class="paragraph">Мой телефон: <%= data[0].phone %></p>
+        <p class="paragraph" style="margin-top: 20px">
+            Мой профиль вконтакте: <a href="<%= data[0].vk %>" target="_blank">vk.com</a>
+        </p>
+        <hr>
+        <p class="paragraph">Мой фидбек: <%= data[0].feedback %></p>
+    </div>
+
+</script>
+<!--P L U G G I N   D E M O-->
+<div class="container">
     <div class="carousel-arrow-left"><i class="fa fa-angle-left fa-4x"></i></div>
     <div class="carousel-hider">
-      <ul class="carousel-list">
-        <li class="carousel-element first"><img src="img/t-34.jpg" alt=""><p>Т-34-85</p></li>
-        <li class="carousel-element"><img src="img/omaha.jpg" alt=""><p>Высадка в Нормандии</p></li>
-        <li class="carousel-element"><img src="img/il2.jpg" alt=""><p>Ил-2</p></li>
-        <li class="carousel-element"><img src="img/tiger.jpg" alt=""><p>PzVI Panther</p></li>
-        <li class="carousel-element"><img src="img/tiger2.jpg" alt=""><p>PzVI TigerII</p></li>
-        <li class="carousel-element"><img src="img/dday.jpg" alt=""><p>День Д</p></li>
-      </ul>
+        <ul class="carousel-list">
+            <li class="carousel-element first"><img src="img/t-34.jpg" alt="">
+                <p>Т-34-85</p>
+            </li>
+            <li class="carousel-element"><img src="img/omaha.jpg" alt="">
+                <p>Высадка в Нормандии</p>
+            </li>
+            <li class="carousel-element"><img src="img/il2.jpg" alt="">
+                <p>Ил-2</p>
+            </li>
+            <li class="carousel-element"><img src="img/tiger.jpg" alt="">
+                <p>PzVI Panther</p>
+            </li>
+            <li class="carousel-element"><img src="img/tiger2.jpg" alt="">
+                <p>PzVI TigerII</p>
+            </li>
+            <li class="carousel-element"><img src="img/dday.jpg" alt="">
+                <p>День Д</p>
+            </li>
+        </ul>
     </div>
     <div class="carousel-arrow-right"><i class="fa fa-angle-right fa-4x"></i></div>
-  </div>
+</div>
 </body>
+
 </html>

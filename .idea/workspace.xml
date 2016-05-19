@@ -2,9 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js12/img/photo.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/about_s22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/audio/ducktales_remastered.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/css/about_s22.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/css/fe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/css/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/fonts/pt-serif/PTF55F.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/fonts/pt-serif/PTF56F.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/fonts/pt-serif/PTF75F.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/fonts/pt-serif/PTF76F.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/fonts/pt-serif/PTZ55F.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/fonts/pt-serif/PTZ56F.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/about-s22-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrow-left-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrow-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrow-right-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrow-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrows2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/arrows3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/buy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/event.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/glasses.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/icon-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/instagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/logo_inverse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/logo_invert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/menu-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/news.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/next_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/prev_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/read-piece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/teatr-logo-small-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/teatr-logo-small-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/vk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/icon/img/you-tube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/about-s22-header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/big_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/image-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/image-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/image-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/loop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/s22_pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/s22_pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/s22_pic3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/img/s22_pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/about_s22.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/fe-event-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/fe-event-main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/fe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/jquery-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/jquery.jplayer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/jquery.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/js/waypoints.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teatr/video/video.m4v" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/html1/images/circle photo.png" afterPath="$PROJECT_DIR$/html1/images/photo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/about_s22.html" afterPath="$PROJECT_DIR$/teatr/about_s22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/css/about_s22.css" afterPath="$PROJECT_DIR$/teatr/css/about_s22.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js12/index.html" afterPath="$PROJECT_DIR$/js12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js12/js/main.js" afterPath="$PROJECT_DIR$/js12/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js12/styles.css" afterPath="$PROJECT_DIR$/js12/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teatr/index.html" afterPath="$PROJECT_DIR$/teatr/index.html" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,31 +93,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about_s22.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/teatr/about_s22.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js12/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.022900764">
-              <caret line="605" column="61" selection-start-line="605" selection-start-column="61" selection-end-line="605" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.27480915">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_s22.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teatr/css/about_s22.css">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js12/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.509804">
-              <caret line="555" column="0" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fe-event-main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teatr/js/fe-event-main.js">
+      <file leaf-file-name="tmpl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js12/js/tmpl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -57,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accordion.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teatr/js/accordion.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js12/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -84,18 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js4/dynamic_page.js" />
-        <option value="$PROJECT_DIR$/js6/stylesheet.css" />
-        <option value="$PROJECT_DIR$/js6/timer_2.js" />
-        <option value="$PROJECT_DIR$/js6/styles.css" />
-        <option value="$PROJECT_DIR$/js6/timer.js" />
-        <option value="$PROJECT_DIR$/js6/index.html" />
-        <option value="$PROJECT_DIR$/med-site/css/main.css" />
-        <option value="$PROJECT_DIR$/med-site/diagnosis.html" />
-        <option value="$PROJECT_DIR$/med-site/index.html" />
-        <option value="$PROJECT_DIR$/med-site/limfostaz.html" />
-        <option value="$PROJECT_DIR$/med-site/patients_photo.html" />
-        <option value="$PROJECT_DIR$/med-site/public.html" />
         <option value="$PROJECT_DIR$/med-site/treatment.html" />
         <option value="$PROJECT_DIR$/med-site/comments.html" />
         <option value="$PROJECT_DIR$/med-site/contacts.html" />
@@ -130,11 +186,23 @@
         <option value="$PROJECT_DIR$/teatr2/about_s22.html" />
         <option value="$PROJECT_DIR$/Task6/index.html" />
         <option value="$PROJECT_DIR$/teatr/js/about_s22.js" />
-        <option value="$PROJECT_DIR$/teatr/css/main.css" />
-        <option value="$PROJECT_DIR$/teatr/js/fe-event-main.js" />
         <option value="$PROJECT_DIR$/teatr/js/accordion.js" />
-        <option value="$PROJECT_DIR$/teatr/about_s22.html" />
+        <option value="$PROJECT_DIR$/teatr/js/waypoints.init.js" />
+        <option value="$PROJECT_DIR$/teatr/js/fe-event-main.js" />
+        <option value="$PROJECT_DIR$/teatr/css/accordion.css" />
         <option value="$PROJECT_DIR$/teatr/css/about_s22.css" />
+        <option value="$PROJECT_DIR$/teatr/js/menu.js" />
+        <option value="$PROJECT_DIR$/teatr/about_s22.html" />
+        <option value="$PROJECT_DIR$/teatr/css/main.css" />
+        <option value="$PROJECT_DIR$/teatr/css/repertuar.css" />
+        <option value="$PROJECT_DIR$/teatr/index.html" />
+        <option value="$PROJECT_DIR$/teatr/template.html" />
+        <option value="$PROJECT_DIR$/teatr/css/menu.css" />
+        <option value="$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/000_HelloWorld.html" />
+        <option value="$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/001_GetInput.html" />
+        <option value="$PROJECT_DIR$/js12/styles.css" />
+        <option value="$PROJECT_DIR$/js12/index.html" />
+        <option value="$PROJECT_DIR$/js12/js/main.js" />
       </list>
     </option>
   </component>
@@ -144,9 +212,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="63" />
     <option name="y" value="23" />
-    <option name="width" value="1420" />
+    <option name="width" value="1361" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -174,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,8 +261,18 @@
               <option name="myItemId" value="immortal-88.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="teatr" />
+              <option name="myItemId" value="immortal-88.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="immortal-88.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,10 +285,17 @@
               <option name="myItemId" value="immortal-88.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,20 +311,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/008_Tables.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/divan/libs" />
-      <recent name="$PROJECT_DIR$/divan/js" />
-      <recent name="$PROJECT_DIR$/divan/fonts" />
-      <recent name="$PROJECT_DIR$/js10/libs" />
-      <recent name="$PROJECT_DIR$/js10/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/teatr/css" />
       <recent name="$PROJECT_DIR$/teatr/js" />
       <recent name="$PROJECT_DIR$/divan/libs/fancybox" />
       <recent name="$PROJECT_DIR$/divan/css" />
+      <recent name="$PROJECT_DIR$/js10/libs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js12/img" />
+      <recent name="$PROJECT_DIR$/divan/libs" />
+      <recent name="$PROJECT_DIR$/divan/js" />
+      <recent name="$PROJECT_DIR$/divan/fonts" />
       <recent name="$PROJECT_DIR$/js10/libs" />
     </key>
   </component>
@@ -334,26 +421,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1420" height="797" extended-state="0" />
+    <frame x="63" y="23" width="1361" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20014296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1597015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.038189534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33049646" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3026874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.038189534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -364,8 +451,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33049646" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32531825" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13724089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3026874" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15010722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -398,15 +486,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/teatr/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8015267">
-          <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/js/jquery.jplayer.min.js">
+    <entry file="file://$PROJECT_DIR$/teatr/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -414,7 +494,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/js/owl.carousel.min.js">
+    <entry file="file://$PROJECT_DIR$/teatr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html1/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teatr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024427481">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html1/images/photo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/000_HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.129771">
+          <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/001_GetInput.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16030534">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/002_CoursePlanner_Static.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16030534">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/003_CoursePlanner_AngularJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.114503816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/008_Tables.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -422,7 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/css/owl.carousel.min.css">
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/007_Buttons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -430,44 +571,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/js/about_s22.js">
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/006_CoursePlanner_AngularJS_CheckBox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5022091">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.6335878">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/005_CoursePlanner_AngularJS_Add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/js/accordion.js">
+    <entry file="file://$USER_HOME$/Downloads/angular-js-materials/001_Introduction/Samples/004_CoursePlanner_AngularJS_Repeat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state vertical-scroll-proportion="-0.6946565">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/js/fe-event-main.js">
+    <entry file="file://$PROJECT_DIR$/js12/js/tmpl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/css/about_s22.css">
+    <entry file="file://$PROJECT_DIR$/js12/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.509804">
-          <caret line="555" column="0" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teatr/about_s22.html">
+    <entry file="file://$PROJECT_DIR$/js12/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022900764">
-          <caret line="605" column="61" selection-start-line="605" selection-start-column="61" selection-end-line="605" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27480915">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding />
         </state>
       </provider>
