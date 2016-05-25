@@ -1,0 +1,38 @@
+.heading {
+    width: 90%;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.page {
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    background: gainsboro;
+    border-radius: 10px;
+}
+.question {
+    margin: 5px 0 5px 30px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.option {
+    margin-left: 40px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+input[type="checkbox"] {
+    margin: 5px 0 6px 40px;
+    padding-bottom: 5px;
+}
+.check {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background: gray;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
