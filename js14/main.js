@@ -109,11 +109,3 @@ var rightAnswersArrFill = function () {
 var radioReset = function() {
     $('input[type="radio"]').prop('checked', false);
 };
-
-
-
-
-
-
-
-

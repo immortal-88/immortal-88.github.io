@@ -1,0 +1,56 @@
+.title {
+    text-align: center;
+    padding-top: 100px;
+}
+.ugol {
+    font-family: google_font, sans-serif;
+    font-size: 96px;
+    letter-spacing: 5px;
+}
+.U {
+    color: red;
+}
+.G {
+    color: dodgerblue;
+}
+.O {
+    color: forestgreen;
+}
+.L {
+    color: yellow;
+}
+.b {
+    color: dodgerblue;
+}
+.TM {
+    font-family: "Helvetica Neue", sans-serif;
+    vertical-align: top;
+    color: #1a1a1a;
+}
+.search-box {
+    text-align: center;
+}
+.search{
+    width: 40%;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+    margin: 0 auto 20px ;
+}
+.button {
+    width: 6%;
+    font-size: 16px;
+    outline: none;
+}
+#box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    width: 50%;
+    max-width: 400px;
+    height: 300px;
+    float: left;
+    /*height: 300px;*/
+}
