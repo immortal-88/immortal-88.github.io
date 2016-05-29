@@ -335,7 +335,7 @@ $arial_regular: 'Arial Regular';
 
 .accordion {
   float: left;
-  width: 500px;
+  width: 575px;
   overflow: hidden;
   padding-left: 30px;
   background: #f7f7f7;
@@ -343,7 +343,7 @@ $arial_regular: 'Arial Regular';
 
 /*----- Section Titles -----*/
 .accordion-section-title {
-  width: 452px;
+  width: 530px;
   padding: 5px;
   display: inline-block;
   background: white;
@@ -369,7 +369,7 @@ $arial_regular: 'Arial Regular';
 
 /*----- Section Content -----*/
 .accordion-section-content {
-  width: 460px;
+  width: 530px;
   padding: 15px;
   display: none;
 }

@@ -2,194 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c8097b-f91c-4780-bb95-be2292ea642e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-b-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-b-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-bi-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-bi-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-c-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-c-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-l-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-l-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-li-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-li-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-m-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-m-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-mi-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-mi-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-r-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-r-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-ri-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-ri-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-bi-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-c-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-l-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-li-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-m-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-mi-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-r-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/fonts/ubuntu-ri-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/libs/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/libs/owlcarousel/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/libs/owlcarousel/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/libs/owlcarousel/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/app/scss/styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js20/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/css/media.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoBold/RobotoBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoBold/RobotoBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoBold/RobotoBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoLight/RobotoLight.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoLight/RobotoLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoLight/RobotoLight.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoMedium/RobotoMedium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoMedium/RobotoMedium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoMedium/RobotoMedium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoRegular/RobotoRegular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoRegular/RobotoRegular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/fonts/RobotoRegular/RobotoRegular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/blood.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/circles_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/circles_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/comments_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/comments_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/contacts_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/contacts_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/context-photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/diploma.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/doctor-photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/house_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/house_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/instagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/limfoyzli.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/med-case_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/med-case_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/med_bus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/med_bus_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/news-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/news-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/news-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/news-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/next_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/note_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/note_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/pay_services.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/person_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/person_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/photo-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/prev_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/reab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/syrenge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/vkontakte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/woman-1-after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/woman-1-before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/woman-2-after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/img/woman-2before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/js/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/js/google_map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/bootstrap/bootstrap-grid-3.3.1.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/countdown/jquery.countdown-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/countdown/jquery.countdown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/countdown/jquery.countdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/countdown/jquery.plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/fancybox_loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/fancybox_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/fancybox_sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/helpers/jquery.fancybox-media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/fancybox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/font-awesome-4.2.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/font-awesome-4.2.0/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/font-awesome-4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/font-awesome-4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/html5shiv/es5-shim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/html5shiv/html5shiv-printshiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/html5shiv/html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/html5shiv/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/jquery-mousewheel/jquery.mousewheel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/jquery/jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/landing-nav/navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.carousel.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.theme.default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.theme.default.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.theme.green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.theme.green.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/assets/owl.video.play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/owl.carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/owl.carousel.2/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/respond/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/scrollto/jquery.scrollTo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/app/libs/waypoints/waypoints-1.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/blood.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/circles_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/circles_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/comments_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/comments_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/contacts_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/contacts_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/context-photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/diploma.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/doctor-photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/house_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/house_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/instagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/limfoyzli.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/med-case_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/med-case_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/med_bus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/med_bus_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/news-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/news-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/news-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/news-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/next_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/note_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/note_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/pay_services.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/person_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/person_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/photo-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/prev_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/reab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/syrenge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/vkontakte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/woman-1-after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/woman-1-before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/woman-2-after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/images/woman-2before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/js/all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/dist/js/min/all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js18grunt/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js20/app/css/styles.css" afterPath="$PROJECT_DIR$/js20/app/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js20/app/scss/styles.scss" afterPath="$PROJECT_DIR$/js20/app/scss/styles.scss" />
     </list>
     <ignored path="immortal-88.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -220,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js20/app/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35346097">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -248,8 +62,8 @@
             <state vertical-scroll-proportion="-19.791666">
               <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
               <folding>
-                <marker date="1464543321000" expanded="true" signature="1957:1974" placeholder="{...}" />
-                <marker date="1464543321000" expanded="true" signature="6581:6657" placeholder="{...}" />
+                <marker date="1464543938000" expanded="true" signature="1957:1974" placeholder="{...}" />
+                <marker date="1464543938000" expanded="true" signature="6581:6657" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -267,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js20/app/scss/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.27451">
-              <caret line="303" column="14" selection-start-line="303" selection-start-column="14" selection-end-line="303" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.8566879">
+              <caret line="371" column="12" selection-start-line="371" selection-start-column="12" selection-end-line="371" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -915,8 +729,8 @@
         <state vertical-scroll-proportion="-19.791666">
           <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
           <folding>
-            <marker date="1464543321000" expanded="true" signature="1957:1974" placeholder="{...}" />
-            <marker date="1464543321000" expanded="true" signature="6581:6657" placeholder="{...}" />
+            <marker date="1464543938000" expanded="true" signature="1957:1974" placeholder="{...}" />
+            <marker date="1464543938000" expanded="true" signature="6581:6657" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -925,14 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.666666">
           <caret line="158" column="54" selection-start-line="158" selection-start-column="54" selection-end-line="158" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js20/app/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.27451">
-          <caret line="303" column="14" selection-start-line="303" selection-start-column="14" selection-end-line="303" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -957,11 +763,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js20/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35346097">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js20/app/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8566879">
+          <caret line="371" column="12" selection-start-line="371" selection-start-column="12" selection-end-line="371" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
