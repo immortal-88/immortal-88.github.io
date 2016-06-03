@@ -6,7 +6,7 @@
 "use strict";
 
 // Создаем объект
-var data = {
+let data = {
     title: {
         value: "Тест по Второй мировой войне"
     },
@@ -48,7 +48,7 @@ localStorage.setItem('test', JSON.stringify(data));
 console.log(localStorage.getItem('test'));
 
 // Берем объект из localStorage
-var returnData = JSON.parse(localStorage.getItem('test'));
+let returnData = JSON.parse(localStorage.getItem('test'));
 console.log(returnData);
 
 
@@ -56,9 +56,9 @@ console.log(returnData);
 
 // Рендеринг с помощью LoDash шаблонизатора
 $(function () {
-    var html = _.template($('#testId').html());
+    let html = _.template($('#testId').html());
 
-    var content = html(returnData);
+    let content = html(returnData);
     $('body').append(content);
 
     // OnClick operation
@@ -79,29 +79,29 @@ $(function () {
 // L O G I C S   W I T H   D A T A
 
 // Берем данные из радиобаттонов
-var answersArr = [];
-answersArr.fillArray = function (event) {
-    var target = event.target;
+let answersArr = [];
+answersArr.fillArray = (event) => {
+    let target = event.target;
 
     if (target.getAttribute('data-go')) {
 
-        var labelValue = target.getAttribute('data-label');
-        var number = target.getAttribute('data-num');
+        let labelValue = target.getAttribute('data-label');
+        let number = target.getAttribute('data-num');
         answersArr[number] = labelValue;
         console.log('answersArr', answersArr);
     }
 };
 
 // Создаем массив правильных ответов
-var rightAnswersArr = [];
-var rightAnswersArrFill = function () {
-    for (var i = 0; i < 3; i++) {
+let rightAnswersArr = [];
+let rightAnswersArrFill = () => {
+    for (let i = 0; i < 3; i++) {
         rightAnswersArr.push(data.list_question[i].answer);
     }
     return rightAnswersArr;
 };
 
 // Обнуление радиобаттонов
-var radioReset = function() {
+let radioReset = () => {
     $('input[type="radio"]').prop('checked', false);
 };

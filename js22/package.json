@@ -1,0 +1,15 @@
+{
+  "name": "js22",
+  "version": "1.0.0",
+  "description": "This is Babel and Jasmine test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Gusakov",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp-babel": "^6.1.2"
+  }
+}

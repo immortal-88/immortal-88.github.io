@@ -6,39 +6,24 @@
 "use strict";
 
 // Создаем объект
+
 var data = {
     title: {
         value: "Тест по Второй мировой войне"
     },
-    list_question: [
-        {
-            question: "Когда началась Вторая мировая война",
-            options: [
-                "1940",
-                "1941",
-                "1939"
-            ],
-            answer: "1939"
-        },
-        {
-            question: "Какая битва повлияла на исход всей Второй мировой войны?",
-            options: [
-                "Битва в Арденском лесу",
-                "Сталинградская битва",
-                "Битва у Аль-Аламейна"
-            ],
-            answer: "Сталинградская битва"
-        },
-        {
-            question: "Кто возглавлял Африканскую компанию со стороны Германии?",
-            options: [
-                "Гудериан",
-                "Роммель",
-                "Кох"
-            ],
-            answer: "Роммель"
-        }
-    ]
+    list_question: [{
+        question: "Когда началась Вторая мировая война",
+        options: ["1940", "1941", "1939"],
+        answer: "1939"
+    }, {
+        question: "Какая битва повлияла на исход всей Второй мировой войны?",
+        options: ["Битва в Арденском лесу", "Сталинградская битва", "Битва у Аль-Аламейна"],
+        answer: "Сталинградская битва"
+    }, {
+        question: "Кто возглавлял Африканскую компанию со стороны Германии?",
+        options: ["Гудериан", "Роммель", "Кох"],
+        answer: "Роммель"
+    }]
 };
 
 // L O C A L S T O R A G E   O P E R A T I O N S
@@ -50,7 +35,6 @@ console.log(localStorage.getItem('test'));
 // Берем объект из localStorage
 var returnData = JSON.parse(localStorage.getItem('test'));
 console.log(returnData);
-
 
 // R E N D E R I N G   W I T H   L O D A S H
 
@@ -72,9 +56,8 @@ $(function () {
         }
 
         radioReset();
-    })
+    });
 });
-
 
 // L O G I C S   W I T H   D A T A
 
@@ -94,7 +77,7 @@ answersArr.fillArray = function (event) {
 
 // Создаем массив правильных ответов
 var rightAnswersArr = [];
-var rightAnswersArrFill = function () {
+var rightAnswersArrFill = function rightAnswersArrFill() {
     for (var i = 0; i < 3; i++) {
         rightAnswersArr.push(data.list_question[i].answer);
     }
@@ -102,6 +85,6 @@ var rightAnswersArrFill = function () {
 };
 
 // Обнуление радиобаттонов
-var radioReset = function() {
+var radioReset = function radioReset() {
     $('input[type="radio"]').prop('checked', false);
 };

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LocalStorage</title>
+
+    <link rel="stylesheet" type="text/css" href="app/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="app/js/lodash.core.js"></script>
+    <script src="app/js/pov.js"></script>
+    <script src="dist/main.js"></script>
+</head>
+<body>
+
+<!-- L O D A S H   T E M P L A T I N G   I M P L E M E N T A T I O N-->
+<script type="text/template" id="testId">
+
+    <div class="page">
+        <h2 class="heading"><%= returnData.title.value %></h2>
+
+        <% returnData.list_question.forEach(function(item, n) { %>
+        <data-div onClick="answersArr.fillArray(event);" >
+        <h3 class="question"><%- item.question %></h3>
+
+            <% item.options.forEach(function(variant, i) { %>
+            <label>
+                <input id="ch<%=n+''+i%>" data-label="<%=variant%>" data-num="<%=n%>" data-go="true"
+                       class="option" type="radio" name="ch<%=n%>"> <%= variant %>
+            </label></br>
+            <% }); %>
+        </data-div>
+        <% }); %>
+
+        <input class="check" type="submit" value="Проверить">
+    </div>
+
+</script>
+</body>
+</html>
