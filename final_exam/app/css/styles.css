@@ -147,7 +147,8 @@ header {
     color: #cccccc; }
 
 .people__container {
-  display: inline-block; }
+  display: inline-block;
+  max-width: 940px; }
 
 .sliders,
 .people,
@@ -187,12 +188,9 @@ header {
   border: 2px solid #ff4e50;
   border-radius: 20px; }
 
-.grid-item {
-  width: 95%;
-  height: 100px;
-  background: gray;
-  border-radius: 5px;
-  margin: 10px 2.5%; }
+.grid {
+  max-width: 940px;
+  margin: auto; }
 
 .search__container {
   width: 510px;
@@ -283,6 +281,15 @@ footer {
     height: 400px;
     overflow: hidden;
     margin: 0 1.65% 0 1.65%; }
+  .grid-item {
+    width: 30%;
+    float: left;
+    height: 310px;
+    border-radius: 5px;
+    background: gray;
+    margin: 1.6%; }
+  .grid-item--width2 {
+    width: 63%; }
   .search__box {
     float: left;
     margin-top: 15px; }
