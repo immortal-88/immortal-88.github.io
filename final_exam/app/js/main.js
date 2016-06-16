@@ -18,15 +18,6 @@ $(function() {
         }
     });
 
-    // M A S O N R Y
-    //$('.grid').masonry({
-    //    // options
-    //    itemSelector: '.grid-item',
-    //    // use element for option
-    //    columnWidth: '.grid-item',
-    //    percentPosition: true
-    //});
-
     // I S O T O P E
     $('.grid').isotope({
         itemSelector: '.grid-item',
@@ -39,11 +30,4 @@ $(function() {
 
 });
 
-// M A S O N R Y
-//var elem = document.querySelector('.grid');
-//var msnry = new Masonry( elem, {
-//    // options
-//    itemSelector: '.grid-item',
-//    columnWidth: 200
-//});
 
