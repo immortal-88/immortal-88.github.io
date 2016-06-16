@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  transition: all .6s;
+  //transition: all .6s;
 }
 
 body {
@@ -14,6 +14,7 @@ header {
   height: 540px;
   background: url(../img/background.jpg) no-repeat center;
   background-size: cover;
+  transition: all .6s;
 }
 
 .header__enter {
@@ -240,7 +241,7 @@ header {
 }
 
 .search__container {
-  width: 510px;
+  max-width: 510px;
   display: inline-block;
 }
 
@@ -405,7 +406,10 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
-
+  .people__box {
+    width: 25%;
+    float: left;
+  }
 }
 
 

@@ -1,7 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
-  transition: all .6s; }
+  padding: 0; }
 
 body {
   font-size: 14px; }
@@ -9,7 +8,8 @@ body {
 header {
   height: 540px;
   background: url(../img/background.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  transition: all .6s; }
 
 .header__enter {
   width: 100%;
@@ -201,7 +201,7 @@ header {
   margin: 1% 1.6%; }
 
 .search__container {
-  width: 510px;
+  max-width: 510px;
   display: inline-block; }
 
 .search__question {
@@ -322,3 +322,8 @@ footer {
     width: 25%;
     float: left;
     margin-top: 16px; } }
+
+@media screen and (min-width: 1440px) {
+  .people__box {
+    width: 25%;
+    float: left; } }
