@@ -27,6 +27,9 @@ header {
     border-radius: 20px;
     padding: 10px; }
 
+.header__link {
+  text-decoration: none; }
+
 .header__title {
   width: 100%;
   font-family: montserratbold, sans-serif;
@@ -200,6 +203,9 @@ header {
   border-radius: 5px;
   margin: 1% 1.6%; }
 
+.grid-item1 {
+  overflow: hidden; }
+
 .search__container {
   max-width: 510px;
   display: inline-block; }
@@ -296,9 +302,10 @@ footer {
     width: 63%; }
   .search__box {
     float: left;
-    margin-top: 15px; }
+    margin: 15px 5px 0 0; }
   .header__button--search {
-    float: right; }
+    float: right;
+    margin-left: 5px; }
   footer {
     clear: both; }
   .footer__title {
