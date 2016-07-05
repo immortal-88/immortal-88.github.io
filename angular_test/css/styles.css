@@ -1,6 +1,6 @@
-div, input, button {
-    transition: all .6s;
-}
+/*div, input, button {*/
+    /*transition: all .6s;*/
+/*}*/
 
 .heading {
     font-family: rust, sans-serif;
@@ -13,6 +13,13 @@ div, input, button {
 
 a {
     border: none !important;
+}
+.arrow:after {
+    content: '\25b2';
+    font-size: 8px;
+}
+.arrow.reverse:after {
+    content: '\25bc';
 }
 
 .form-inline {
