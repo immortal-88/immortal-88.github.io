@@ -1,19 +1,99 @@
 <!DOCTYPE html>
-<html ng-app='app'>
-  <head>
+<html ng-app='tableApp'>
+<head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Angular test</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="bower_components/angular-xeditable/dist/css/xeditable.css" rel="stylesheet">
+
+    <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="main.js"></script>
-  </head>
-  <body>
-    <div ng-controller='firstCtrl'>
-      <input type="text" ng-model='myFactory.hello'>
-      <button type="button" ng-click="myBookmark()">{{myFactory.hello}}</button>
+    <script src="bower_components/angular-xeditable/dist/js/xeditable.js"></script>
+</head>
+
+<body ng-controller='tableCtrl'>
+<!-- Title -->
+<div class="container">
+    <div class="row">
+        <h1 class="page-header text-center heading">Famous people table</h1>
+        <h4 class="text-center">Add a new person: </h4>
     </div>
-    <div ng-controller='secondCtrl'>
-      <input type="text" ng-model='myFactory.hello'>
-      <button type="button" ng-click="myBookmark1()">{{myFactory.hello}}</button>
+</div>
+<!-- Form -->
+<div class="container container-wide">
+    <div class="row">
+        <form class="form-inline">
+            <div class="form-group">
+                <div class="col-md-2">
+                    <input type="text" ng-model="name" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <input type="text" ng-model="lastName" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <input type="text" ng-model="country" placeholder="Country">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <input type="text" ng-model="occupation" placeholder="Occupation">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <button class="btn btn-warning" ng-click="addItem(name, lastName, country, occupation)">Добавить
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
-  </body>
+</div>
+<!-- Table -->
+<div class="container">
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>
+                    <button ng-click="sortBy('firstName')">Name</button>
+                        <span ng-show="propertyName === 'name'" class="fa fa-caret-down"></span>
+                    </a>
+                </th>
+                <th>
+                    <button ng-click="sortBy('lastName')">Last name</button>
+                    <span ng-show="propertyName === 'lastName'" class="fa fa-caret-down"></span>
+                </th>
+                <th>
+                    <button ng-click="sortBy('country')">Country</button>
+                    <span ng-show="propertyName === 'country'" class="fa fa-caret-down"></span>
+                </th>
+                <th>
+                    <button ng-click="sortBy('occupation')">Occupation</button>
+                    <span ng-show="propertyName === 'occupation'" class="fa fa-caret-down"></span>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in list.items | orderBy:propertyName">
+                    <td><a href="" editable-text="item.firstName">{{item.firstName || 'no name'}}</a></td>
+                    <td><a href="" editable-text="item.lastName">{{item.lastName || 'no last name'}}</a></td>
+                    <td><a href="" editable-text="item.country">{{item.country || 'no country'}}</a></td>
+                    <td><a href="" editable-text="item.occupation">{{item.occupation || 'no occupation'}}</a></td>
+                    <td><button class="btn btn-danger" ng-click="removeItem($index)">Удалить</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
 </html>

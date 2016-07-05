@@ -1,0 +1,12 @@
+.heading {
+    font-family: rust, sans-serif;
+    font-size: 56px;
+}
+
+.container-wide {
+    padding: 50px 0 50px 0;
+}
+
+a {
+    border: none !important;
+}
