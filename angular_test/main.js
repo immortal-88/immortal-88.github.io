@@ -1,3 +1,5 @@
+
+// M O D E L
 var model = {
     items: [
         {
@@ -44,16 +46,17 @@ var model = {
     ]
 };
 
-
-var tableApp = angular.module('tableApp', ["xeditable"]);
+// С O N T R O L L E R
+var tableApp = angular.module('tableApp', ['xeditable', 'ng-sortable']);
 
 tableApp.controller('tableCtrl', function ($scope) {
     console.log('tableCtrl');
     $scope.list = model;
     console.log($scope.list);
 
-    $scope.propertyName = '';
+    $scope.propertyName = null;
     $scope.reverse = true;
+    $scope.reverse = false;
 
     $scope.sortBy = function(propertyName) {
         $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : false;
@@ -64,11 +67,19 @@ tableApp.controller('tableCtrl', function ($scope) {
     //Add item
     $scope.addItem = function(name, lastName, country, occupation) {
         $scope.list.items.push({ firstName: name, lastName: lastName, country: country, occupation: occupation });
+        $scope.name = '';
+        $scope.lastName = '';
+        $scope.country = '';
+        $scope.occupation = '';
     };
 
     //Delete item
-    $scope.removeItem = function($index) {
-        $scope.list.items.splice( $index, 1 );
+    $scope.removeItem = function(item) {
+        var index = $scope.list.items.indexOf(item);
+        if (index != -1) {
+            $scope.list.items.splice(index, 1);
+        }
     };
+
 });
 

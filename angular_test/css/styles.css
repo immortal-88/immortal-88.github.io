@@ -1,3 +1,7 @@
+div, input, button {
+    transition: all .6s;
+}
+
 .heading {
     font-family: rust, sans-serif;
     font-size: 56px;
@@ -9,4 +13,21 @@
 
 a {
     border: none !important;
+}
+
+.form-inline {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .table-zoom {
+        zoom: .65;
+        transition: all .6s;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .btn-warning {
+        margin-top: 10px;
+    }
 }
