@@ -1,0 +1,20 @@
+{
+  "name": "newspaper",
+  "description": "Website for Ugorskiy Express newspaper",
+  "main": "index.js",
+  "authors": [
+    "Alexander Gusakov"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/immortal-88/immortal-88.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.2.0"
+  }
+}
