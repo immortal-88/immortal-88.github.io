@@ -13,7 +13,7 @@ body {
 
 header {
   width: 100%;
-  height: 80px;
+  height: 60px;
   position: relative;
 }
 
@@ -36,13 +36,13 @@ header {
 
 .header__menu {
   display: table-row;
-  height: 80px;
+  height: 60px;
 }
 
 .logo__container {
   display: table;
   width: 100%;
-  height: 80px;
+  height: 60px;
 }
 
 .menu__item {
@@ -169,7 +169,7 @@ header {
 }
 
 .header__contacts {
-  margin-top: 11px;
+  margin-top: 6px;
   text-align: center;
 }
 
@@ -239,7 +239,7 @@ header {
   border: none;
   background: none;
   outline: none;
-  top: 12px;
+  top: 0px;
   right: 30px;
   font-size: 3em;
   color: $text-color;
@@ -256,7 +256,7 @@ header {
   width: 100%;
   display: none;
   position: fixed;
-  top: 80px;
+  top: 60px;
   background-color: #f9f9f9;
   min-width: 160px;
   // box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -452,6 +452,7 @@ footer {
 
 .header-fixed {
   position: fixed;
+  top: 0;
   background: white;
   z-index: 10;
 }
@@ -506,12 +507,12 @@ footer {
 #counted {
   float: right; 
   // margin-right: 8px; 
-  font-size: .6em; 
+  font-size: .8em; 
 }
 
 .small-numbers {
   float: right; 
-  font-size: .6em; 
+  font-size: .8em; 
 }
 
 .hide {
@@ -528,6 +529,269 @@ footer {
 
 .text-right {
   text-align: right;
+}
+
+.fresh-bg {
+  width: 100%;
+  height: 380px;
+  background: url('../img/snow.jpg') no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+
+.newspaper-box {
+  text-align: center;
+}
+
+.fresh-bg-text {
+  color: dimgray;
+}
+
+.fresh__price {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2em !important;
+  color: green;
+}
+
+.fresh__padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.fresh__first {
+  margin-top: 60px;
+}
+
+.newspaper_image {
+  float: left;
+  height: 163px;
+  overflow: hidden;
+  padding: 50px 6px 10px 13%;
+}
+
+.newspaper_image:hover {
+  transition: all 1.2s;
+  padding-top: 15px;
+}
+
+.cart__size {
+  font-size: 1.2em;
+}
+
+.rub__size {
+  font-size: .7em;
+}
+
+.button-box {
+  text-align: center;
+}
+
+.empty-box {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(35%); /* Chrome 19+ & Safari 6+ */
+    transition: all .3s;
+}
+
+img.archive_newspaper.grayscale {
+    -webkit-box-shadow: 6px -5px 6px -3px rgba(153,151,153,1);
+    -moz-box-shadow: 6px -5px 6px -3px rgba(153,151,153,1);
+    box-shadow: 6px -5px 6px -3px rgba(153,151,153,1);
+}
+
+img.grayscale {
+    -webkit-box-shadow: 6px -5px 6px -3px rgba(153,151,153,1);
+    -moz-box-shadow: 6px -5px 6px -3px rgba(153,151,153,1);
+    box-shadow: 6px -5px 6px -3px rgba(153,151,153,1);
+}
+
+img.archive_newspaper.grayscale {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.grayscale:hover {
+    filter: none;
+    transition: all .7s;
+    -webkit-filter: grayscale(0%);
+}
+
+.archive_image {
+    height: 163px;
+    overflow: hidden;
+    padding: 50px 0 10px;
+    width: 65.117%;
+    margin: 20px auto 0;
+}
+
+.archive-bg {
+    width: 100%;
+    height: 380px;
+    background: url('../img/clock.jpg') no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+.archive_image:hover {
+  transition: all 1.2s;
+  padding-top: 15px;
+}
+
+.archive__text {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.archive_newspaper {
+  width: 100%;
+}
+
+.archive_year {
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 10px 20px;
+}
+
+.archive_month {
+  font-weight: bold;
+  padding: 10px; 
+  display: block;
+}
+
+table {
+  width: 100%;
+  margin: 30px 0 30px;
+}
+
+.table__cell {
+  padding: 1%;
+  border: 1px solid gainsboro;
+}
+
+.cart__total {
+  font-size: 20px;
+  padding: 30px 0 15px;
+}
+
+.cart__icon {
+    font-size: 30px;
+    margin: 12px 0 11px 48px;
+    color: cornflowerblue;
+}
+
+.icon__item {
+  width: 50px;
+}
+
+.login__icon {
+  font-size: 25px;
+  padding-top: 5px; 
+}
+
+.count__circle {
+  position: absolute;
+    width: 18px;
+    top: 14px;
+    right: -5px;
+    height: 18px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 2px;
+    color: black;
+}
+
+.pagination {
+    padding-right: 3%;
+    width: 100%;
+    text-align: right;
+}
+
+.pag__number {
+  padding: 5px;
+}
+
+.pag__active {
+  // padding: 0 3px 0 3px;
+  border: 1px solid black;
+}
+
+.person__info {
+  padding: 10px 0 40px;
+}
+
+.person__data {
+  padding: 80px 0 40px;
+}
+
+.pag__number:hover {
+  opacity: .7;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cell__small {
+  width: 10%;
+}
+
+#google-map-container {
+	width: 100%;
+	height: 336px;
+	margin-top: 50px;
+}
+
+.contacts__padding {
+  padding-bottom: 30px;
+}
+
+.login__form {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.login__info {
+  padding: 130px 0 20px;
+  margin: auto;
+}
+
+.login__links {
+  display: inline-block;
+  padding: 20px 2% 25%;
+}
+
+.menu-hide {
+    top: -60px !important;
+}
+
+#menuTop {
+  transition: all .5s;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.to-right {
+  margin-top: 15px;
+  float: right;
+}
+
+.cart-bg {
+    width: 100%;
+    height: 380px;
+    background: url('../img/cart.jpg') no-repeat;
+    background-size: cover;
+    text-align: right;
 }
 
 // Geometria font
@@ -577,6 +841,18 @@ footer {
   .bg-container {
     margin-top: -20px;
   }
+
+  .newspaper-image {
+    width: 50%;
+  }
+
+  .archive_month {
+    display: inline-block;
+  }
+
+  .login__form {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -598,6 +874,10 @@ footer {
   }
   .footer__part__big {
     width: 100%;
+  }
+
+  .login__form {
+    width: 80%;
   }
 }
 

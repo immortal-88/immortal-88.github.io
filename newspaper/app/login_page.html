@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="formApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/owl.carousel.css">
+    <link rel="stylesheet" href="/style/animate.css">
+    <title>Югорский экспресс</title>
+</head>
+<body ng-controller="formCtrl">
 <div class="container-fluid">
     <div class="row">
         <header class="header header-fixed" id="menuTop">
@@ -120,3 +134,56 @@
         </div>
     </ul>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 login__info">
+            <form name="userForm" class="login__form" ng-submit="submitForm()" novalidate>
+            <h3 class="contacts__padding">Авторизация</h3>
+            <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                <input type="email" class="form-control square" name="email" ng-model="user.email" id="exampleInputEmail1" placeholder="Введите email" required>
+                <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block validation-sub">Введите email</p>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control square" name="password" ng-model="user.password" id="exampleInputEmail1" placeholder="Введите пароль" required>
+            </div>
+            <div class="col-md-12 form-padding">
+                <p class="error-color validation-sub" ng-if="error_msg">{{error_msg}}</p>
+                <button type="submit" class="btn btn-warning btn-lg square" style="color: black;" 
+                    ng-disabled="userForm.$invalid" ng-click="send()">
+                   Войти
+                </button>
+            </div>
+            <div class="col-md-12">
+                <a class="login__links" href="">Забыли пароль?</a>
+                <a class="login__links" href="">Регистрация</a>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <footer class="footer">
+            <div class="footer__part">
+                <div class="footer__image left"></div>
+            </div>
+            <div class="footer__part__big">
+                <span class="footer__address">г. Ханты-Мансийск, ул. Калинина, 5/1</span>
+                <span class="footer__address small">Лицензия Министерства печати РФ № 12345-67890 от 07.08.2016</span>
+                <span class="footer__address small">Все права защищены &copy; 2016г.</span>
+            </div>
+            <div class="footer__part">
+                <div class="footer__image right"></div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/angular.min.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.bootstrap-touchspin.js"></script>
+</body>
+</html>

@@ -13,13 +13,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group" ng-class="{ 'has-error' : userForm.name.$invalid && !userForm.name.$pristine }">
-                        <input type="text" class="form-control" name="name" ng-model="user.name" id="exampleInputEmail1" placeholder="Иван" required>
+                        <input type="text" class="form-control square" name="name" ng-model="user.name" id="exampleInputEmail1" placeholder="Иван" required>
                         <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block validation-sub">Введите свое имя</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group" ng-class="{ 'has-error' : userForm.last_name.$invalid && !userForm.last_name.$pristine }">
-                        <input type="text" class="form-control" name="last_name" ng-model="user.last_name" id="exampleInputEmail1" placeholder="Иванов" required>
+                        <input type="text" class="form-control square" name="last_name" ng-model="user.last_name" id="exampleInputEmail1" placeholder="Иванов" required>
                         <p ng-show="userForm.last_name.$invalid && !userForm.last_name.$pristine" class="help-block validation-sub">Введите свою фамилию</p>
                     </div>
                 </div>
@@ -28,12 +28,12 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="phone" id="exampleInputEmail1" ui-mask="+7 (999) 999-99-99" placeholder="(012) 123 45 67" ng-model="user.phone" required>
+                        <input type="text" class="form-control square" name="phone" id="exampleInputEmail1" ui-mask="+7 (999) 999-99-99" placeholder="(012) 123 45 67" ng-model="user.phone" required>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
-                        <input type="email" class="form-control" name="email" ng-model="user.email" id="exampleInputEmail1" placeholder="example@mail.com" required>
+                        <input type="email" class="form-control square" name="email" ng-model="user.email" id="exampleInputEmail1" placeholder="example@mail.com" required>
                         <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block validation-sub">Введите email</p>
                     </div>
                 </div>
@@ -41,10 +41,10 @@
                 <div class="col-md-5">
                     <label>Тип объявления</label><br>
                     <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-default free">
+                        <label class="btn btn-default free square">
                             <input name="options" id="option1" type="radio" ng-click="show = false; free()" value="free">Бесплатное
                         </label>
-                         <label class="btn btn-default selectit">
+                         <label class="btn btn-default selectit square">
                             <input name="options" id="option2" type="radio" ng-click="show = true; payable()" value="paid">Платное
                         </label>
                     </div>
@@ -54,7 +54,7 @@
                     <label>Оформление</label><br>
                     <div class="btn-group" data-toggle="buttons">
                         <label data-ng-repeat="decoration in data.decoration" 
-                                class="btn btn-default" 
+                                class="btn btn-default square" 
                                 ng-click="$parent.style_selected(); $parent.price_count(); common_method()"
                                 ng-class="{'selectit' : decoration.label === $parent.decoration_label}">
                             <input 
@@ -70,19 +70,19 @@
 
                 <div class="col-md-12 select-padding">
                     <label>Рубрика</label><br>
-                    <select class="form-control" name="rubric" ng-model="rubric" ng-options="item.name for item in data.rubric" required></select>
+                    <select class="form-control square" name="rubric" ng-model="rubric" ng-options="item.name for item in data.rubric" required></select>
                     <p ng-show="userForm.rubric.$error.required" class="help-block error-color validation-sub">Выберите рубрику</p>
                 </div>
 
                 <div class="col-md-12 select-padding">
                     <label>Подрубрика</label><br>
-                    <select class="form-control" name="subRubric" ng-model="subRubric" ng-options="item.name for item in rubric.children" required></select>
+                    <select class="form-control square" name="subRubric" ng-model="subRubric" ng-options="item.name for item in rubric.children" required></select>
                     <p ng-show="userForm.subRubric.$error.required" class="help-block error-color validation-sub">Выберите подрубрику</p>
                 </div>
 
                 <div class="col-md-3 select-padding" ng-show="show">
                     <label>Кол-во выпусков</label><br>
-                    <input id="demo3_21" type="text" value="1" name="demo3_21" ng-model="quantity" ng-change="get_discount()">
+                    <input class="square" id="demo3_21" type="text" value="1" name="demo3_21" ng-model="quantity" ng-change="get_discount()">
                 </div>
 
                 <div class="col-md-12 select-padding">
@@ -90,7 +90,7 @@
                         <label for="comment">Текст объявления</label>
                         <textarea id="count_words" 
                             name="textarea_value"  
-                            class="form-control" 
+                            class="form-control square" 
                             rows="5"
                             ng-keyup="common_method()"
                             ng-model="textarea_value"
@@ -107,14 +107,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 form-padding">
+                <!--<div class="col-md-12 form-padding">
                     <p class="error-color validation-sub" ng-if="error_msg">{{error_msg}}</p>
                     <button type="submit" class="btn btn-warning btn-lg" style="color: black;" 
                     ng-disabled="userForm.$invalid" ng-click="send()">
                         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp; Отправить
                     </button>
-                </div>
-            </form>
+                </div>-->
         </div>
 
         <div class="col-md-4 form-padding">
@@ -161,9 +160,20 @@
         </div>
         <div class="col-xs-12 form-padding text-right"><b>ИТОГО: {{total_price}} руб.</b></div>
         <div class="col-xs-12 form-padding">
-            <button type="input" class="btn btn-default btn-lg btn-block" ng-click="reset()">Сброс</button>
+            <!--<div class="col-md-6 form-padding">-->
+                    <p class="error-color validation-sub" ng-if="error_msg">{{error_msg}}</p>
+                    <button type="submit" class="btn btn-warning btn-lg square" style="color: black;" 
+                    ng-disabled="userForm.$invalid" ng-click="send()">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp; Отправить
+                    </button>
+                    <button type="input" class="btn btn-default btn-lg square" ng-click="reset()">Сброс</button>
+                <!--</div>-->
+                <!--<div class="col-md-6">
+                    <button type="input" class="btn btn-default btn-lg btn-block" ng-click="reset()">Сброс</button>
+                </div>-->
         </div>
     </div>
+    </form>
 </div>
 </div>
 </data-wrapper>

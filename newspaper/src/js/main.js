@@ -89,3 +89,26 @@ $(document).ready(function() {
     });
 });
 
+$(function () {
+    (function () {
+        var previousScroll = 0;
+
+        $(window).scroll(function () {
+            var currentScroll = $(this).scrollTop();
+
+            if (currentScroll === 0) {
+                $('#menuTop').removeClass('menu-hide');
+                console.log('show');
+            }
+            else if (currentScroll > previousScroll && $('#menuTop').css('top') == '0px') {
+                    $('#menuTop').addClass('menu-hide');
+                    console.log('hide');
+                } else if (currentScroll < previousScroll && $('#menuTop').css('top') == '-60px') {
+                    $('#menuTop').removeClass('menu-hide');
+                    console.log('show');
+                }
+            previousScroll = currentScroll;
+        });
+    }());
+});
+

@@ -15,7 +15,7 @@
 <body ng-controller="formCtrl" class="hide">
 <div class="container-fluid">
     <div class="row">
-        <header class="header header-fixed">
+        <header class="header header-fixed" id="menuTop">
             <div class="col xs- 6 col-md-3">
                 <div class="logo__container">
                     <div class="logo__box">
@@ -26,7 +26,7 @@
             <div class="col-md-7">
                 <nav>
                     <ul class="header__menu">
-                        <li class="menu__item"><a class="menu__link" href="">Реклама в газету</a>
+                        <li class="menu__item"><a class="menu__link" href="">Реклама</a>
                             <ul class="header__submenu">
                                 <li class="submenu__item"><a class="submenu__link first__link" href="">Требования к
                                     макету</a></li>
@@ -39,6 +39,10 @@
                         <li class="menu__item"><a class="menu__link" href="">Контакты</a></li>
                         <li class="menu__item"><a class="menu__link" href="">Свежий выпуск</a></li>
                         <li class="menu__item"><a class="menu__link" href="">Архив</a></li>
+                        <li class="menu__item icon__item"><a class="menu__link" href=""><i class="fa fa-shopping-cart cart__icon">
+                            <div class="count__circle">10</div>
+                            </i></a></li>
+                        <li class="menu__item icon__item"><a class="menu__link" href=""><i class="fa fa-user login__icon" aria-hidden="true"></i></a></li>
                     </ul>
                 </nav>
             </div>
@@ -114,6 +118,20 @@
                     
                 </div>
             </div>
+            <div class="accordion-section">
+                <a class="accordion-section-title" href="#accordion-6"><span class="inner-box-text">Корзина</span></a>
+
+                <div id="accordion-6" class="accordion-section-content">
+                    
+                </div>
+            </div>
+            <div class="accordion-section">
+                <a class="accordion-section-title" href="#accordion-7"><span class="inner-box-text">Личный кабинет</span></a>
+
+                <div id="accordion-7" class="accordion-section-content">
+                    
+                </div>
+            </div>
         </div>
     </ul>
 </div>
@@ -132,13 +150,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group" ng-class="{ 'has-error' : userForm.name.$invalid && !userForm.name.$pristine }">
-                        <input type="text" class="form-control" name="name" ng-model="user.name" id="exampleInputEmail1" placeholder="Иван" required>
+                        <input type="text" class="form-control square" name="name" ng-model="user.name" id="exampleInputEmail1" placeholder="Иван" required>
                         <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block validation-sub">Введите свое имя</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group" ng-class="{ 'has-error' : userForm.last_name.$invalid && !userForm.last_name.$pristine }">
-                        <input type="text" class="form-control" name="last_name" ng-model="user.last_name" id="exampleInputEmail1" placeholder="Иванов" required>
+                        <input type="text" class="form-control square" name="last_name" ng-model="user.last_name" id="exampleInputEmail1" placeholder="Иванов" required>
                         <p ng-show="userForm.last_name.$invalid && !userForm.last_name.$pristine" class="help-block validation-sub">Введите свою фамилию</p>
                     </div>
                 </div>
@@ -147,12 +165,12 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="phone" id="exampleInputEmail1" ui-mask="+7 (999) 999-99-99" placeholder="(012) 123 45 67" ng-model="user.phone" required>
+                        <input type="text" class="form-control square" name="phone" id="exampleInputEmail1" ui-mask="+7 (999) 999-99-99" placeholder="(012) 123 45 67" ng-model="user.phone" required>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
-                        <input type="email" class="form-control" name="email" ng-model="user.email" id="exampleInputEmail1" placeholder="example@mail.com" required>
+                        <input type="email" class="form-control square" name="email" ng-model="user.email" id="exampleInputEmail1" placeholder="example@mail.com" required>
                         <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block validation-sub">Введите email</p>
                     </div>
                 </div>
@@ -160,10 +178,10 @@
                 <div class="col-md-5">
                     <label>Тип объявления</label><br>
                     <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-default free">
+                        <label class="btn btn-default free square">
                             <input name="options" id="option1" type="radio" ng-click="show = false; free()" value="free">Бесплатное
                         </label>
-                         <label class="btn btn-default selectit">
+                         <label class="btn btn-default selectit square">
                             <input name="options" id="option2" type="radio" ng-click="show = true; payable()" value="paid">Платное
                         </label>
                     </div>
@@ -173,7 +191,7 @@
                     <label>Оформление</label><br>
                     <div class="btn-group" data-toggle="buttons">
                         <label data-ng-repeat="decoration in data.decoration" 
-                                class="btn btn-default" 
+                                class="btn btn-default square" 
                                 ng-click="$parent.style_selected(); $parent.price_count(); common_method()"
                                 ng-class="{'selectit' : decoration.label === $parent.decoration_label}">
                             <input 
@@ -189,19 +207,19 @@
 
                 <div class="col-md-12 select-padding">
                     <label>Рубрика</label><br>
-                    <select class="form-control" name="rubric" ng-model="rubric" ng-options="item.name for item in data.rubric" required></select>
+                    <select class="form-control square" name="rubric" ng-model="rubric" ng-options="item.name for item in data.rubric" required></select>
                     <p ng-show="userForm.rubric.$error.required" class="help-block error-color validation-sub">Выберите рубрику</p>
                 </div>
 
                 <div class="col-md-12 select-padding">
                     <label>Подрубрика</label><br>
-                    <select class="form-control" name="subRubric" ng-model="subRubric" ng-options="item.name for item in rubric.children" required></select>
+                    <select class="form-control square" name="subRubric" ng-model="subRubric" ng-options="item.name for item in rubric.children" required></select>
                     <p ng-show="userForm.subRubric.$error.required" class="help-block error-color validation-sub">Выберите подрубрику</p>
                 </div>
 
                 <div class="col-md-3 select-padding" ng-show="show">
                     <label>Кол-во выпусков</label><br>
-                    <input id="demo3_21" type="text" value="1" name="demo3_21" ng-model="quantity" ng-change="get_discount()">
+                    <input class="square" id="demo3_21" type="text" value="1" name="demo3_21" ng-model="quantity" ng-change="get_discount()">
                 </div>
 
                 <div class="col-md-12 select-padding">
@@ -209,7 +227,7 @@
                         <label for="comment">Текст объявления</label>
                         <textarea id="count_words" 
                             name="textarea_value"  
-                            class="form-control" 
+                            class="form-control square" 
                             rows="5"
                             ng-keyup="common_method()"
                             ng-model="textarea_value"
@@ -226,14 +244,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 form-padding">
+                <!--<div class="col-md-12 form-padding">
                     <p class="error-color validation-sub" ng-if="error_msg">{{error_msg}}</p>
                     <button type="submit" class="btn btn-warning btn-lg" style="color: black;" 
                     ng-disabled="userForm.$invalid" ng-click="send()">
                         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp; Отправить
                     </button>
-                </div>
-            </form>
+                </div>-->
         </div>
 
         <div class="col-md-4 form-padding">
@@ -280,9 +297,20 @@
         </div>
         <div class="col-xs-12 form-padding text-right"><b>ИТОГО: {{total_price}} руб.</b></div>
         <div class="col-xs-12 form-padding">
-            <button type="input" class="btn btn-default btn-lg btn-block" ng-click="reset()">Сброс</button>
+            <!--<div class="col-md-6 form-padding">-->
+                    <p class="error-color validation-sub" ng-if="error_msg">{{error_msg}}</p>
+                    <button type="submit" class="btn btn-warning btn-lg square" style="color: black;" 
+                    ng-disabled="userForm.$invalid" ng-click="send()">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp; Отправить
+                    </button>
+                    <button type="input" class="btn btn-default btn-lg square" ng-click="reset()">Сброс</button>
+                <!--</div>-->
+                <!--<div class="col-md-6">
+                    <button type="input" class="btn btn-default btn-lg btn-block" ng-click="reset()">Сброс</button>
+                </div>-->
         </div>
     </div>
+    </form>
 </div>
 </div>
 </data-wrapper>
@@ -309,7 +337,6 @@
 <script src="/js/angular.min.js"></script>
 <script src="/js/app.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
-<script src="/js/jquery.bootstrap-touchspin.js"></script>
 <script src="/js/jquery.bootstrap-touchspin.js"></script>
 </body>
 </html>

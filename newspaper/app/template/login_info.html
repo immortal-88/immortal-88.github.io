@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 login__info">
+            <form name="userForm" class="login__form" ng-submit="submitForm()" novalidate>
+            <h3 class="contacts__padding">Авторизация</h3>
+            <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                <input type="email" class="form-control square" name="email" ng-model="user.email" id="exampleInputEmail1" placeholder="Введите email" required>
+                <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block validation-sub">Введите email</p>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control square" name="password" ng-model="user.password" id="exampleInputEmail1" placeholder="Введите пароль" required>
+            </div>
+            <div class="col-md-12 form-padding">
+                <p class="error-color validation-sub" ng-if="error_msg">{{error_msg}}</p>
+                <button type="submit" class="btn btn-warning btn-lg square" style="color: black;" 
+                    ng-disabled="userForm.$invalid" ng-click="send()">
+                   Войти
+                </button>
+            </div>
+            <div class="col-md-12">
+                <a class="login__links" href="">Забыли пароль?</a>
+                <a class="login__links" href="">Регистрация</a>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
