@@ -1,0 +1,13 @@
+New log file opened at Sun Dec 04 23:49:41 EET 2016 by 4030@Corbos
+Taking next connection to: 43179
+New client attempting to connect on port: 46198-43179
+  Address = /127.0.1.1:43179
+This client on port 46198 has uuid a0912082-906a-4e1d-8f36-dc624896a133 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-a0912082-906a-4e1d-8f36-dc624896a133
+Taking next connection to: 43179
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4030@Corbos logs at Sun Dec 04 23:52:42 EET 2016, goodbye.
